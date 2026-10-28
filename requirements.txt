@@ -1,0 +1,16 @@
+# PySpark phục vụ cho việc xử lý dữ liệu lớn và chạy kiểm tra đối chiếu (Data Reconciliation)
+pyspark>=3.3.0
+
+# Streamlit phục vụ xây dựng Web Dashboard giao diện demo (Thành viên 5)
+streamlit>=1.24.0
+
+# Thư viện xử lý và phân tích bảng dữ liệu
+pandas>=1.5.3
+numpy>=1.24.3
+
+# Thư viện trực quan hóa biểu đồ (cho EDA và Dashboard)
+matplotlib>=3.7.1
+seaborn>=0.12.2
+
+# Hỗ trợ đọc/ghi định dạng tệp Parquet/Arrow hiệu năng cao trên hệ thống phân tán
+pyarrow>=11.0.0

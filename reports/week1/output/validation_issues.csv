@@ -1,0 +1,19 @@
+﻿severity,table_name,issue,details
+WARNING,orders,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Source.
+WARNING,orders,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Bronze.
+WARNING,orders,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Silver.
+WARNING,products,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Source.
+WARNING,products,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Bronze.
+WARNING,products,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Silver.
+WARNING,aisles,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Source.
+WARNING,aisles,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Bronze.
+WARNING,aisles,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Silver.
+WARNING,departments,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Source.
+WARNING,departments,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Bronze.
+WARNING,departments,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Silver.
+WARNING,order_products__prior,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Source.
+WARNING,order_products__prior,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Bronze.
+WARNING,order_products__prior,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Silver.
+WARNING,order_products__train,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Source.
+WARNING,order_products__train,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Bronze.
+WARNING,order_products__train,MISSING_LAYER_COUNT,Chưa có số dòng cho tầng Silver.

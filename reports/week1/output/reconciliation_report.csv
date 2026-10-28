@@ -1,0 +1,7 @@
+﻿table_name,source_rows,bronze_rows,silver_rows,source_to_bronze_diff,bronze_to_silver_diff,status,explanation
+orders,,,,,,MISSING_DATA,"Thiếu số liệu: Source, Bronze, Silver"
+products,,,,,,MISSING_DATA,"Thiếu số liệu: Source, Bronze, Silver"
+aisles,,,,,,MISSING_DATA,"Thiếu số liệu: Source, Bronze, Silver"
+departments,,,,,,MISSING_DATA,"Thiếu số liệu: Source, Bronze, Silver"
+order_products__prior,,,,,,MISSING_DATA,"Thiếu số liệu: Source, Bronze, Silver"
+order_products__train,,,,,,MISSING_DATA,"Thiếu số liệu: Source, Bronze, Silver"

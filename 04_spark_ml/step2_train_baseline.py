@@ -59,7 +59,7 @@ def main():
     products_csv_path = os.path.join(base_dir, "data_sample", "products.csv")
 
     print("=== [STEP 2] HUẤN LUYỆN BASELINE LOGISTIC REGRESSION ===")
-    df_ml = spark.read.parquet(f"file://{features_dir}").cache()
+    df_ml = spark.read.parquet(f"{features_dir}").cache()
 
     feature_cols = [
         "u_total_orders",

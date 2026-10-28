@@ -12,8 +12,8 @@ import numpy as np
 
 # 1. Đọc dữ liệu
 print("Đang đọc dữ liệu...")
-orders = pd.read_csv('orders.csv')
-prior = pd.read_csv('order_products__prior.csv')
+orders = pd.read_csv('data_sample/orders.csv')
+prior = pd.read_csv('data_sample/order_products__prior.csv')
 
 # 2. LÀM SẠCH BẢNG ORDERS (Tạo silver_orders)
 # Xử lý NULL: Giữ nguyên NULL, thêm cờ is_first_order = 1 cho đơn đầu tiên
@@ -44,7 +44,7 @@ import seaborn as sns
 # Đọc dữ liệu sạch
 orders_clean = pd.read_csv('silver_orders.csv')
 prior_clean = pd.read_csv('silver_order_products.csv')
-products = pd.read_csv('products.csv')
+products = pd.read_csv('data_sample/products.csv')
 
 # Cài đặt giao diện
 sns.set_theme(style="whitegrid")

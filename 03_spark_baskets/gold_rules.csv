@@ -1,0 +1,1220 @@
+antecedent,consequent,support,confidence,lift,level,ve_trai,ve_phai
+"96,120",21,0.0200461977670042,0.5033585353661585,2.193029490522068,aisle,lunch meat + yogurt,packaged cheese
+"21,84,123,24",120,0.0211631933319937,0.5721818548794025,2.171566318361012,aisle,packaged cheese + milk + packaged vegetables fruits + fresh fruits,yogurt
+"96,123,24",21,0.0212328694686012,0.4949354331165394,2.156331768446768,aisle,lunch meat + packaged vegetables fruits + fresh fruits,packaged cheese
+"108,123",21,0.0201267607999567,0.4908699181440937,2.138619156854224,aisle,other creams cheeses + packaged vegetables fruits,packaged cheese
+67,107,0.0350088370492902,0.3574005271347369,2.135476984142351,aisle,fresh dips tapenades,chips pretzels
+"67,24",107,0.0247113883778959,0.3561760525808461,2.1281607184153115,aisle,fresh dips tapenades + fresh fruits,chips pretzels
+"96,24",112,0.0251549516404064,0.3485896065381565,2.125991290044277,aisle,lunch meat + fresh fruits,bread
+"96,83,24",21,0.0231999761110388,0.4868663263574291,2.1211763318313395,aisle,lunch meat + fresh vegetables + fresh fruits,packaged cheese
+"21,84,83,24",120,0.0229278037024157,0.5525901491865957,2.0972111324372844,aisle,packaged cheese + milk + fresh vegetables + fresh fruits,yogurt
+"96,83",112,0.0206104500518527,0.3438309177991915,2.096968821728188,aisle,lunch meat + fresh vegetables,bread
+"96,123",21,0.0255848285189404,0.4808483771396502,2.09495736626348,aisle,lunch meat + packaged vegetables fruits,packaged cheese
+"84,120,123,24",21,0.0211631933319937,0.4783758129724029,2.0841849133199,aisle,milk + yogurt + packaged vegetables fruits + fresh fruits,packaged cheese
+"21,84,24",112,0.0204241285972638,0.3412680675457243,2.0813384150426044,aisle,packaged cheese + milk + fresh fruits,bread
+"108,83",21,0.0247253858160537,0.4775376075359254,2.080533024830567,aisle,other creams cheeses + fresh vegetables,packaged cheese
+"21,84,123",120,0.0236463388611808,0.5442322974162926,2.065491095803006,aisle,packaged cheese + milk + packaged vegetables fruits,yogurt
+"84,120,83,24",21,0.0229278037024157,0.4738760631834751,2.064580430046539,aisle,milk + yogurt + fresh vegetables + fresh fruits,packaged cheese
+"96,83",21,0.0282850898666635,0.4718620109905506,2.055805619361505,aisle,lunch meat + fresh vegetables,packaged cheese
+"16,123,24",83,0.0394320275071433,0.911574360375649,2.0527690350225685,aisle,fresh herbs + packaged vegetables fruits + fresh fruits,fresh vegetables
+61,107,0.0202654909648091,0.3433228291685549,2.051362390810608,aisle,cookies cakes,chips pretzels
+"78,83,24",21,0.0213454710822259,0.4696216911664066,2.046045007198696,aisle,crackers + fresh vegetables + fresh fruits,packaged cheese
+"78,120",21,0.0200023391274432,0.4672513515084578,2.035717925392773,aisle,crackers + yogurt,packaged cheese
+"16,21,24",83,0.0217747258523973,0.9024726691419142,2.032272989123199,aisle,fresh herbs + packaged cheese + fresh fruits,fresh vegetables
+"21,84,24",120,0.0319732592941434,0.53424322905568,2.0275802039794897,aisle,packaged cheese + milk + fresh fruits,yogurt
+"16,120,24",83,0.0222739678133575,0.8990445579982171,2.02455324544645,aisle,fresh herbs + yogurt + fresh fruits,fresh vegetables
+"112,123,83,24",21,0.0210322395216733,0.4636536312082999,2.0200433988623807,aisle,bread + packaged vegetables fruits + fresh vegetables + fresh fruits,packaged cheese
+"112,120,24",21,0.0223629293092046,0.4632822971440354,2.0184255728068936,aisle,bread + yogurt + fresh fruits,packaged cheese
+"84,120,123",21,0.0236463388611808,0.4632258850770824,2.0181797970471576,aisle,milk + yogurt + packaged vegetables fruits,packaged cheese
+"16,123",83,0.0468469370805823,0.8932852508021993,2.011583894849208,aisle,fresh herbs + packaged vegetables fruits,fresh vegetables
+"96,24",21,0.0330575941700981,0.4581020035173627,1.9958561001653043,aisle,lunch meat + fresh fruits,packaged cheese
+"108,24",21,0.0261192196023856,0.4576695208559297,1.9939718622632447,aisle,other creams cheeses + fresh fruits,packaged cheese
+"131,24",21,0.0221483019241189,0.4573564739282915,1.9926079812599589,aisle,dry pasta + fresh fruits,packaged cheese
+"131,83",21,0.0217193582081288,0.4572871232661401,1.9923058347051683,aisle,dry pasta + fresh vegetables,packaged cheese
+"84,120,83",21,0.0257148491667169,0.4567857576996607,1.990121488169708,aisle,milk + yogurt + fresh vegetables,packaged cheese
+96,112,0.0338470496821959,0.3256431972371772,1.986044873407976,aisle,lunch meat,bread
+"16,24",83,0.0615629103971104,0.8803980356221419,1.982563249448,aisle,fresh herbs + fresh fruits,fresh vegetables
+"84,123,83,24",21,0.0283105963095287,0.4547612147618143,1.9813009714692296,aisle,milk + packaged vegetables fruits + fresh vegetables + fresh fruits,packaged cheese
+"84,123,83,24",120,0.0324967634812437,0.5220048166764932,1.981132516262346,aisle,milk + packaged vegetables fruits + fresh vegetables + fresh fruits,yogurt
+"16,120",83,0.025829006051248,0.8786054385779283,1.9785265105218213,aisle,fresh herbs + yogurt,fresh vegetables
+"21,120,123,24",84,0.0211631933319937,0.4834886051122434,1.977583529844156,aisle,packaged cheese + yogurt + packaged vegetables fruits + fresh fruits,milk
+"21,84",112,0.0253384736073637,0.3241053879636187,1.9766660248708583,aisle,packaged cheese + milk,bread
+"21,84,83",120,0.0257148491667169,0.5207788689894988,1.976479753015055,aisle,packaged cheese + milk + fresh vegetables,yogurt
+"21,120,24",112,0.0223629293092046,0.3235538993973924,1.9733025858400743,aisle,packaged cheese + yogurt + fresh fruits,bread
+"16,21",83,0.0264828419403062,0.87583454206915,1.972286744684037,aisle,fresh herbs + packaged cheese,fresh vegetables
+"112,84,24",21,0.0204241285972638,0.4524787408520198,1.971356702635315,aisle,bread + milk + fresh fruits,packaged cheese
+"112,123,83",21,0.0240793262815276,0.4522759273432616,1.9704730859395945,aisle,bread + packaged vegetables fruits + fresh vegetables,packaged cheese
+"107,123,83",21,0.0212919697630451,0.451973931818632,1.969157353623589,aisle,chips pretzels + packaged vegetables fruits + fresh vegetables,packaged cheese
+"81,123,24",83,0.0263130063573253,0.8723895758350779,1.9645290451266613,aisle,canned jarred vegetables + packaged vegetables fruits + fresh fruits,fresh vegetables
+"78,123",21,0.0235452462522637,0.4508472557253045,1.9642486578822205,aisle,crackers + packaged vegetables fruits,packaged cheese
+"78,83",21,0.0254980444023622,0.4500054896794027,1.9605812565508016,aisle,crackers + fresh vegetables,packaged cheese
+"112,120,24",84,0.02308395290142,0.4782194040622745,1.9560312427753903,aisle,bread + yogurt + fresh fruits,milk
+"16,84",83,0.0221175075601718,0.8651716837417565,1.9482751156269345,aisle,fresh herbs + milk,fresh vegetables
+"112,84,24",120,0.02308395290142,0.5114048265501606,1.9409030309387425,aisle,bread + milk + fresh fruits,yogurt
+"78,24",107,0.0244569460576059,0.3246513010661227,1.9397995488607984,aisle,crackers + fresh fruits,chips pretzels
+"120,123,83,24",21,0.0336551292523439,0.4442259292257034,1.9354009017406908,aisle,yogurt + packaged vegetables fruits + fresh vegetables + fresh fruits,packaged cheese
+"21,120,83,24",84,0.0229278037024157,0.4731642498122364,1.9353544580901003,aisle,packaged cheese + yogurt + fresh vegetables + fresh fruits,milk
+"112,123,24",21,0.0273702795195083,0.4409941312377525,1.9213206233764224,aisle,bread + packaged vegetables fruits + fresh fruits,packaged cheese
+"112,120",21,0.0268589064454781,0.440153534818047,1.9176583178654991,aisle,bread + yogurt,packaged cheese
+9,21,0.0272825622403864,0.4401366927774627,1.9175849405626688,aisle,pasta sauce,packaged cheese
+"84,123,83",21,0.0319891230573888,0.4401366105017183,1.917584582104192,aisle,milk + packaged vegetables fruits + fresh vegetables,packaged cheese
+"84,123,24",120,0.044239680933063,0.5050227078236353,1.9166813714294169,aisle,milk + packaged vegetables fruits + fresh fruits,yogurt
+"112,21,24",120,0.0223629293092046,0.5046609574617437,1.9153084427095703,aisle,bread + packaged cheese + fresh fruits,yogurt
+128,21,0.0246538433543585,0.4384376244634243,1.9101824497786648,aisle,tortillas flat bread,packaged cheese
+"21,120,123",84,0.0236463388611808,0.4656347811173519,1.9045571381077115,aisle,packaged cheese + yogurt + packaged vegetables fruits,milk
+"91,120,83,24",123,0.0211728360116135,0.6978398827159861,1.9024639494206648,aisle,soy lactosefree + yogurt + fresh vegetables + fresh fruits,packaged vegetables fruits
+16,83,0.0788662323935557,0.844125794036569,1.900881998203682,aisle,fresh herbs,fresh vegetables
+"59,123,24",83,0.0255030212692628,0.843326030384382,1.8990810150563835,aisle,canned meals beans + packaged vegetables fruits + fresh fruits,fresh vegetables
+"21,123,83,24",112,0.0210322395216733,0.3112487974185352,1.8982557710771288,aisle,packaged cheese + packaged vegetables fruits + fresh vegetables + fresh fruits,bread
+"21,120,83,24",123,0.0336551292523439,0.6945455479166266,1.893482873176196,aisle,packaged cheese + yogurt + fresh vegetables + fresh fruits,packaged vegetables fruits
+"21,120,24",84,0.0319732592941434,0.4625991782215201,1.8921407993843808,aisle,packaged cheese + yogurt + fresh fruits,milk
+"107,123,24",21,0.024614961581698,0.4340223883462131,1.890946175170509,aisle,chips pretzels + packaged vegetables fruits + fresh fruits,packaged cheese
+"21,123,83,24",120,0.0336551292523439,0.4980505521517577,1.89022038128388,aisle,packaged cheese + packaged vegetables fruits + fresh vegetables + fresh fruits,yogurt
+"81,123",83,0.0324821439347234,0.8391000401767779,1.8895645321257932,aisle,canned jarred vegetables + packaged vegetables fruits,fresh vegetables
+"84,120,24",112,0.02308395290142,0.3096760194288194,1.88866365403005,aisle,milk + yogurt + fresh fruits,bread
+"84,123,83",120,0.0361329868604492,0.4971518079920567,1.8868094332969991,aisle,milk + packaged vegetables fruits + fresh vegetables,yogurt
+"112,21,24",84,0.0204241285972638,0.4609083251439,1.885224807647799,aisle,bread + packaged cheese + fresh fruits,milk
+"67,83,24",123,0.032006853145722,0.6898220774171058,1.8806056608470356,aisle,fresh dips tapenades + fresh vegetables + fresh fruits,packaged vegetables fruits
+"107,83,24",21,0.0270240762157397,0.4315167830570097,1.880029768862163,aisle,chips pretzels + fresh vegetables + fresh fruits,packaged cheese
+"112,83,24",21,0.0310696468975144,0.4313568837450336,1.8793331204852308,aisle,bread + fresh vegetables + fresh fruits,packaged cheese
+"120,123,83",21,0.0376916793628615,0.4309956642207512,1.87775936139773,aisle,yogurt + packaged vegetables fruits + fresh vegetables,packaged cheese
+96,21,0.0447644293368884,0.4306795430808227,1.876382086684515,aisle,lunch meat,packaged cheese
+"21,120",112,0.0268589064454781,0.3073134099944123,1.8742544835180317,aisle,packaged cheese + yogurt,bread
+"78,123,24",120,0.0207320722367346,0.4937513427019979,1.873903858211603,aisle,crackers + packaged vegetables fruits + fresh fruits,yogurt
+"81,24",83,0.0413316353922424,0.8321392785571142,1.873889633253988,aisle,canned jarred vegetables + fresh fruits,fresh vegetables
+"107,120",21,0.0241119869705624,0.4291337274961802,1.8696472864857585,aisle,chips pretzels + yogurt,packaged cheese
+"84,120,24",21,0.0319732592941434,0.4289279097327703,1.8687505808711355,aisle,milk + yogurt + fresh fruits,packaged cheese
+"107,84",21,0.0207435812414421,0.4284842293285015,1.8668175567093015,aisle,chips pretzels + milk,packaged cheese
+"116,120,83",123,0.0210960056288364,0.683872464001936,1.864385715103469,aisle,frozen produce + yogurt + fresh vegetables,packaged vegetables fruits
+"112,120",84,0.0277995342896797,0.4555681858729616,1.8633823663624869,aisle,bread + yogurt,milk
+"84,123,83",112,0.0222002479723933,0.3054520087136272,1.8629020999816248,aisle,milk + packaged vegetables fruits + fresh vegetables,bread
+"21,120,83",84,0.0257148491667169,0.4549732255383785,1.8609488369139304,aisle,packaged cheese + yogurt + fresh vegetables,milk
+"21,84,83,24",123,0.0283105963095287,0.6823225129320039,1.8601602099310852,aisle,packaged cheese + milk + fresh vegetables + fresh fruits,packaged vegetables fruits
+"69,123,24",83,0.0262308880534664,0.825888528700285,1.8598136057684371,aisle,soup broth bouillon + packaged vegetables fruits + fresh fruits,fresh vegetables
+"21,123,24",112,0.0273702795195083,0.3048989237475484,1.859528924767896,aisle,packaged cheese + packaged vegetables fruits + fresh fruits,bread
+131,21,0.0300944920391903,0.4259993923729597,1.8559916337542488,aisle,dry pasta,packaged cheese
+"112,123",21,0.0326998818616219,0.4252188263465303,1.852590868305792,aisle,bread + packaged vegetables fruits,packaged cheese
+"21,84",120,0.0381249778373895,0.4876580540944863,1.8507783777454077,aisle,packaged cheese + milk,yogurt
+"21,123,24",120,0.0437718554444124,0.487608889997713,1.850591788297114,aisle,packaged cheese + packaged vegetables fruits + fresh fruits,yogurt
+"112,84",21,0.0253384736073637,0.4243747167275322,1.8489132565089643,aisle,bread + milk,packaged cheese
+"84,123,24",112,0.0265562507270891,0.3031556595566382,1.848897040120137,aisle,milk + packaged vegetables fruits + fresh fruits,bread
+"112,123,83,24",120,0.0220857800336809,0.4868788271516049,1.847821026041416,aisle,bread + packaged vegetables fruits + fresh vegetables + fresh fruits,yogurt
+"112,21,83,24",123,0.0210322395216733,0.6769384792511388,1.845482158082792,aisle,bread + packaged cheese + fresh vegetables + fresh fruits,packaged vegetables fruits
+"91,21,83",123,0.0206260027609169,0.6768882128967059,1.8453451210209295,aisle,soy lactosefree + packaged cheese + fresh vegetables,packaged vegetables fruits
+"84,83,24",120,0.0483835447361234,0.4861876898841004,1.8451979956207931,aisle,milk + fresh vegetables + fresh fruits,yogurt
+"112,120,83,24",123,0.0220857800336809,0.676554102984335,1.8444342644201923,aisle,bread + yogurt + fresh vegetables + fresh fruits,packaged vegetables fruits
+78,107,0.0353466418901642,0.3083073550438578,1.8421440673750265,aisle,crackers,chips pretzels
+"84,123,24",21,0.0369868305880728,0.4222270356258943,1.8395562521845965,aisle,milk + packaged vegetables fruits + fresh fruits,packaged cheese
+"106,83",21,0.0207700208468512,0.4220929865039982,1.8389722277629523,aisle,hot dogs bacon sausage + fresh vegetables,packaged cheese
+"52,24",120,0.0203945784500419,0.4845005061813237,1.8387947319195883,aisle,frozen breakfast + fresh fruits,yogurt
+"116,21,24",123,0.0205597482203035,0.6742871716398878,1.838254114409509,aisle,frozen produce + packaged cheese + fresh fruits,packaged vegetables fruits
+"117,83,24",123,0.0232733848978218,0.6737231666906786,1.8367165137223864,aisle,nuts seeds dried fruit + fresh vegetables + fresh fruits,packaged vegetables fruits
+"67,120,24",123,0.0201404471839331,0.6736267166042447,1.8364535697191795,aisle,fresh dips tapenades + yogurt + fresh fruits,packaged vegetables fruits
+108,21,0.0364477736919083,0.4212200733338126,1.8351691248246271,aisle,other creams cheeses,packaged cheese
+"96,123,24",120,0.0207392264829041,0.483428679152256,1.8347268932497955,aisle,lunch meat + packaged vegetables fruits + fresh fruits,yogurt
+"19,123,24",83,0.0205053137385788,0.8136911227411869,1.8323463377661668,aisle,oils vinegars + packaged vegetables fruits + fresh fruits,fresh vegetables
+"78,24",21,0.0316821125804619,0.4205610563781556,1.8322979236489907,aisle,crackers + fresh fruits,packaged cheese
+"84,120,83,24",123,0.0324967634812437,0.6716490835567385,1.8310621100573723,aisle,milk + yogurt + fresh vegetables + fresh fruits,packaged vegetables fruits
+"116,83,24",123,0.041809414614694,0.6713349582450953,1.830205735843454,aisle,frozen produce + fresh vegetables + fresh fruits,packaged vegetables fruits
+"131,123,24",83,0.0235723079660353,0.8123358595332784,1.829294428379034,aisle,dry pasta + packaged vegetables fruits + fresh fruits,fresh vegetables
+"91,120,83",123,0.0235474236315326,0.6697454680574356,1.8258724383996177,aisle,soy lactosefree + yogurt + fresh vegetables,packaged vegetables fruits
+"59,123",83,0.0302210910909727,0.8091966085319741,1.8222251671878948,aisle,canned meals beans + packaged vegetables fruits,fresh vegetables
+"78,83,24",120,0.0218151628959641,0.4799553803618844,1.821544897696363,aisle,crackers + fresh vegetables + fresh fruits,yogurt
+"21,120,83",123,0.0376916793628615,0.6668794681430686,1.8180590966128096,aisle,packaged cheese + yogurt + fresh vegetables,packaged vegetables fruits
+"84,83,24",21,0.0414915172414222,0.4169323481239763,1.8164883889837504,aisle,milk + fresh vegetables + fresh fruits,packaged cheese
+"35,24",83,0.0226512765352545,0.8058005333569397,1.814577565123872,aisle,poultry counter + fresh fruits,fresh vegetables
+"104,123",83,0.0201373366421203,0.8053917543728696,1.813657038091583,aisle,spices seasonings + packaged vegetables fruits,fresh vegetables
+"96,83,24",123,0.0316556729750528,0.6643145292896588,1.8110665130389263,aisle,lunch meat + fresh vegetables + fresh fruits,packaged vegetables fruits
+"120,123,24",21,0.0437718554444124,0.4156837375823046,1.8110484499588344,aisle,yogurt + packaged vegetables fruits + fresh fruits,packaged cheese
+"116,123",91,0.0206910130848051,0.3073436460412508,1.810602434101416,aisle,frozen produce + packaged vegetables fruits,soy lactosefree
+"86,120",84,0.0219943301043835,0.4422159265026861,1.8087684459150044,aisle,eggs + yogurt,milk
+"63,24",83,0.0231396315998698,0.8025178808375676,1.8071853788827743,aisle,grains rice dried goods + fresh fruits,fresh vegetables
+"21,84,120,24",123,0.0211631933319937,0.6619029088432727,1.804491908931923,aisle,packaged cheese + milk + yogurt + fresh fruits,packaged vegetables fruits
+92,120,0.0219243429135947,0.4749979782731757,1.8027303769096432,aisle,baby food formula,yogurt
+"112,123,24",120,0.0294720726224418,0.4748585432840009,1.8022011879402435,aisle,bread + packaged vegetables fruits + fresh fruits,yogurt
+"81,21",83,0.0221119085849087,0.8003039684773431,1.8021998824308447,aisle,canned jarred vegetables + packaged cheese,fresh vegetables
+"112,83",21,0.0376353785560491,0.413447738549227,1.801306662592994,aisle,bread + fresh vegetables,packaged cheese
+"107,123",21,0.0299150137765896,0.4130911933611955,1.7997532686260314,aisle,chips pretzels + packaged vegetables fruits,packaged cheese
+"9,123,24",83,0.0204900720836959,0.7988769904313764,1.79898647881426,aisle,pasta sauce + packaged vegetables fruits + fresh fruits,fresh vegetables
+"86,120,83",123,0.0218384919595604,0.6593910250389766,1.7976439650107356,aisle,eggs + yogurt + fresh vegetables,packaged vegetables fruits
+"9,83,24",123,0.0204900720836959,0.6592640038431129,1.7972976774855765,aisle,pasta sauce + fresh vegetables + fresh fruits,packaged vegetables fruits
+"84,123",120,0.051047101690455,0.4732941108611639,1.7962637945611737,aisle,milk + packaged vegetables fruits,yogurt
+"120,83,24",21,0.0484563314145437,0.4117116926638722,1.7937430681449271,aisle,yogurt + fresh vegetables + fresh fruits,packaged cheese
+"106,24",21,0.022475219868648,0.4116882894894278,1.793641105332891,aisle,hot dogs bacon sausage + fresh fruits,packaged cheese
+"116,120,24",123,0.024027069179072,0.6576532089158309,1.792906298667936,aisle,frozen produce + yogurt + fresh fruits,packaged vegetables fruits
+"3,83,24",123,0.0220873353045873,0.6573293219162231,1.792023311960381,aisle,energy granola bars + fresh vegetables + fresh fruits,packaged vegetables fruits
+"107,83",21,0.0331614862666468,0.4111120965907119,1.7911307515187964,aisle,chips pretzels + fresh vegetables,packaged cheese
+"86,21,83",123,0.0204154190801879,0.6561331600519844,1.7887623134408797,aisle,eggs + packaged cheese + fresh vegetables,packaged vegetables fruits
+"59,24",21,0.0202374960884936,0.4102905286524188,1.7875513491831756,aisle,canned meals beans + fresh fruits,packaged cheese
+"107,120,83",123,0.0209121726076978,0.6556337890815471,1.7874009190978872,aisle,chips pretzels + yogurt + fresh vegetables,packaged vegetables fruits
+"59,24",83,0.0391219064884035,0.7931488967226451,1.7860874176886865,aisle,canned meals beans + fresh fruits,fresh vegetables
+"78,83,24",123,0.0297638414444858,0.6548342503627056,1.7852212019071156,aisle,crackers + fresh vegetables + fresh fruits,packaged vegetables fruits
+"91,83,24",123,0.0496265172445327,0.6545165882415684,1.7843551855779718,aisle,soy lactosefree + fresh vegetables + fresh fruits,packaged vegetables fruits
+"21,120",84,0.0381249778373895,0.4362171992725383,1.7842322230445318,aisle,packaged cheese + yogurt,milk
+"59,83,24",123,0.0255030212692628,0.6518859523582355,1.7771834975503185,aisle,canned meals beans + fresh vegetables + fresh fruits,packaged vegetables fruits
+"121,83",120,0.0203298791803349,0.4682039930369001,1.776945585971721,aisle,cereal + fresh vegetables,yogurt
+4,21,0.0209939798573754,0.4077116847185894,1.7763158571809832,aisle,instant foods,packaged cheese
+"67,83",123,0.0373831136150281,0.6515624661158459,1.7763016033944776,aisle,fresh dips tapenades + fresh vegetables,packaged vegetables fruits
+"78,21",120,0.0200023391274432,0.4675095239480036,1.7743099104959432,aisle,crackers + packaged cheese,yogurt
+"59,83",21,0.0203034395749257,0.4069414397845373,1.7729600586067666,aisle,canned meals beans + fresh vegetables,packaged cheese
+"91,21,24",123,0.0232466342382314,0.6488821358801823,1.7689944377076354,aisle,soy lactosefree + packaged cheese + fresh fruits,packaged vegetables fruits
+"112,120,83",123,0.024558971829067,0.648785899174165,1.7687320754260525,aisle,bread + yogurt + fresh vegetables,packaged vegetables fruits
+"21,123,83",120,0.0376916793628615,0.4660054532798517,1.7686016043419814,aisle,packaged cheese + packaged vegetables fruits + fresh vegetables,yogurt
+"121,24",120,0.0279843004733622,0.4656239648890361,1.7671537651047244,aisle,cereal + fresh fruits,yogurt
+"112,84",120,0.0277995342896797,0.4655931399873927,1.7670367772666715,aisle,bread + milk,yogurt
+"104,24",83,0.0258797078827972,0.7844320410318298,1.7664579807248253,aisle,spices seasonings + fresh fruits,fresh vegetables
+"21,84,83",123,0.0319891230573888,0.6478458892675583,1.7661694030943174,aisle,packaged cheese + milk + fresh vegetables,packaged vegetables fruits
+"69,123",83,0.0323770076214495,0.7842439950574124,1.7660345210815704,aisle,soup broth bouillon + packaged vegetables fruits,fresh vegetables
+"96,120,24",123,0.0207392264829041,0.6477543208557189,1.765919767602359,aisle,lunch meat + yogurt + fresh fruits,packaged vegetables fruits
+"21,83,24",123,0.0675737213962351,0.6477072152653548,1.765791347473754,aisle,packaged cheese + fresh vegetables + fresh fruits,packaged vegetables fruits
+"96,83,24",120,0.0221641656873644,0.4651291826050628,1.7652759485790248,aisle,lunch meat + fresh vegetables + fresh fruits,yogurt
+"86,120",21,0.0201444908882898,0.4050232337066987,1.7646028297092002,aisle,eggs + yogurt,packaged cheese
+"67,123,24",120,0.0201404471839331,0.4649003769520732,1.764407576670259,aisle,fresh dips tapenades + packaged vegetables fruits + fresh fruits,yogurt
+"121,24",84,0.0259176564929138,0.4312375786684332,1.7638643889582153,aisle,cereal + fresh fruits,milk
+"21,83,24",120,0.0484563314145437,0.4644633273703041,1.762748869489788,aisle,packaged cheese + fresh vegetables + fresh fruits,yogurt
+"131,83,24",123,0.0235723079660353,0.6462677275479486,1.761866989528862,aisle,dry pasta + fresh vegetables + fresh fruits,packaged vegetables fruits
+"36,123,24",83,0.0208720466183122,0.7821267469373958,1.761266702273636,aisle,butter + packaged vegetables fruits + fresh fruits,fresh vegetables
+"88,83,24",123,0.0212266483849755,0.645201244244424,1.7589595230915498,aisle,spreads + fresh vegetables + fresh fruits,packaged vegetables fruits
+"86,83,24",123,0.0427058727651534,0.645199795106042,1.758955572423785,aisle,eggs + fresh vegetables + fresh fruits,packaged vegetables fruits
+"81,24",21,0.0200340666539341,0.4033504509018036,1.7573148594760055,aisle,canned jarred vegetables + fresh fruits,packaged cheese
+"84,123",21,0.04344898120424,0.4028465132375843,1.7551193068403206,aisle,milk + packaged vegetables fruits,packaged cheese
+"120,83,24",123,0.0757612895559826,0.6437096629260995,1.7548931466117512,aisle,yogurt + fresh vegetables + fresh fruits,packaged vegetables fruits
+"120,123,83,24",84,0.0324967634812437,0.428936250579932,1.7544514090524508,aisle,yogurt + packaged vegetables fruits + fresh vegetables + fresh fruits,milk
+"86,21,24",123,0.0220867131962247,0.6435316935235368,1.754407963146516,aisle,eggs + packaged cheese + fresh fruits,packaged vegetables fruits
+"96,21,24",123,0.0212328694686012,0.6422992961722308,1.751048178774353,aisle,lunch meat + packaged cheese + fresh fruits,packaged vegetables fruits
+"86,123,83",21,0.0204154190801879,0.4019068730710821,1.7510254881190002,aisle,eggs + packaged vegetables fruits + fresh vegetables,packaged cheese
+"112,123,83",120,0.024558971829067,0.4612849889869772,1.75068631888157,aisle,bread + packaged vegetables fruits + fresh vegetables,yogurt
+"107,21,83",123,0.0212919697630451,0.6420692242753963,1.750420952528987,aisle,chips pretzels + packaged cheese + fresh vegetables,packaged vegetables fruits
+"112,123,24",84,0.0265562507270891,0.4278783747888799,1.750124445151161,aisle,bread + packaged vegetables fruits + fresh fruits,milk
+"84,120,83",123,0.0361329868604492,0.6418483606104475,1.7498188299350954,aisle,milk + yogurt + fresh vegetables,packaged vegetables fruits
+"131,123",83,0.028317439501517,0.776051079210284,1.747584941224366,aisle,dry pasta + packaged vegetables fruits,fresh vegetables
+"16,83,24",123,0.0394320275071433,0.6405159738678334,1.746186452641548,aisle,fresh herbs + fresh vegetables + fresh fruits,packaged vegetables fruits
+"112,21",84,0.0253384736073637,0.4268609007781591,1.7459627341524524,aisle,bread + packaged cheese,milk
+"112,21,83",123,0.0240793262815276,0.6398056085889267,1.7442498417261896,aisle,bread + packaged cheese + fresh vegetables,packaged vegetables fruits
+"106,83,24",123,0.0238693647091612,0.6395282940245021,1.7434938216497593,aisle,hot dogs bacon sausage + fresh vegetables + fresh fruits,packaged vegetables fruits
+"19,123",83,0.0250187099090042,0.7739055133262773,1.7427533538073232,aisle,oils vinegars + packaged vegetables fruits,fresh vegetables
+"31,123,24",120,0.02119865350866,0.4591086080758815,1.7424264353460193,aisle,refrigerated + packaged vegetables fruits + fresh fruits,yogurt
+"107,84",120,0.0222260654694398,0.4591067676709265,1.7424194505711996,aisle,chips pretzels + milk,yogurt
+"3,24",120,0.0271208140661189,0.4585833828611101,1.7404330806525332,aisle,energy granola bars + fresh fruits,yogurt
+"86,84",120,0.0219943301043835,0.458218037365614,1.7390465075450177,aisle,eggs + milk,yogurt
+"86,21,123",83,0.0204154190801879,0.771989461055306,1.7384386067693374,aisle,eggs + packaged cheese + packaged vegetables fruits,fresh vegetables
+"69,83,24",123,0.0262308880534664,0.637619465279458,1.7382899375453849,aisle,soup broth bouillon + fresh vegetables + fresh fruits,packaged vegetables fruits
+"78,123",120,0.0239070022650965,0.4577742041156675,1.7373620547293027,aisle,crackers + packaged vegetables fruits,yogurt
+"84,120",21,0.0381249778373895,0.398665768939283,1.7369046648022408,aisle,milk + yogurt,packaged cheese
+"107,123,24",120,0.0259378750146973,0.4573486099151524,1.735746823447068,aisle,chips pretzels + packaged vegetables fruits + fresh fruits,yogurt
+"81,83,24",123,0.0263130063573253,0.6366311448267558,1.7355955601125226,aisle,canned jarred vegetables + fresh vegetables + fresh fruits,packaged vegetables fruits
+"86,123,24",21,0.0220867131962247,0.3981518344276911,1.734665557961034,aisle,eggs + packaged vegetables fruits + fresh fruits,packaged cheese
+"67,83",21,0.0228410195858375,0.3981035716609199,1.7344552870241432,aisle,fresh dips tapenades + fresh vegetables,packaged cheese
+"108,123,24",83,0.02470267886082,0.7700049448791413,1.7339696862588334,aisle,other creams cheeses + packaged vegetables fruits + fresh fruits,fresh vegetables
+"86,123,24",83,0.0427058727651534,0.769848434722635,1.7336172419417175,aisle,eggs + packaged vegetables fruits + fresh fruits,fresh vegetables
+"19,83,24",123,0.0205053137385788,0.635809494415617,1.7333555616186929,aisle,oils vinegars + fresh vegetables + fresh fruits,packaged vegetables fruits
+"120,123",21,0.0507830166905452,0.3975711440023767,1.7321356093496494,aisle,yogurt + packaged vegetables fruits,packaged cheese
+"21,120,123,24",83,0.0336551292523439,0.768876002870929,1.7314274282736053,aisle,packaged cheese + yogurt + packaged vegetables fruits + fresh fruits,fresh vegetables
+"121,83,24",123,0.0221299497274232,0.6350984628019496,1.7314171341292297,aisle,cereal + fresh vegetables + fresh fruits,packaged vegetables fruits
+"112,21,123,24",83,0.0210322395216733,0.7684334939539958,1.7304309450003947,aisle,bread + packaged cheese + packaged vegetables fruits + fresh fruits,fresh vegetables
+"67,123",21,0.0212561985321975,0.3969238632931391,1.7293155405830165,aisle,fresh dips tapenades + packaged vegetables fruits,packaged cheese
+"117,83",123,0.0268411763571449,0.6338727567893163,1.7280755918078772,aisle,nuts seeds dried fruit + fresh vegetables,packaged vegetables fruits
+"21,120,24",123,0.0437718554444124,0.6333049806256498,1.726527709966398,aisle,packaged cheese + yogurt + fresh fruits,packaged vegetables fruits
+"116,123,24",83,0.041809414614694,0.7656752892387794,1.7242197597391984,aisle,frozen produce + packaged vegetables fruits + fresh fruits,fresh vegetables
+"107,83,24",123,0.0396031073068493,0.6323770451091222,1.723997955059427,aisle,chips pretzels + fresh vegetables + fresh fruits,packaged vegetables fruits
+"116,83",123,0.0492566738229865,0.632262752739004,1.7236863690936073,aisle,frozen produce + fresh vegetables,packaged vegetables fruits
+"21,84,123,24",83,0.0283105963095287,0.7654236889023447,1.7236531823953365,aisle,packaged cheese + milk + packaged vegetables fruits + fresh fruits,fresh vegetables
+"84,24",120,0.074542268219532,0.4533620384681598,1.720616836003035,aisle,milk + fresh fruits,yogurt
+"112,83,24",120,0.0326445142173534,0.4532216272240456,1.7200839419137914,aisle,bread + fresh vegetables + fresh fruits,yogurt
+"84,83",21,0.0493776738995058,0.3947407029802683,1.7198039606409374,aisle,milk + fresh vegetables,packaged cheese
+"81,83",21,0.0221119085849087,0.3946646679991117,1.7194726918846297,aisle,canned jarred vegetables + fresh vegetables,packaged cheese
+"120,123,24",84,0.044239680933063,0.4201264884249208,1.718417383937112,aisle,yogurt + packaged vegetables fruits + fresh fruits,milk
+"59,21",83,0.0203034395749257,0.763096671615792,1.7184129856133326,aisle,canned meals beans + packaged cheese,fresh vegetables
+"112,24",21,0.0443127786656646,0.3943540328139316,1.7181193183466243,aisle,bread + fresh fruits,packaged cheese
+"86,120,24",123,0.0249652085898234,0.6301772128045477,1.7180007316878774,aisle,eggs + yogurt + fresh fruits,packaged vegetables fruits
+"98,83,24",123,0.0211616380610873,0.630147644541598,1.717920122144482,aisle,juice nectars + fresh vegetables + fresh fruits,packaged vegetables fruits
+"112,21",120,0.0268589064454781,0.4524746508764115,1.7172489888943945,aisle,bread + packaged cheese,yogurt
+"116,21,24",83,0.0232506779425881,0.7625401683244071,1.7171597990669578,aisle,frozen produce + packaged cheese + fresh fruits,fresh vegetables
+"112,83,24",123,0.0453619644191343,0.6297849369493868,1.7169313020219097,aisle,bread + fresh vegetables + fresh fruits,packaged vegetables fruits
+"91,21",120,0.0206891467597174,0.4522448036009329,1.716376663780377,aisle,soy lactosefree + packaged cheese,yogurt
+"106,123,24",83,0.0238693647091612,0.7620735885595114,1.7161091107903026,aisle,hot dogs bacon sausage + packaged vegetables fruits + fresh fruits,fresh vegetables
+81,83,0.0560270791328058,0.7613846277407437,1.7145576439033583,aisle,canned jarred vegetables,fresh vegetables
+"91,21,123",83,0.0206260027609169,0.7611777535441657,1.7140917850954107,aisle,soy lactosefree + packaged cheese + packaged vegetables fruits,fresh vegetables
+"108,83,24",123,0.02470267886082,0.6286591833826766,1.7138622519007525,aisle,other creams cheeses + fresh vegetables + fresh fruits,packaged vegetables fruits
+"21,123,83,24",84,0.0283105963095287,0.4189586680230711,1.7136407203961426,aisle,packaged cheese + packaged vegetables fruits + fresh vegetables + fresh fruits,milk
+"69,24",83,0.0411387817998465,0.7605902717872629,1.7127688383215307,aisle,soup broth bouillon + fresh fruits,fresh vegetables
+"31,83,24",123,0.0323872724094319,0.6280483759085562,1.7121970573076488,aisle,refrigerated + fresh vegetables + fresh fruits,packaged vegetables fruits
+"9,123",83,0.0247210310575157,0.7597774442415609,1.7109384366679092,aisle,pasta sauce + packaged vegetables fruits,fresh vegetables
+"116,120,123",83,0.0210960056288364,0.7595502346261102,1.7104267846477006,aisle,frozen produce + yogurt + packaged vegetables fruits,fresh vegetables
+"116,91",123,0.0206910130848051,0.6272536964393483,1.710030587492784,aisle,frozen produce + soy lactosefree,packaged vegetables fruits
+"36,24",84,0.0203852468246033,0.4180578325242564,1.7099560886866911,aisle,butter + fresh fruits,milk
+"112,84,83",123,0.0222002479723933,0.6271782208669824,1.7098248245963887,aisle,bread + milk + fresh vegetables,packaged vegetables fruits
+"116,21",123,0.0242410744557951,0.6270880942418487,1.7095791197299193,aisle,frozen produce + packaged cheese,packaged vegetables fruits
+"120,83",21,0.0565194779017778,0.3923818285080019,1.7095268302882023,aisle,yogurt + fresh vegetables,packaged cheese
+"67,120",123,0.0231032382606596,0.6270493879273955,1.7094735978621012,aisle,fresh dips tapenades + yogurt,packaged vegetables fruits
+"86,123,24",120,0.0249652085898234,0.4500417743735246,1.7080156435421294,aisle,eggs + packaged vegetables fruits + fresh fruits,yogurt
+"84,83",120,0.0562952078370723,0.4500416516430641,1.708015177750822,aisle,milk + fresh vegetables,yogurt
+"93,24",120,0.0205469949988708,0.4498103545722593,1.7071373503184908,aisle,breakfast bakery + fresh fruits,yogurt
+"112,123,83",84,0.0222002479723933,0.4169816722267339,1.7055543367997803,aisle,bread + packaged vegetables fruits + fresh vegetables,milk
+"84,83,24",123,0.0622537617337413,0.6255641823887577,1.7054246031503897,aisle,milk + fresh vegetables + fresh fruits,packaged vegetables fruits
+"67,21",123,0.0212561985321975,0.6247177452530922,1.7031170306313368,aisle,fresh dips tapenades + packaged cheese,packaged vegetables fruits
+"67,24",123,0.0433220710982763,0.6244199652987935,1.7023052174318554,aisle,fresh dips tapenades + fresh fruits,packaged vegetables fruits
+"86,120,123",83,0.0218384919595604,0.7558024372389441,1.701987141366441,aisle,eggs + yogurt + packaged vegetables fruits,fresh vegetables
+"67,83,24",120,0.0208039257526111,0.4483729536221391,1.7016820716118302,aisle,fresh dips tapenades + fresh vegetables + fresh fruits,yogurt
+"96,123",120,0.0238460356455649,0.4481690206715929,1.7009080975285322,aisle,lunch meat + packaged vegetables fruits,yogurt
+"96,21",120,0.0200461977670042,0.4478153315915281,1.699565763291801,aisle,lunch meat + packaged cheese,yogurt
+"21,123",120,0.0507830166905452,0.4477602525389655,1.69935672517853,aisle,packaged cheese + packaged vegetables fruits,yogurt
+"108,24",120,0.02552417295359,0.4472429185765753,1.6973933196659456,aisle,other creams cheeses + fresh fruits,yogurt
+"131,24",83,0.0364745243514986,0.7531891114165693,1.6961022080469197,aisle,dry pasta + fresh fruits,fresh vegetables
+"91,120,24",123,0.0282589613154356,0.6220446562455066,1.6958296061139366,aisle,soy lactosefree + yogurt + fresh fruits,packaged vegetables fruits
+"66,24",83,0.0210956945746551,0.7529531930011546,1.6955709447303915,aisle,asian foods + fresh fruits,fresh vegetables
+"21,123,24",83,0.0675737213962351,0.7527564675634282,1.695127939853862,aisle,packaged cheese + packaged vegetables fruits + fresh fruits,fresh vegetables
+"86,21",120,0.0201444908882898,0.4462344105284917,1.693565791598884,aisle,eggs + packaged cheese,yogurt
+"21,24",120,0.0691165501354018,0.445979876804133,1.6925997755359998,aisle,packaged cheese + fresh fruits,yogurt
+"128,123",83,0.0215955586439779,0.7513581957100496,1.6919791795465005,aisle,tortillas flat bread + packaged vegetables fruits,fresh vegetables
+"21,84,120",123,0.0236463388611808,0.6202321995316847,1.6908884532172126,aisle,packaged cheese + milk + yogurt,packaged vegetables fruits
+"96,83",123,0.0371781289095622,0.6202188769712159,1.6908521330073285,aisle,lunch meat + fresh vegetables,packaged vegetables fruits
+"115,83,24",123,0.038839469291798,0.6200355543196512,1.6903523554160036,aisle,water seltzer sparkling water + fresh vegetables + fresh fruits,packaged vegetables fruits
+"112,83,24",84,0.029762908281942,0.413214717567801,1.690146595205858,aisle,bread + fresh vegetables + fresh fruits,milk
+"78,24",120,0.0335481266139823,0.445331274309828,1.6901381747029316,aisle,crackers + fresh fruits,yogurt
+"3,83",123,0.025086519720524,0.6199220581566062,1.690042940084581,aisle,energy granola bars + fresh vegetables,packaged vegetables fruits
+"120,123,83",84,0.0361329868604492,0.4131723747905915,1.6899734031638285,aisle,yogurt + packaged vegetables fruits + fresh vegetables,milk
+"53,83,24",123,0.0210294400340417,0.6194861363094911,1.688854521910954,aisle,cream + fresh vegetables + fresh fruits,packaged vegetables fruits
+"112,120,123,24",83,0.0220857800336809,0.7493799406853898,1.6875243584868933,aisle,bread + yogurt + packaged vegetables fruits + fresh fruits,fresh vegetables
+"91,120,123,24",83,0.0211728360116135,0.74924324978811,1.687216545045113,aisle,soy lactosefree + yogurt + packaged vegetables fruits + fresh fruits,fresh vegetables
+"72,123",83,0.0209040851989844,0.74924188369604,1.6872134687502742,aisle,condiments + packaged vegetables fruits,fresh vegetables
+"16,24",123,0.043257060774388,0.6186099891461007,1.6864659533667623,aisle,fresh herbs + fresh fruits,packaged vegetables fruits
+"21,123,24",84,0.0369868305880728,0.412025198029065,1.6852811770277276,aisle,packaged cheese + packaged vegetables fruits + fresh fruits,milk
+"21,84,24",123,0.0369868305880728,0.6180153116115653,1.6848447325122298,aisle,packaged cheese + milk + fresh fruits,packaged vegetables fruits
+"107,123,83",120,0.0209121726076978,0.4439118118970742,1.6847509770149427,aisle,chips pretzels + packaged vegetables fruits + fresh vegetables,yogurt
+"78,120,24",123,0.0207320722367346,0.6179800283719508,1.684748542694124,aisle,crackers + yogurt + fresh fruits,packaged vegetables fruits
+"96,24",120,0.0320171179337044,0.4436834028759612,1.683884110418547,aisle,lunch meat + fresh fruits,yogurt
+"112,21,24",123,0.0273702795195083,0.6176610978520286,1.6838790684328355,aisle,bread + packaged cheese + fresh fruits,packaged vegetables fruits
+"116,120",123,0.0277743389009958,0.616829467110626,1.6816118613787037,aisle,frozen produce + yogurt,packaged vegetables fruits
+"120,83,24",84,0.0483835447361234,0.4110932569362588,1.6814693160315606,aisle,yogurt + fresh vegetables + fresh fruits,milk
+"86,83,24",21,0.0255291498204906,0.3856940782826503,1.6803896796510864,aisle,eggs + fresh vegetables + fresh fruits,packaged cheese
+"53,24",84,0.0235237835137551,0.4106314817831351,1.6795805456910544,aisle,cream + fresh fruits,milk
+"78,83",120,0.025067856469647,0.442413263065437,1.679063627544749,aisle,crackers + fresh vegetables,yogurt
+35,83,0.0288169925166585,0.7455457018235664,1.6788900581483144,aisle,poultry counter,fresh vegetables
+"112,123",120,0.033982047196873,0.44189169511544,1.6770841530415097,aisle,bread + packaged vegetables fruits,yogurt
+"86,21,24",83,0.0255291498204906,0.7438325871413294,1.6750323050938192,aisle,eggs + packaged cheese + fresh fruits,fresh vegetables
+"107,21,24",123,0.024614961581698,0.6140892724112242,1.674141492087519,aisle,chips pretzels + packaged cheese + fresh fruits,packaged vegetables fruits
+"91,83",123,0.0580539081780499,0.6138695926744553,1.673542597140451,aisle,soy lactosefree + fresh vegetables,packaged vegetables fruits
+"115,84",120,0.0206222701107415,0.4408932514031867,1.6732948215242327,aisle,water seltzer sparkling water + milk,yogurt
+"36,123",83,0.0251182472470149,0.7427998491440766,1.6727066883650006,aisle,butter + packaged vegetables fruits,fresh vegetables
+"36,83,24",123,0.0208720466183122,0.6132817855282279,1.6719401064651442,aisle,butter + fresh vegetables + fresh fruits,packaged vegetables fruits
+"59,24",123,0.0302409985585749,0.6130993296462828,1.671442691877131,aisle,canned meals beans + fresh fruits,packaged vegetables fruits
+"21,120,123",83,0.0376916793628615,0.7422103257973429,1.671379144146777,aisle,packaged cheese + yogurt + packaged vegetables fruits,fresh vegetables
+"116,123,24",120,0.024027069179072,0.4400189123140811,1.6699764965886603,aisle,frozen produce + packaged vegetables fruits + fresh fruits,yogurt
+"19,24",83,0.0322507196238484,0.7409932605790328,1.668638442013908,aisle,oils vinegars + fresh fruits,fresh vegetables
+"91,123,24",83,0.0496265172445327,0.7405449313033792,1.6676288519085254,aisle,soy lactosefree + packaged vegetables fruits + fresh fruits,fresh vegetables
+"78,83",123,0.0346386825735627,0.6113252086078172,1.6666060504050886,aisle,crackers + fresh vegetables,packaged vegetables fruits
+"86,123",21,0.0264452043843708,0.3824746720411726,1.6663633895745795,aisle,eggs + packaged vegetables fruits,packaged cheese
+"116,24",123,0.0546046283617958,0.6107894645280262,1.6651454950210207,aisle,frozen produce + fresh fruits,packaged vegetables fruits
+59,21,0.026606641504457,0.3820628724059995,1.6645692633590308,aisle,canned meals beans,packaged cheese
+"112,120,24",123,0.0294720726224418,0.6105590782554903,1.664517411718824,aisle,bread + yogurt + fresh fruits,packaged vegetables fruits
+"17,123",83,0.0242435628892454,0.7390900297760161,1.6643525675655264,aisle,baking ingredients + packaged vegetables fruits,fresh vegetables
+"67,123,24",83,0.032006853145722,0.7388117034643691,1.663725806152507,aisle,fresh dips tapenades + packaged vegetables fruits + fresh fruits,fresh vegetables
+"9,83",123,0.0247210310575157,0.6097560975609756,1.662328310950537,aisle,pasta sauce + fresh vegetables,packaged vegetables fruits
+"96,123,24",83,0.0316556729750528,0.7378896308702935,1.6616493962056749,aisle,lunch meat + packaged vegetables fruits + fresh fruits,fresh vegetables
+"67,24",21,0.026446448601096,0.3811842347128632,1.6607412198529627,aisle,fresh dips tapenades + fresh fruits,packaged cheese
+"117,123,24",83,0.0232733848978218,0.7372398707236324,1.6601862050857448,aisle,nuts seeds dried fruit + packaged vegetables fruits + fresh fruits,fresh vegetables
+"69,21",83,0.0207096763356822,0.7366563398982076,1.6588721553916317,aisle,soup broth bouillon + packaged cheese,fresh vegetables
+"107,24",21,0.0400836860169325,0.3806406829225066,1.6583730766267617,aisle,chips pretzels + fresh fruits,packaged cheese
+"112,21,123",83,0.0240793262815276,0.7363734946635466,1.6582352178419877,aisle,bread + packaged cheese + packaged vegetables fruits,fresh vegetables
+"112,123",84,0.031174472156607,0.4053828854336887,1.6581125367541,aisle,bread + packaged vegetables fruits,milk
+"21,84,123",83,0.0319891230573888,0.736245641917771,1.657947306982513,aisle,packaged cheese + milk + packaged vegetables fruits,fresh vegetables
+"9,24",83,0.0310802227396781,0.7358564211332538,1.6570708229467896,aisle,pasta sauce + fresh fruits,fresh vegetables
+"37,83,24",123,0.0233331073006282,0.6078159690148606,1.6570390967516286,aisle,ice cream ice + fresh vegetables + fresh fruits,packaged vegetables fruits
+"81,24",123,0.0301619907965288,0.6072582665330661,1.655518677967327,aisle,canned jarred vegetables + fresh fruits,packaged vegetables fruits
+"9,24",123,0.0256485946261035,0.6072570073498004,1.655515245158701,aisle,pasta sauce + fresh fruits,packaged vegetables fruits
+"120,83",123,0.0874525720137087,0.607132291174038,1.6551752416218235,aisle,yogurt + fresh vegetables,packaged vegetables fruits
+"107,83,24",120,0.0273027807621698,0.4359670994466906,1.6545989024267809,aisle,chips pretzels + fresh vegetables + fresh fruits,yogurt
+"86,123",83,0.0507963920203404,0.7346637634737543,1.6543850840545788,aisle,eggs + packaged vegetables fruits,fresh vegetables
+"84,120,123,24",83,0.0324967634812437,0.7345614343469854,1.654154649685269,aisle,milk + yogurt + packaged vegetables fruits + fresh fruits,fresh vegetables
+"88,83",123,0.02465664284199,0.6058855002675227,1.6517762172741768,aisle,spreads + fresh vegetables,packaged vegetables fruits
+"59,83",123,0.0302210910909727,0.6057207339197875,1.6513270282203438,aisle,canned meals beans + fresh vegetables,packaged vegetables fruits
+"86,84,24",123,0.0221072427721895,0.6056257615910969,1.6510681129075315,aisle,eggs + milk + fresh fruits,packaged vegetables fruits
+"108,24",84,0.0230211199568007,0.4033836041270378,1.6499350001136233,aisle,other creams cheeses + fresh fruits,milk
+"31,83,24",120,0.022414875357479,0.4346653798594565,1.649658566784393,aisle,refrigerated + fresh vegetables + fresh fruits,yogurt
+"116,123",83,0.0492566738229865,0.7316570562578547,1.6476142974479502,aisle,frozen produce + packaged vegetables fruits,fresh vegetables
+63,83,0.0297781499368248,0.730897846999542,1.6459046385058924,aisle,grains rice dried goods,fresh vegetables
+"131,24",120,0.0210011341035449,0.4336677671723854,1.645872389205466,aisle,dry pasta + fresh fruits,yogurt
+"112,123,24",83,0.0453619644191343,0.7308789110464038,1.645861996742433,aisle,bread + packaged vegetables fruits + fresh fruits,fresh vegetables
+"107,120,24",123,0.0259378750146973,0.6031740290928556,1.6443841545854967,aisle,chips pretzels + yogurt + fresh fruits,packaged vegetables fruits
+"121,24",21,0.0226783382490262,0.3773393507784034,1.643989852262124,aisle,cereal + fresh fruits,packaged cheese
+"112,24",84,0.0451383164627913,0.4017007659536774,1.6430517912440823,aisle,bread + fresh fruits,milk
+"115,21,24",123,0.0205653471955666,0.6026506968561715,1.642957436596857,aisle,water seltzer sparkling water + packaged cheese + fresh fruits,packaged vegetables fruits
+"69,24",21,0.0203874242038723,0.3769308627491575,1.642210154031697,aisle,soup broth bouillon + fresh fruits,packaged cheese
+"128,24",83,0.0285572622752866,0.7291904943448977,1.64205986092804,aisle,tortillas flat bread + fresh fruits,fresh vegetables
+"107,21",120,0.0241119869705624,0.4323891653093554,1.6410197908284434,aisle,chips pretzels + packaged cheese,yogurt
+"108,123",83,0.0298745767330228,0.7286086013184946,1.6407494993840803,aisle,other creams cheeses + packaged vegetables fruits,fresh vegetables
+"116,123,24",21,0.0205597482203035,0.3765202481386751,1.640421190724713,aisle,frozen produce + packaged vegetables fruits + fresh fruits,packaged cheese
+"86,83",123,0.0507963920203404,0.6007180483211206,1.6376886145419682,aisle,eggs + fresh vegetables,packaged vegetables fruits
+"67,123",120,0.0231032382606596,0.4314142329406845,1.6373196904557534,aisle,fresh dips tapenades + packaged vegetables fruits,yogurt
+"116,120,24",83,0.0265553175645452,0.7268547686753963,1.6368000537887917,aisle,frozen produce + yogurt + fresh fruits,fresh vegetables
+81,21,0.0276293876525176,0.3754718496506304,1.6358535343911849,aisle,canned jarred vegetables,packaged cheese
+"116,84",123,0.0216347514708196,0.600018978933384,1.6357827986933005,aisle,frozen produce + milk,packaged vegetables fruits
+"67,24",120,0.0298985279049816,0.4309405640963564,1.6355220044584988,aisle,fresh dips tapenades + fresh fruits,yogurt
+"21,83",123,0.0808824855966361,0.5996960318082648,1.6349023742888984,aisle,packaged cheese + fresh vegetables,packaged vegetables fruits
+"120,123",84,0.051047101690455,0.3996386181772134,1.6346171157714453,aisle,yogurt + packaged vegetables fruits,milk
+"131,24",123,0.0290179335177677,0.5992125175031795,1.633584208679226,aisle,dry pasta + fresh fruits,packaged vegetables fruits
+14,83,0.0239175781072601,0.725054219707685,1.632745407972035,aisle,tofu meat alternatives,fresh vegetables
+"96,120",123,0.0238460356455649,0.5987721819545113,1.632383757791081,aisle,lunch meat + yogurt,packaged vegetables fruits
+"91,120,123",83,0.0235474236315326,0.7246984491671453,1.6319442503474475,aisle,soy lactosefree + yogurt + packaged vegetables fruits,fresh vegetables
+"86,123,83",120,0.0218384919595604,0.4299221084602949,1.6316567229275385,aisle,eggs + packaged vegetables fruits + fresh vegetables,yogurt
+"112,24",120,0.0482706320683174,0.4295762756436696,1.6303442050803485,aisle,bread + fresh fruits,yogurt
+"86,123,24",84,0.0221072427721895,0.3985219161260296,1.6300495384577016,aisle,eggs + packaged vegetables fruits + fresh fruits,milk
+"112,120,123",83,0.024558971829067,0.7227043057996485,1.6274536504204091,aisle,bread + yogurt + packaged vegetables fruits,fresh vegetables
+"21,83,24",84,0.0414915172414222,0.3977042337507454,1.6267050228250517,aisle,packaged cheese + fresh vegetables + fresh fruits,milk
+"116,83,24",21,0.0232506779425881,0.3733367962600392,1.6265515464036369,aisle,frozen produce + fresh vegetables + fresh fruits,packaged cheese
+"128,83",123,0.0215955586439779,0.5964775119206152,1.6261279860539988,aisle,tortillas flat bread + fresh vegetables,packaged vegetables fruits
+78,21,0.0427848805271995,0.373186606869121,1.6258972021533549,aisle,crackers,packaged cheese
+"116,123,83",120,0.0210960056288364,0.4282872551372242,1.6254520654719309,aisle,frozen produce + packaged vegetables fruits + fresh vegetables,yogurt
+"131,83",123,0.028317439501517,0.5962054828611472,1.6253863754185929,aisle,dry pasta + fresh vegetables,packaged vegetables fruits
+"131,21",83,0.0217193582081288,0.7217054263565892,1.625204279574143,aisle,dry pasta + packaged cheese,fresh vegetables
+"116,84,24",83,0.0207582007879624,0.7215296623455255,1.624808477613199,aisle,frozen produce + milk + fresh fruits,fresh vegetables
+"115,123,24",120,0.0241042106160303,0.4279316343153767,1.6241023998153803,aisle,water seltzer sparkling water + packaged vegetables fruits + fresh fruits,yogurt
+52,21,0.0229390016529419,0.3727595305249749,1.624036518462484,aisle,frozen breakfast,packaged cheese
+"86,83,24",120,0.0283193058266047,0.4278477205547175,1.6237839271222312,aisle,eggs + fresh vegetables + fresh fruits,yogurt
+"115,21",120,0.020347609268668,0.4277167516673205,1.6232868690240077,aisle,water seltzer sparkling water + packaged cheese,yogurt
+"88,24",120,0.0227862740499316,0.4276790145079838,1.623143647522893,aisle,spreads + fresh fruits,yogurt
+"91,21,24",83,0.025803810662564,0.7202604731929673,1.6219503978939709,aisle,soy lactosefree + packaged cheese + fresh fruits,fresh vegetables
+"69,83",21,0.0207096763356822,0.3721451488491163,1.6213597840099443,aisle,soup broth bouillon + fresh vegetables,packaged cheese
+"120,24",84,0.074542268219532,0.3963521130487708,1.6211745271684572,aisle,yogurt + fresh fruits,milk
+"96,24",123,0.0429002816284557,0.5944989482395945,1.620733989281953,aisle,lunch meat + fresh fruits,packaged vegetables fruits
+"120,123,24",83,0.0757612895559826,0.719474550186247,1.620180582416227,aisle,yogurt + packaged vegetables fruits + fresh fruits,fresh vegetables
+"106,123",83,0.028842810013705,0.7192076197567635,1.6195794833244062,aisle,hot dogs bacon sausage + packaged vegetables fruits,fresh vegetables
+"16,83",123,0.0468469370805823,0.5940050089727662,1.6193874029494453,aisle,fresh herbs + fresh vegetables,packaged vegetables fruits
+"88,123,24",83,0.0212266483849755,0.7191059780604234,1.6193505969757072,aisle,spreads + packaged vegetables fruits + fresh fruits,fresh vegetables
+"91,123,83,24",120,0.0211728360116135,0.4266436007847414,1.619214006015062,aisle,soy lactosefree + packaged vegetables fruits + fresh vegetables + fresh fruits,yogurt
+"116,83,24",120,0.0265553175645452,0.4263994885523634,1.6182875419945564,aisle,frozen produce + fresh vegetables + fresh fruits,yogurt
+106,21,0.031224862933975,0.371430791488291,1.618247476084299,aisle,hot dogs bacon sausage,packaged cheese
+"107,120",84,0.0222260654694398,0.3955689895701853,1.6179713656529433,aisle,chips pretzels + yogurt,milk
+"84,120,24",123,0.044239680933063,0.5934845020113168,1.61796838727822,aisle,milk + yogurt + fresh fruits,packaged vegetables fruits
+"31,120,24",123,0.02119865350866,0.5934327162536355,1.61782720799122,aisle,refrigerated + yogurt + fresh fruits,packaged vegetables fruits
+"21,123,83",84,0.0319891230573888,0.3955012364100651,1.6176942390937403,aisle,packaged cheese + packaged vegetables fruits + fresh vegetables,milk
+"31,123",120,0.0247767097559655,0.4258433573910719,1.6161768918784212,aisle,refrigerated + packaged vegetables fruits,yogurt
+"121,83",123,0.0257356897968629,0.592701639767037,1.6158341337997455,aisle,cereal + fresh vegetables,packaged vegetables fruits
+"116,21",83,0.0277357681825166,0.7174917119958801,1.6157154405522458,aisle,frozen produce + packaged cheese,fresh vegetables
+"96,83",120,0.025516396599058,0.4256736771642511,1.615532915033798,aisle,lunch meat + fresh vegetables,yogurt
+"72,24",83,0.0265627828648961,0.7172759037763742,1.6152294632696875,aisle,condiments + fresh fruits,fresh vegetables
+"21,84,120,24",83,0.0229278037024157,0.7170931024418717,1.6148178140007536,aisle,packaged cheese + milk + yogurt + fresh fruits,fresh vegetables
+"91,21",123,0.0270974850025226,0.5923248998796516,1.614807058575455,aisle,soy lactosefree + packaged cheese,packaged vegetables fruits
+"84,120,123,83",24,0.0324967634812437,0.8993655466887047,1.6145821618427498,aisle,milk + yogurt + packaged vegetables fruits + fresh vegetables,fresh fruits
+"112,120,123,83",24,0.0220857800336809,0.8992957924867645,1.614456935909223,aisle,bread + yogurt + packaged vegetables fruits + fresh vegetables,fresh fruits
+"91,120,123,83",24,0.0211728360116135,0.8991572217378669,1.614208167363277,aisle,soy lactosefree + yogurt + packaged vegetables fruits + fresh vegetables,fresh fruits
+59,83,0.0498927796237115,0.7164443769485711,1.613356952810748,aisle,canned meals beans,fresh vegetables
+"86,120,24",83,0.0283193058266047,0.7148420631119417,1.609748711540265,aisle,eggs + yogurt + fresh fruits,fresh vegetables
+"53,123,24",83,0.0210294400340417,0.7147977416421729,1.609648904278584,aisle,cream + packaged vegetables fruits + fresh fruits,fresh vegetables
+"53,24",21,0.0211594606818183,0.3693598305913015,1.609224725893896,aisle,cream + fresh fruits,packaged cheese
+"21,84,120,123",24,0.0211631933319937,0.8949881610102605,1.6067236788733457,aisle,packaged cheese + milk + yogurt + packaged vegetables fruits,fresh fruits
+"107,84,24",123,0.0210082883497144,0.5890988067824995,1.6060120241172355,aisle,chips pretzels + milk + fresh fruits,packaged vegetables fruits
+"21,123",83,0.0808824855966361,0.7131510598792706,1.605940751131287,aisle,packaged cheese + packaged vegetables fruits,fresh vegetables
+"128,24",123,0.0230494258872976,0.5885515948659296,1.6045202049051897,aisle,tortillas flat bread + fresh fruits,packaged vegetables fruits
+"112,84,24",123,0.0265562507270891,0.5883305539093402,1.60391759897556,aisle,bread + milk + fresh fruits,packaged vegetables fruits
+"112,84,123",83,0.0222002479723933,0.7121290734569257,1.6036393458118805,aisle,bread + milk + packaged vegetables fruits,fresh vegetables
+"86,83",21,0.0311147497538006,0.3679629793119685,1.6031389324996854,aisle,eggs + fresh vegetables,packaged cheese
+"38,83",123,0.020270778885891,0.5880420855064878,1.603131171099243,aisle,frozen meals + fresh vegetables,packaged vegetables fruits
+"21,120,123,83",24,0.0336551292523439,0.8929060689586875,1.6029858119980118,aisle,packaged cheese + yogurt + packaged vegetables fruits + fresh vegetables,fresh fruits
+"107,21,123",83,0.0212919697630451,0.7117486196749607,1.6027826041385482,aisle,chips pretzels + packaged cheese + packaged vegetables fruits,fresh vegetables
+"120,24",21,0.0691165501354018,0.3675027785863611,1.601133932699528,aisle,yogurt + fresh fruits,packaged cheese
+"69,24",123,0.0317608092883267,0.5872065606201764,1.6008533477554914,aisle,soup broth bouillon + fresh fruits,packaged vegetables fruits
+"83,24",123,0.1865914496182432,0.5872055005853769,1.6008504578690848,aisle,fresh vegetables + fresh fruits,packaged vegetables fruits
+"21,84,120,83",24,0.0229278037024157,0.8916172734970365,1.6006721074422758,aisle,packaged cheese + milk + yogurt + fresh vegetables,fresh fruits
+"96,24",84,0.0282365654143832,0.3912936652988034,1.6004842712841627,aisle,lunch meat + fresh fruits,milk
+"91,123,24",120,0.0282589613154356,0.421690493873004,1.6004157864471993,aisle,soy lactosefree + packaged vegetables fruits + fresh fruits,yogurt
+"84,123,24",83,0.0622537617337413,0.7106643325604269,1.6003409042503771,aisle,milk + packaged vegetables fruits + fresh fruits,fresh vegetables
+"120,83",84,0.0562952078370723,0.3908248520224498,1.598566713343632,aisle,yogurt + fresh vegetables,milk
+121,84,0.0361342310771744,0.3907307934222874,1.5981819912704445,aisle,cereal,milk
+"106,83",123,0.028842810013705,0.5861500047409842,1.5979729456453564,aisle,hot dogs bacon sausage + fresh vegetables,packaged vegetables fruits
+"96,123",84,0.0207868177726405,0.3906732298194743,1.5979465424271049,aisle,lunch meat + packaged vegetables fruits,milk
+52,120,0.0259027258922122,0.4209201467867649,1.597492135912568,aisle,frozen breakfast,yogurt
+"86,21",123,0.0264452043843708,0.5858058292565286,1.5970346480964932,aisle,eggs + packaged cheese,packaged vegetables fruits
+"78,123,24",83,0.0297638414444858,0.7088503507693219,1.5962560091362354,aisle,crackers + packaged vegetables fruits + fresh fruits,fresh vegetables
+"112,83",123,0.0532403447226858,0.5848778720903214,1.5945048341677668,aisle,bread + fresh vegetables,packaged vegetables fruits
+"84,120,123",83,0.0361329868604492,0.7078362074218512,1.5939722655918205,aisle,milk + yogurt + packaged vegetables fruits,fresh vegetables
+"98,123,24",83,0.0211616380610873,0.7072668676577607,1.5926901726667295,aisle,juice nectars + packaged vegetables fruits + fresh fruits,fresh vegetables
+"91,123",83,0.0580539081780499,0.7071527625167661,1.5924332199590272,aisle,soy lactosefree + packaged vegetables fruits,fresh vegetables
+"107,83",123,0.0471088447012231,0.5840213480589694,1.5921697625677924,aisle,chips pretzels + fresh vegetables,packaged vegetables fruits
+"107,123",120,0.0303803508317899,0.4195169513729903,1.5921666753572454,aisle,chips pretzels + packaged vegetables fruits,yogurt
+"115,120",21,0.020347609268668,0.3651531728665207,1.5908971843925566,aisle,water seltzer sparkling water + yogurt,packaged cheese
+"115,123,24",21,0.0205653471955666,0.3651047850456967,1.5906863686209078,aisle,water seltzer sparkling water + packaged vegetables fruits + fresh fruits,packaged cheese
+"112,83",84,0.0353970326675322,0.3888581347985949,1.5905223715563972,aisle,bread + fresh vegetables,milk
+"21,83",120,0.0565194779017778,0.4190586672447751,1.5904273780191966,aisle,packaged cheese + fresh vegetables,yogurt
+"115,120,24",123,0.0241042106160303,0.5832825260622483,1.5901555724238725,aisle,water seltzer sparkling water + yogurt + fresh fruits,packaged vegetables fruits
+"21,84,123,83",24,0.0283105963095287,0.885006952480042,1.5888049568299478,aisle,packaged cheese + milk + packaged vegetables fruits + fresh vegetables,fresh fruits
+"98,83",123,0.0251848128418096,0.5824389261358731,1.5878557347570763,aisle,juice nectars + fresh vegetables,packaged vegetables fruits
+"69,83",123,0.0323770076214495,0.581802734396834,1.5861213371131204,aisle,soup broth bouillon + fresh vegetables,packaged vegetables fruits
+"86,123",120,0.0288944450077981,0.4178978244048155,1.5860217031613348,aisle,eggs + packaged vegetables fruits,yogurt
+"84,24",21,0.0598477576415125,0.3639908209151464,1.585833056283801,aisle,milk + fresh fruits,packaged cheese
+"116,91",83,0.0232071303572084,0.7035304767652384,1.584276215604851,aisle,frozen produce + soy lactosefree,fresh vegetables
+"37,123,24",83,0.0233331073006282,0.7034689073738899,1.5841375678482237,aisle,ice cream ice + packaged vegetables fruits + fresh fruits,fresh vegetables
+"21,120",123,0.0507830166905452,0.5810475590528762,1.584062564172572,aisle,packaged cheese + yogurt,packaged vegetables fruits
+"84,83",123,0.072679986836187,0.581026744084845,1.5840058180231062,aisle,milk + fresh vegetables,packaged vegetables fruits
+"86,83,24",84,0.0256299313752265,0.3872166847593671,1.5838084500113687,aisle,eggs + fresh vegetables + fresh fruits,milk
+"86,120",123,0.0288944450077981,0.5809489859096794,1.5837938322528895,aisle,eggs + yogurt,packaged vegetables fruits
+"31,83",123,0.0383231193508672,0.5806004684238057,1.5828436974597382,aisle,refrigerated + fresh vegetables,packaged vegetables fruits
+"86,24",123,0.0554730916359397,0.5804701333194459,1.5824883754961616,aisle,eggs + fresh fruits,packaged vegetables fruits
+"19,83",123,0.0250187099090042,0.5802546621938462,1.581900954142428,aisle,oils vinegars + fresh vegetables,packaged vegetables fruits
+"86,84,24",83,0.0256299313752265,0.7021294726168057,1.5811213024580446,aisle,eggs + milk + fresh fruits,fresh vegetables
+"3,123,83",24,0.0220873353045873,0.880446373217607,1.5806175963602165,aisle,energy granola bars + packaged vegetables fruits + fresh vegetables,fresh fruits
+"81,83",123,0.0324821439347234,0.5797579391516766,1.58054677863028,aisle,canned jarred vegetables + fresh vegetables,packaged vegetables fruits
+"96,21,24",83,0.0231999761110388,0.7018047348413564,1.5803900273378562,aisle,lunch meat + packaged cheese + fresh fruits,fresh vegetables
+"108,83",120,0.0215576100338613,0.416356274330754,1.58017115374186,aisle,other creams cheeses + fresh vegetables,yogurt
+"21,24",84,0.0598477576415125,0.3861722775178582,1.5795365756850266,aisle,packaged cheese + fresh fruits,milk
+"31,123,24",83,0.0323872724094319,0.7014254725751472,1.57953596883197,aisle,refrigerated + packaged vegetables fruits + fresh fruits,fresh vegetables
+"21,24",123,0.0897683703933653,0.5792373417149876,1.579127516303789,aisle,packaged cheese + fresh fruits,packaged vegetables fruits
+"115,83,24",21,0.0227032225835289,0.3624355702098499,1.5790571492071694,aisle,water seltzer sparkling water + fresh vegetables + fresh fruits,packaged cheese
+"112,21,24",83,0.0310696468975144,0.701144180822687,1.578902529559918,aisle,bread + packaged cheese + fresh fruits,fresh vegetables
+"21,120,24",83,0.0484563314145437,0.7010814532787881,1.578761273766254,aisle,packaged cheese + yogurt + fresh fruits,fresh vegetables
+"19,24",123,0.0252003655508738,0.5790041665773318,1.5784918299461037,aisle,oils vinegars + fresh fruits,packaged vegetables fruits
+"112,83",120,0.0378537385913102,0.4158465575921597,1.5782366574064783,aisle,bread + fresh vegetables,yogurt
+"123,83,24",21,0.0675737213962351,0.3621480058946301,1.5778042906989889,aisle,packaged vegetables fruits + fresh vegetables + fresh fruits,packaged cheese
+112,21,0.0593600246852598,0.3620271318785344,1.577277667500392,aisle,bread,packaged cheese
+93,21,0.0248230568289768,0.3613104481801594,1.5741552242010657,aisle,breakfast bakery,packaged cheese
+"96,123",83,0.0371781289095622,0.6987360864278365,1.5734797557062046,aisle,lunch meat + packaged vegetables fruits,fresh vegetables
+"86,24",120,0.0396161715824632,0.4145434069367774,1.573290890519874,aisle,eggs + fresh fruits,yogurt
+"108,83",123,0.0298745767330228,0.5769873119623203,1.5729934437241118,aisle,other creams cheeses + fresh vegetables,packaged vegetables fruits
+"67,83",120,0.0237772926715012,0.4144221802962288,1.5728308065670915,aisle,fresh dips tapenades + fresh vegetables,yogurt
+"107,123,24",83,0.0396031073068493,0.6983003065920023,1.57249842561184,aisle,chips pretzels + packaged vegetables fruits + fresh fruits,fresh vegetables
+"67,123",83,0.0373831136150281,0.6980669594107943,1.5719729524427657,aisle,fresh dips tapenades + packaged vegetables fruits,fresh vegetables
+"31,24",120,0.0357220842869736,0.4141330727316656,1.5717335745520684,aisle,refrigerated + fresh fruits,yogurt
+"36,24",83,0.0340333711367848,0.697951685027717,1.5717133667255732,aisle,butter + fresh fruits,fresh vegetables
+"67,120,83",24,0.0208039257526111,0.8749493073089049,1.570749012232948,aisle,fresh dips tapenades + yogurt + fresh vegetables,fresh fruits
+"117,123",83,0.0268411763571449,0.6970869551168126,1.5697660864356462,aisle,nuts seeds dried fruit + packaged vegetables fruits,fresh vegetables
+"116,123",21,0.0242410744557951,0.3600761440082797,1.5687776150834658,aisle,frozen produce + packaged vegetables fruits,packaged cheese
+"116,24",83,0.0622780239598814,0.6966215510942556,1.56871804580637,aisle,frozen produce + fresh fruits,fresh vegetables
+"53,24",120,0.0236734005749525,0.4132431992181137,1.5683562927785348,aisle,cream + fresh fruits,yogurt
+"112,21,123,83",24,0.0210322395216733,0.8734563116829432,1.5680687182031596,aisle,bread + packaged cheese + packaged vegetables fruits + fresh vegetables,fresh fruits
+"72,83",123,0.0209040851989844,0.5747960108794198,1.5670194783263194,aisle,condiments + fresh vegetables,packaged vegetables fruits
+"21,123",84,0.04344898120424,0.3830951381860966,1.5669503430475178,aisle,packaged cheese + packaged vegetables fruits,milk
+"67,120,24",83,0.0208039257526111,0.6958177278401998,1.5669079208650796,aisle,fresh dips tapenades + yogurt + fresh fruits,fresh vegetables
+"117,24",123,0.0315682667501121,0.5747162887625433,1.5668021384220154,aisle,nuts seeds dried fruit + fresh fruits,packaged vegetables fruits
+"116,123",120,0.0277743389009958,0.4125591409773047,1.5657601289490275,aisle,frozen produce + packaged vegetables fruits,yogurt
+"67,120,123",24,0.0201404471839331,0.8717586234752404,1.5650209506890271,aisle,fresh dips tapenades + yogurt + packaged vegetables fruits,fresh fruits
+"86,24",21,0.0343210962544721,0.359135767107593,1.5646805865630065,aisle,eggs + fresh fruits,packaged cheese
+"106,24",123,0.0313216007843542,0.573731261644702,1.5641167393393471,aisle,hot dogs bacon sausage + fresh fruits,packaged vegetables fruits
+"96,84",123,0.0207868177726405,0.5735484701540574,1.5636184098087125,aisle,lunch meat + milk,packaged vegetables fruits
+"52,24",123,0.024133449709071,0.5733223968609369,1.5630020846304855,aisle,frozen breakfast + fresh fruits,packaged vegetables fruits
+"86,24",84,0.0365031413361767,0.3819686751380065,1.5623428409320046,aisle,eggs + fresh fruits,milk
+"78,120,83",24,0.0218151628959641,0.8702444472018861,1.562302632192344,aisle,crackers + yogurt + fresh vegetables,fresh fruits
+"91,120",21,0.0206891467597174,0.3584234605622646,1.5615772136181914,aisle,soy lactosefree + yogurt,packaged cheese
+"3,24",21,0.0211958540210285,0.3583987713604973,1.5614696478499193,aisle,energy granola bars + fresh fruits,packaged cheese
+"96,120,123",24,0.0207392264829041,0.8697138086666145,1.5613500056251044,aisle,lunch meat + yogurt + packaged vegetables fruits,fresh fruits
+"91,120,123",24,0.0282589613154356,0.8697013210798392,1.5613275873382064,aisle,soy lactosefree + yogurt + packaged vegetables fruits,fresh fruits
+"21,84,24",83,0.0414915172414222,0.6932844082472727,1.561203153111373,aisle,packaged cheese + milk + fresh fruits,fresh vegetables
+104,83,0.0360689096991048,0.6927231126749626,1.559939174855273,aisle,spices seasonings,fresh vegetables
+"86,24",83,0.0661901523978855,0.6926133996458702,1.5596921127189851,aisle,eggs + fresh fruits,fresh vegetables
+"96,120,83",24,0.0221641656873644,0.8686244392432222,1.559394319813988,aisle,lunch meat + yogurt + fresh vegetables,fresh fruits
+"112,123",83,0.0532403447226858,0.6923204491400651,1.5590324191676403,aisle,bread + packaged vegetables fruits,fresh vegetables
+"96,120,24",83,0.0221641656873644,0.6922598634036393,1.5588959864978498,aisle,lunch meat + yogurt + fresh fruits,fresh vegetables
+36,21,0.0267251531475261,0.3576891212849132,1.5583778485967783,aisle,butter,packaged cheese
+"96,21",123,0.0255848285189404,0.571543721162933,1.5581530261616672,aisle,lunch meat + packaged cheese,packaged vegetables fruits
+"121,123,24",83,0.0221299497274232,0.6914934976576016,1.5571702119024344,aisle,cereal + packaged vegetables fruits + fresh fruits,fresh vegetables
+"112,120,123",24,0.0294720726224418,0.867283611599297,1.556987204704945,aisle,bread + yogurt + packaged vegetables fruits,fresh fruits
+"78,120,123",24,0.0207320722367346,0.8671966483645164,1.5568310843286084,aisle,crackers + yogurt + packaged vegetables fruits,fresh fruits
+"72,24",123,0.0211467074603856,0.5710253998118533,1.5567399689417127,aisle,condiments + fresh fruits,packaged vegetables fruits
+"117,123,83",24,0.0232733848978218,0.8670776790163517,1.5566175051137274,aisle,nuts seeds dried fruit + packaged vegetables fruits + fresh vegetables,fresh fruits
+"84,120,123",24,0.044239680933063,0.866644323929072,1.555839526241575,aisle,milk + yogurt + packaged vegetables fruits,fresh fruits
+"120,123,83",24,0.0757612895559826,0.8663128803588133,1.5552445035856954,aisle,yogurt + packaged vegetables fruits + fresh vegetables,fresh fruits
+"123,24",83,0.1865914496182432,0.6903898453531718,1.5546849036550292,aisle,packaged vegetables fruits + fresh fruits,fresh vegetables
+"98,24",120,0.0229893924303098,0.409614649204968,1.5545850818849347,aisle,juice nectars + fresh fruits,yogurt
+"59,24",120,0.0201948816656578,0.409426573250175,1.5538712888744797,aisle,canned meals beans + fresh fruits,yogurt
+"91,24",123,0.0670135128157433,0.5697089576314662,1.5531510600075662,aisle,soy lactosefree + fresh fruits,packaged vegetables fruits
+"116,120,123",24,0.024027069179072,0.8650815871700396,1.5530340297400915,aisle,frozen produce + yogurt + packaged vegetables fruits,fresh fruits
+"117,24",120,0.0224733535435603,0.4091387863274968,1.5527790690097227,aisle,nuts seeds dried fruit + fresh fruits,yogurt
+"115,123,24",83,0.038839469291798,0.6895325399674186,1.552754342610391,aisle,water seltzer sparkling water + packaged vegetables fruits + fresh fruits,fresh vegetables
+"86,21",83,0.0311147497538006,0.6892441259560395,1.552104864764632,aisle,eggs + packaged cheese,fresh vegetables
+"115,83",123,0.0469561170982128,0.5692618654358139,1.551932189023888,aisle,water seltzer sparkling water + fresh vegetables,packaged vegetables fruits
+"53,83",123,0.0255555894258997,0.5691425246269587,1.5516068399113407,aisle,cream + fresh vegetables,packaged vegetables fruits
+"86,120,123",24,0.0249652085898234,0.8640141239288637,1.551117670909168,aisle,eggs + yogurt + packaged vegetables fruits,fresh fruits
+"116,83",21,0.0277357681825166,0.356018622033411,1.551099827335503,aisle,frozen produce + fresh vegetables,packaged cheese
+"116,24",120,0.0365345578084864,0.4086635816429491,1.5509755541333052,aisle,frozen produce + fresh fruits,yogurt
+"108,24",83,0.0392942305048347,0.6885263771781134,1.550488570438797,aisle,other creams cheeses + fresh fruits,fresh vegetables
+"107,120,123",83,0.0209121726076978,0.688345329633763,1.5500808705197733,aisle,chips pretzels + yogurt + packaged vegetables fruits,fresh vegetables
+"96,83",84,0.02271317631733,0.3789093513084359,1.5498294779409287,aisle,lunch meat + fresh vegetables,milk
+"107,24",120,0.0430023073999167,0.4083563484913379,1.5498095312015516,aisle,chips pretzels + fresh fruits,yogurt
+"91,120,83",24,0.0303405358965856,0.8629579495890508,1.5492215784302683,aisle,soy lactosefree + yogurt + fresh vegetables,fresh fruits
+"17,24",83,0.0323583443705725,0.6877838824206121,1.5488165507845395,aisle,baking ingredients + fresh fruits,fresh vegetables
+"112,120,83",24,0.0326445142173534,0.8623854718764123,1.5481938402583073,aisle,bread + yogurt + fresh vegetables,fresh fruits
+"3,123,24",83,0.0220873353045873,0.6875024205104372,1.5481827283353131,aisle,energy granola bars + packaged vegetables fruits + fresh fruits,fresh vegetables
+"16,120,83",24,0.0222739678133575,0.8623625612678686,1.5481527100860344,aisle,fresh herbs + yogurt + fresh vegetables,fresh fruits
+"91,123,83",21,0.0206260027609169,0.3552905120126878,1.5479276019025336,aisle,soy lactosefree + packaged vegetables fruits + fresh vegetables,packaged cheese
+"91,84,83",24,0.0200561515008053,0.8622358919497192,1.5479253075328792,aisle,soy lactosefree + milk + fresh vegetables,fresh fruits
+"21,120,123",24,0.0437718554444124,0.8619388586373966,1.5473920597457975,aisle,packaged cheese + yogurt + packaged vegetables fruits,fresh fruits
+"88,123,83",24,0.0212266483849755,0.8608896402079023,1.54550845483523,aisle,spreads + packaged vegetables fruits + fresh vegetables,fresh fruits
+"31,123",21,0.0206393780907121,0.3547340283346699,1.5455031171046356,aisle,refrigerated + packaged vegetables fruits,packaged cheese
+"116,120,83",24,0.0265553175645452,0.8608478199491792,1.5454333771941235,aisle,frozen produce + yogurt + fresh vegetables,fresh fruits
+"112,91",123,0.0200188249990512,0.5666314491988026,1.5447610998000847,aisle,bread + soy lactosefree,packaged vegetables fruits
+"106,24",120,0.0222176670065452,0.4069705827051604,1.5445502202312056,aisle,hot dogs bacon sausage + fresh fruits,yogurt
+"121,123,83",24,0.0221299497274232,0.8598933971500055,1.5437199537345796,aisle,cereal + packaged vegetables fruits + fresh vegetables,fresh fruits
+"84,120,83",24,0.0483835447361234,0.8594611618835022,1.5429439852159,aisle,milk + yogurt + fresh vegetables,fresh fruits
+"116,120",83,0.0308478652662592,0.6850882161953052,1.542746195587421,aisle,frozen produce + yogurt,fresh vegetables
+"78,123,83",24,0.0297638414444858,0.8592659776039655,1.5425935814705347,aisle,crackers + packaged vegetables fruits + fresh vegetables,fresh fruits
+"120,123",83,0.0874525720137087,0.6846505262440156,1.541760564115099,aisle,yogurt + packaged vegetables fruits,fresh vegetables
+"16,83,24",21,0.0217747258523973,0.3536987727178565,1.540992721554774,aisle,fresh herbs + fresh vegetables + fresh fruits,packaged cheese
+"123,83,24",120,0.0757612895559826,0.4060276594184054,1.5409716019425377,aisle,packaged vegetables fruits + fresh vegetables + fresh fruits,yogurt
+"91,21,123",24,0.0232466342382314,0.8578889973024163,1.5401215634570855,aisle,soy lactosefree + packaged cheese + packaged vegetables fruits,fresh fruits
+"106,24",83,0.0373233912122216,0.6836686437732538,1.5395494686525408,aisle,hot dogs bacon sausage + fresh fruits,fresh vegetables
+"91,123,83",120,0.0235474236315326,0.4056130650035363,1.5393981174647744,aisle,soy lactosefree + packaged vegetables fruits + fresh vegetables,yogurt
+"21,120,83",24,0.0484563314145437,0.8573386240183156,1.53913350816618,aisle,packaged cheese + yogurt + fresh vegetables,fresh fruits
+"115,83,24",120,0.0253841985720124,0.4052348273430594,1.537962615522826,aisle,water seltzer sparkling water + fresh vegetables + fresh fruits,yogurt
+"86,123",84,0.025995731092416,0.375973979233773,1.537823107144516,aisle,eggs + packaged vegetables fruits,milk
+"84,123,83",24,0.0622537617337413,0.8565461338628845,1.5377107935946623,aisle,milk + packaged vegetables fruits + fresh vegetables,fresh fruits
+"67,123,83",24,0.032006853145722,0.8561847864072822,1.5370620861161617,aisle,fresh dips tapenades + packaged vegetables fruits + fresh vegetables,fresh fruits
+"107,120,83",24,0.0273027807621698,0.8559907159992979,1.5367136820439502,aisle,chips pretzels + yogurt + fresh vegetables,fresh fruits
+"31,120,123",24,0.02119865350866,0.8555879177442438,1.535990560194524,aisle,refrigerated + yogurt + packaged vegetables fruits,fresh fruits
+"86,120,83",24,0.0283193058266047,0.8550725998835397,1.5350654380029578,aisle,eggs + yogurt + fresh vegetables,fresh fruits
+"86,91",83,0.0207165195276704,0.6816190768600962,1.5349340607632678,aisle,eggs + soy lactosefree,fresh vegetables
+"91,123,83",24,0.0496265172445327,0.8548350800488652,1.5346390315327954,aisle,soy lactosefree + packaged vegetables fruits + fresh vegetables,fresh fruits
+"91,120",123,0.032492719776887,0.5629112307418724,1.5346189716793286,aisle,soy lactosefree + yogurt,packaged vegetables fruits
+"92,83",24,0.0220717825955231,0.8545450166192976,1.534118296398003,aisle,baby food formula + fresh vegetables,fresh fruits
+"31,120,83",24,0.022414875357479,0.8545323024380989,1.5340954713184325,aisle,refrigerated + yogurt + fresh vegetables,fresh fruits
+"107,120,123",24,0.0259378750146973,0.8537714116045009,1.532729485294663,aisle,chips pretzels + yogurt + packaged vegetables fruits,fresh fruits
+"108,24",123,0.0320811950950488,0.5621372081995716,1.5325088171593042,aisle,other creams cheeses + fresh fruits,packaged vegetables fruits
+"88,123",83,0.02465664284199,0.6804937932455403,1.532400041093576,aisle,spreads + packaged vegetables fruits,fresh vegetables
+16,123,0.0524434239102372,0.5613156037341359,1.530268943923497,aisle,fresh herbs,packaged vegetables fruits
+"112,123,83",24,0.0453619644191343,0.8520223649078937,1.529589516672372,aisle,bread + packaged vegetables fruits + fresh vegetables,fresh fruits
+"112,84,123",24,0.0265562507270891,0.8518588733012712,1.5292960090628849,aisle,bread + milk + packaged vegetables fruits,fresh fruits
+"96,123,83",24,0.0316556729750528,0.8514595517180794,1.528579128693791,aisle,lunch meat + packaged vegetables fruits + fresh vegetables,fresh fruits
+"116,84,83",24,0.0207582007879624,0.8513420421493085,1.5283681701416407,aisle,frozen produce + milk + fresh vegetables,fresh fruits
+"21,84,123",24,0.0369868305880728,0.8512703764953502,1.5282395126820305,aisle,packaged cheese + milk + packaged vegetables fruits,fresh fruits
+"108,21",83,0.0247253858160537,0.6783784937059953,1.5276366102827468,aisle,other creams cheeses + packaged cheese,fresh vegetables
+"36,83",123,0.0251182472470149,0.5602603151256131,1.527391996670017,aisle,butter + fresh vegetables,packaged vegetables fruits
+"86,84,123",24,0.0221072427721895,0.8504181972646668,1.5267096415527437,aisle,eggs + milk + packaged vegetables fruits,fresh fruits
+"53,123",83,0.0255555894258997,0.6779607869025613,1.5266959787456178,aisle,cream + packaged vegetables fruits,fresh vegetables
+"120,24",123,0.1053008609357629,0.5599000370478181,1.5264097999344215,aisle,yogurt + fresh fruits,packaged vegetables fruits
+"37,24",120,0.0257534198851961,0.4016805825760847,1.5244734107230686,aisle,ice cream ice + fresh fruits,yogurt
+"106,24",84,0.0203435655643113,0.3726418588220547,1.5241939411703938,aisle,hot dogs bacon sausage + fresh fruits,milk
+53,84,0.0341976077445025,0.3726409338648011,1.5241901578749633,aisle,cream,milk
+"116,123,83",24,0.041809414614694,0.8488071030728621,1.5238173315763237,aisle,frozen produce + packaged vegetables fruits + fresh vegetables,fresh fruits
+"112,120,24",83,0.0326445142173534,0.6762810599030827,1.522913411221011,aisle,bread + yogurt + fresh fruits,fresh vegetables
+"116,84",83,0.0243829151624604,0.676236650045722,1.522813404919822,aisle,frozen produce + milk,fresh vegetables
+"116,21,123",24,0.0205597482203035,0.8481368372427244,1.5226140397034944,aisle,frozen produce + packaged cheese + packaged vegetables fruits,fresh fruits
+"78,120",123,0.0239070022650965,0.5584636400627797,1.522493868001073,aisle,crackers + yogurt,packaged vegetables fruits
+"104,83",123,0.0201373366421203,0.5583017842821045,1.5220526137888006,aisle,spices seasonings + fresh vegetables,packaged vegetables fruits
+"107,21",84,0.0207435812414421,0.3719850956067739,1.5215076232224345,aisle,chips pretzels + packaged cheese,milk
+36,84,0.0277867810682471,0.3718979363288551,1.521151121020185,aisle,butter,milk
+"91,21,83",24,0.025803810662564,0.8468095097128507,1.5202311606166234,aisle,soy lactosefree + packaged cheese + fresh vegetables,fresh fruits
+"31,83",21,0.0230267189320639,0.3488579224414588,1.5199021336945333,aisle,refrigerated + fresh vegetables,packaged cheese
+"78,24",123,0.0419888928772947,0.5573773876276911,1.519532506592946,aisle,crackers + fresh fruits,packaged vegetables fruits
+"21,84,120",83,0.0257148491667169,0.6744882390855613,1.5188761683810137,aisle,packaged cheese + milk + yogurt,fresh vegetables
+"91,83,24",120,0.0303405358965856,0.4001567134482292,1.5186899647025045,aisle,soy lactosefree + fresh vegetables + fresh fruits,yogurt
+"115,120,83",24,0.0253841985720124,0.8458349312299831,1.5184815527518931,aisle,water seltzer sparkling water + yogurt + fresh vegetables,fresh fruits
+"107,21,24",83,0.0270240762157397,0.6741913955798361,1.5182077082056429,aisle,chips pretzels + packaged cheese + fresh fruits,fresh vegetables
+"112,120",123,0.033982047196873,0.5568848539839023,1.5181897522958745,aisle,bread + yogurt,packaged vegetables fruits
+"84,123",83,0.072679986836187,0.6738680279171714,1.5174795184345171,aisle,milk + packaged vegetables fruits,fresh vegetables
+"78,21,24",83,0.0213454710822259,0.6737388811435977,1.5171886935613212,aisle,crackers + packaged cheese + fresh fruits,fresh vegetables
+"31,123,83",24,0.0323872724094319,0.8451105483588195,1.517181107491975,aisle,refrigerated + packaged vegetables fruits + fresh vegetables,fresh fruits
+"86,112",123,0.0202931747869434,0.5564368933694966,1.516968513812986,aisle,eggs + bread,packaged vegetables fruits
+"21,24",83,0.1043275724025265,0.6731817169144433,1.515934018653002,aisle,packaged cheese + fresh fruits,fresh vegetables
+"107,123,24",84,0.0210082883497144,0.3704278576403934,1.5151381491090845,aisle,chips pretzels + packaged vegetables fruits + fresh fruits,milk
+"21,84",123,0.04344898120424,0.5557575854029235,1.5151165719148965,aisle,packaged cheese + milk,packaged vegetables fruits
+3,120,0.0345388341813707,0.3992004342964792,1.5150606577274892,aisle,energy granola bars,yogurt
+"59,123,83",24,0.0255030212692628,0.8438815525386745,1.5149747579876034,aisle,canned meals beans + packaged vegetables fruits + fresh vegetables,fresh fruits
+"115,120,123",24,0.0241042106160303,0.8437350289621532,1.514711712161786,aisle,water seltzer sparkling water + yogurt + packaged vegetables fruits,fresh fruits
+"107,84,123",24,0.0210082883497144,0.8436364090585458,1.5145346652004543,aisle,chips pretzels + milk + packaged vegetables fruits,fresh fruits
+"37,24",21,0.0222823662762521,0.347541953919823,1.514168729820798,aisle,ice cream ice + fresh fruits,packaged cheese
+131,83,0.0474961071569212,0.6723261107906637,1.514007284166584,aisle,dry pasta,fresh vegetables
+"115,120",84,0.0206222701107415,0.3700821685348099,1.513724198347019,aisle,water seltzer sparkling water + yogurt,milk
+"17,83",123,0.0242435628892454,0.5552428920503523,1.5137134054113397,aisle,baking ingredients + fresh vegetables,packaged vegetables fruits
+67,21,0.0340252837280714,0.3473595630497602,1.5133740903565869,aisle,fresh dips tapenades,packaged cheese
+"16,120",24,0.0247751544850591,0.8427573801714104,1.512956592339938,aisle,fresh herbs + yogurt,fresh fruits
+49,83,0.0239654804511778,0.67179366449554,1.512808271431087,aisle,packaged poultry,fresh vegetables
+"67,21",83,0.0228410195858375,0.6712954921517182,1.5116864400084915,aisle,fresh dips tapenades + packaged cheese,fresh vegetables
+"91,123,24",21,0.0232466342382314,0.3468947270701819,1.511348895709337,aisle,soy lactosefree + packaged vegetables fruits + fresh fruits,packaged cheese
+"16,123,83",24,0.0394320275071433,0.8417205043590271,1.5110951454600967,aisle,fresh herbs + packaged vegetables fruits + fresh vegetables,fresh fruits
+"88,24",123,0.0295181086412717,0.5540298333187378,1.5104063423405896,aisle,spreads + fresh fruits,packaged vegetables fruits
+"107,84,83",24,0.0225336980547293,0.8411378809869375,1.510049193336278,aisle,chips pretzels + milk + fresh vegetables,fresh fruits
+"37,83",123,0.0285043830644684,0.5537206562131787,1.509563458017293,aisle,ice cream ice + fresh vegetables,packaged vegetables fruits
+"112,84,83",24,0.029762908281942,0.840830601861209,1.5094975517963785,aisle,bread + milk + fresh vegetables,fresh fruits
+"86,123,83",24,0.0427058727651534,0.8407264978200166,1.5093106594604382,aisle,eggs + packaged vegetables fruits + fresh vegetables,fresh fruits
+"107,123,83",24,0.0396031073068493,0.8406724375862502,1.5092136080563392,aisle,chips pretzels + packaged vegetables fruits + fresh vegetables,fresh fruits
+"21,84,83",24,0.0414915172414222,0.840289020618232,1.5085252803798015,aisle,packaged cheese + milk + fresh vegetables,fresh fruits
+"98,123,83",24,0.0211616380610873,0.8402539337499692,1.5084622908292007,aisle,juice nectars + packaged vegetables fruits + fresh vegetables,fresh fruits
+"31,83",120,0.0262305769992851,0.3973968077436016,1.508215465696791,aisle,refrigerated + fresh vegetables,yogurt
+"67,24",83,0.0463987080053526,0.668764879151031,1.5059877672142112,aisle,fresh dips tapenades + fresh fruits,fresh vegetables
+35,123,0.0213504479491264,0.5523732114403438,1.5058900292442388,aisle,poultry counter,packaged vegetables fruits
+"112,24",123,0.0620649518457021,0.5523364770559919,1.5057898832886054,aisle,bread + fresh fruits,packaged vegetables fruits
+"21,84,120",24,0.0319732592941434,0.8386433542470648,1.5055709048458337,aisle,packaged cheese + milk + yogurt,fresh fruits
+121,120,0.0366847969780464,0.3966842354872236,1.5055110843918735,aisle,cereal,yogurt
+"108,21",123,0.0201267607999567,0.5522082355451248,1.5054402689181936,aisle,other creams cheeses + packaged cheese,packaged vegetables fruits
+"116,21,83",24,0.0232506779425881,0.838292193300212,1.504940484653719,aisle,frozen produce + packaged cheese + fresh vegetables,fresh fruits
+69,83,0.0556494593567275,0.6681480706891143,1.5045987798027611,aisle,soup broth bouillon,fresh vegetables
+"91,120,24",83,0.0303405358965856,0.667864894658642,1.5039610973359412,aisle,soy lactosefree + yogurt + fresh fruits,fresh vegetables
+"16,24",21,0.0241278507338079,0.3450472411522927,1.5032997799864694,aisle,fresh herbs + fresh fruits,packaged cheese
+"123,83",21,0.0808824855966361,0.3449823546581049,1.5030170828922662,aisle,packaged vegetables fruits + fresh vegetables,packaged cheese
+"78,21,83",24,0.0213454710822259,0.8371414978102546,1.5028747034831615,aisle,crackers + packaged cheese + fresh vegetables,fresh fruits
+"116,83",120,0.0308478652662592,0.3959657584565752,1.502784293063265,aisle,frozen produce + fresh vegetables,yogurt
+"112,21,123",24,0.0273702795195083,0.837014630062972,1.5026469447009514,aisle,bread + packaged cheese + packaged vegetables fruits,fresh fruits
+"91,123",120,0.032492719776887,0.3957927600918439,1.502127723095556,aisle,soy lactosefree + packaged vegetables fruits,yogurt
+"112,21",123,0.0326998818616219,0.5508737914952708,1.501802282955733,aisle,bread + packaged cheese,packaged vegetables fruits
+"31,21",123,0.0206393780907121,0.5506335941843772,1.501147452619948,aisle,refrigerated + packaged cheese,packaged vegetables fruits
+"107,83",120,0.031896117857185,0.3954249752237574,1.5007318919884898,aisle,chips pretzels + fresh vegetables,yogurt
+"78,21",123,0.0235452462522637,0.5503169802541659,1.5002842938882242,aisle,crackers + packaged cheese,packaged vegetables fruits
+"91,21",83,0.0304718007610873,0.6660841894841337,1.4999511376424406,aisle,soy lactosefree + packaged cheese,fresh vegetables
+"21,123,83",24,0.0675737213962351,0.8354555488468505,1.4998480107972876,aisle,packaged cheese + packaged vegetables fruits + fresh vegetables,fresh fruits
+"86,120",83,0.0331191828979922,0.6658911674390389,1.4995164724143792,aisle,eggs + yogurt,fresh vegetables
+"86,21,123",24,0.0220867131962247,0.8351878425745136,1.4993674122536589,aisle,eggs + packaged cheese + packaged vegetables fruits,fresh fruits
+"115,21,24",83,0.0227032225835289,0.6652993883708423,1.498183848550027,aisle,water seltzer sparkling water + packaged cheese + fresh fruits,fresh vegetables
+"106,21",83,0.0207700208468512,0.6651757252151738,1.4979053722043068,aisle,hot dogs bacon sausage + packaged cheese,fresh vegetables
+110,83,0.0211862113414087,0.6650490650783577,1.497620146974057,aisle,pickled goods olives,fresh vegetables
+"21,83",84,0.0493776738995058,0.3661063934796747,1.4974623316054538,aisle,packaged cheese + fresh vegetables,milk
+"115,123",21,0.0251412652564299,0.3433472383881464,1.495893217995761,aisle,water seltzer sparkling water + packaged vegetables fruits,packaged cheese
+"115,84,83",24,0.0200396656291972,0.8330639425874442,1.4955544898604385,aisle,water seltzer sparkling water + milk + fresh vegetables,fresh fruits
+"112,21,120",24,0.0223629293092046,0.8326075879001251,1.49473522105441,aisle,bread + packaged cheese + yogurt,fresh fruits
+"131,123,83",24,0.0235723079660353,0.8324307699067413,1.4944177893059274,aisle,dry pasta + packaged vegetables fruits + fresh vegetables,fresh fruits
+"78,123",83,0.0346386825735627,0.6632657315584145,1.4936042685246582,aisle,crackers + packaged vegetables fruits,fresh vegetables
+"78,24",84,0.0274984338421972,0.3650252285433509,1.4930401095540726,aisle,crackers + fresh fruits,milk
+"86,83",84,0.0308466210495341,0.3647920896971837,1.4920865161550303,aisle,eggs + fresh vegetables,milk
+"36,24",123,0.0266862713748657,0.5472783756371082,1.4920003939798436,aisle,butter + fresh fruits,packaged vegetables fruits
+"36,123,83",24,0.0208720466183122,0.8309515553794333,1.49176223573472,aisle,butter + packaged vegetables fruits + fresh vegetables,fresh fruits
+"86,84,83",24,0.0256299313752265,0.8308829461116489,1.491639065239353,aisle,eggs + milk + fresh vegetables,fresh fruits
+"98,123",83,0.0251848128418096,0.6621739877160125,1.491145776874086,aisle,juice nectars + packaged vegetables fruits,fresh vegetables
+116,123,0.0673220785635766,0.546900387372613,1.4909699154068683,aisle,frozen produce,packaged vegetables fruits
+"3,123",24,0.0321269200596975,0.8304374743714472,1.4908393339977206,aisle,energy granola bars + packaged vegetables fruits,fresh fruits
+"112,84,120",24,0.02308395290142,0.8303719285682316,1.4907216631740547,aisle,bread + milk + yogurt,fresh fruits
+"3,83",24,0.0336016279331631,0.8303419756028194,1.4906678902406496,aisle,energy granola bars + fresh vegetables,fresh fruits
+67,123,0.0535523320665133,0.5467085834047823,1.4904470158948293,aisle,fresh dips tapenades,packaged vegetables fruits
+"96,21,123",24,0.0212328694686012,0.8299007926858921,1.4898758584907086,aisle,lunch meat + packaged cheese + packaged vegetables fruits,fresh fruits
+4,120,0.0202135449165348,0.3925553186219728,1.4898408622073875,aisle,instant foods,yogurt
+112,84,0.0597077832599349,0.364148054840466,1.4894522602246452,aisle,bread,milk
+"9,123,83",24,0.0204900720836959,0.8288518402013212,1.4879927310166303,aisle,pasta sauce + packaged vegetables fruits + fresh vegetables,fresh fruits
+"96,24",83,0.047651634247563,0.6603417359219284,1.4870197396458005,aisle,lunch meat + fresh fruits,fresh vegetables
+"86,83",120,0.0331191828979922,0.3916674023719137,1.486471008714637,aisle,eggs + fresh vegetables,yogurt
+"116,24",21,0.0304910861203269,0.3410632893775442,1.4859425224513696,aisle,frozen produce + fresh fruits,packaged cheese
+"106,123,83",24,0.0238693647091612,0.8275672411189957,1.485686559992981,aisle,hot dogs bacon sausage + packaged vegetables fruits + fresh vegetables,fresh fruits
+"115,123,83",24,0.038839469291798,0.8271439738205328,1.4849266911806769,aisle,water seltzer sparkling water + packaged vegetables fruits + fresh vegetables,fresh fruits
+"112,84,24",83,0.029762908281942,0.6593712529459598,1.4848343146397,aisle,bread + milk + fresh fruits,fresh vegetables
+120,84,0.0956314306563803,0.3629440395900746,1.4845275511339266,aisle,yogurt,milk
+84,120,0.0956314306563803,0.3911553244519311,1.4845275511339264,aisle,milk,yogurt
+"108,123,83",24,0.02470267886082,0.826879626833814,1.484452123380226,aisle,other creams cheeses + packaged vegetables fruits + fresh vegetables,fresh fruits
+"31,123",83,0.0383231193508672,0.6586688051323175,1.4832524764669262,aisle,refrigerated + packaged vegetables fruits,fresh vegetables
+"91,83,24",21,0.025803810662564,0.3403225343272193,1.4827152052282018,aisle,soy lactosefree + fresh vegetables + fresh fruits,packaged cheese
+"112,21,83",24,0.0310696468975144,0.8255436264907887,1.4820536744625348,aisle,bread + packaged cheese + fresh vegetables,fresh fruits
+"38,24",123,0.0240531977302998,0.543327501528214,1.4812294481697286,aisle,frozen meals + fresh fruits,packaged vegetables fruits
+"3,24",123,0.0321269200596975,0.5432311746235451,1.4809668399869196,aisle,energy granola bars + fresh fruits,packaged vegetables fruits
+"16,123",24,0.043257060774388,0.8248328875022983,1.4807777233247936,aisle,fresh herbs + packaged vegetables fruits,fresh fruits
+"115,123",120,0.0285684602258128,0.3901514829698478,1.480717733795477,aisle,water seltzer sparkling water + packaged vegetables fruits,yogurt
+"69,24",120,0.021100982495737,0.3901234141909067,1.4806112060990353,aisle,soup broth bouillon + fresh fruits,yogurt
+"78,83",84,0.0205102906054794,0.3619784804567413,1.4805781843464152,aisle,crackers + fresh vegetables,milk
+"120,123",24,0.1053008609357629,0.8243815841381628,1.479967522885166,aisle,yogurt + packaged vegetables fruits,fresh fruits
+"115,83",21,0.0280079405911398,0.3395479331176324,1.479340427258494,aisle,water seltzer sparkling water + fresh vegetables,packaged cheese
+"123,24",120,0.1053008609357629,0.3896140216807096,1.478677940287587,aisle,packaged vegetables fruits + fresh fruits,yogurt
+"53,123,83",24,0.0210294400340417,0.822890041140242,1.477289836679673,aisle,cream + packaged vegetables fruits + fresh vegetables,fresh fruits
+"107,21,123",24,0.024614961581698,0.8228296923252888,1.4771814957270195,aisle,chips pretzels + packaged cheese + packaged vegetables fruits,fresh fruits
+"86,84",123,0.025995731092416,0.5415810722362989,1.47646830044749,aisle,eggs + milk,packaged vegetables fruits
+"108,120",83,0.0215576100338613,0.6556206188687813,1.476388283432592,aisle,other creams cheeses + yogurt,fresh vegetables
+66,83,0.0282387427936522,0.6555937490973165,1.4763277755494846,aisle,asian foods,fresh vegetables
+"16,21,83",24,0.0217747258523973,0.8222201341335933,1.476087188983182,aisle,fresh herbs + packaged cheese + fresh vegetables,fresh fruits
+"4,24",83,0.0218798621656711,0.6554018169112509,1.4758955645686742,aisle,instant foods + fresh fruits,fresh vegetables
+72,21,0.0202210102168856,0.3387174089743857,1.4757220045820894,aisle,condiments,packaged cheese
+52,84,0.0221843842091478,0.3604969722702413,1.47451846306659,aisle,frozen breakfast,milk
+"107,120",123,0.0303803508317899,0.5406950995371909,1.474052945346741,aisle,chips pretzels + yogurt,packaged vegetables fruits
+"86,21,83",24,0.0255291498204906,0.8204838548435469,1.4729701409930656,aisle,eggs + packaged cheese + fresh vegetables,fresh fruits
+9,83,0.0405424909343258,0.6540528605623271,1.472857857560848,aisle,pasta sauce,fresh vegetables
+"86,112",83,0.0238491461873777,0.6539412858434402,1.4726066030960692,aisle,eggs + bread,fresh vegetables
+"96,21,83",24,0.0231999761110388,0.8202192823287475,1.4724951683142902,aisle,lunch meat + packaged cheese + fresh vegetables,fresh fruits
+"117,123",24,0.0315682667501121,0.8198532975732704,1.4718381357429675,aisle,nuts seeds dried fruit + packaged vegetables fruits,fresh fruits
+"107,83,24",84,0.0225336980547293,0.3598150337250539,1.471729172024218,aisle,chips pretzels + fresh vegetables + fresh fruits,milk
+"16,84",24,0.0209547870305337,0.8196894848270995,1.471544051609076,aisle,fresh herbs + milk,fresh fruits
+"19,123,83",24,0.0205053137385788,0.8195991645116372,1.471381904447964,aisle,oils vinegars + packaged vegetables fruits + fresh vegetables,fresh fruits
+69,21,0.0281130769044136,0.3375360391986973,1.470575019728815,aisle,soup broth bouillon,packaged cheese
+"37,123,83",24,0.0233331073006282,0.8185796285383793,1.4695515868403577,aisle,ice cream ice + packaged vegetables fruits + fresh vegetables,fresh fruits
+"115,21,123",24,0.0205653471955666,0.81799173533269,1.468496174070245,aisle,water seltzer sparkling water + packaged cheese + packaged vegetables fruits,fresh fruits
+"107,24",123,0.0567135757108987,0.538560604941736,1.4682338468419642,aisle,chips pretzels + fresh fruits,packaged vegetables fruits
+93,120,0.0265752250321474,0.3868140226648134,1.4680512776234145,aisle,breakfast bakery,yogurt
+"120,83",24,0.1176948147890088,0.8170865752347881,1.4668711892650508,aisle,yogurt + fresh vegetables,fresh fruits
+"91,24",120,0.0454291521222915,0.3862115835180004,1.4657648776809395,aisle,soy lactosefree + fresh fruits,yogurt
+"91,123",24,0.0670135128157433,0.8162894144570827,1.4654400897788156,aisle,soy lactosefree + packaged vegetables fruits,fresh fruits
+"107,123",83,0.0471088447012231,0.6505177975456697,1.4648972695793503,aisle,chips pretzels + packaged vegetables fruits,fresh vegetables
+"17,24",123,0.025276262771107,0.5372526462634958,1.4646680657877211,aisle,baking ingredients + fresh fruits,packaged vegetables fruits
+"117,83",24,0.0345444331566338,0.8157904402312445,1.4645443084280356,aisle,nuts seeds dried fruit + fresh vegetables,fresh fruits
+"78,120,24",83,0.0218151628959641,0.6502647121545067,1.4643273480493262,aisle,crackers + yogurt + fresh fruits,fresh vegetables
+"37,123",83,0.0285043830644684,0.6501269917845538,1.4640172163439822,aisle,ice cream ice + packaged vegetables fruits,fresh vegetables
+"129,24",83,0.0215538773836859,0.6499793636500075,1.4636847734007978,aisle,frozen appetizers sides + fresh fruits,fresh vegetables
+"98,24",84,0.0200807247811267,0.3577893179185625,1.4634435119844489,aisle,juice nectars + fresh fruits,milk
+"107,21,83",24,0.0270240762157397,0.8149235531376043,1.4629880330705058,aisle,chips pretzels + packaged cheese + fresh vegetables,fresh fruits
+"16,83",21,0.0264828419403062,0.3357944349129346,1.4629872084747175,aisle,fresh herbs + fresh vegetables,packaged cheese
+"88,123",24,0.0295181086412717,0.8146644231924867,1.4625228311417386,aisle,spreads + packaged vegetables fruits,fresh fruits
+"107,21",123,0.0299150137765896,0.5364521743010777,1.4624858043711118,aisle,chips pretzels + packaged cheese,packaged vegetables fruits
+59,123,0.0373470313299992,0.5362914392403141,1.4620476054861171,aisle,canned meals beans,packaged vegetables fruits
+"84,120,24",83,0.0483835447361234,0.6490752950209477,1.461648906478757,aisle,milk + yogurt + fresh fruits,fresh vegetables
+63,123,0.0218409803930107,0.5360818445564208,1.461476204596066,aisle,grains rice dried goods,packaged vegetables fruits
+"93,24",123,0.0244790309044771,0.5358896311277264,1.4609521888042738,aisle,breakfast bakery + fresh fruits,packaged vegetables fruits
+"130,83",24,0.0203802699577028,0.8135997317803082,1.4606114484250006,aisle,hot cereal pancake mixes + fresh vegetables,fresh fruits
+"52,123",24,0.024133449709071,0.8135774506102932,1.4605714482495615,aisle,frozen breakfast + packaged vegetables fruits,fresh fruits
+"3,123",83,0.025086519720524,0.6484526384343868,1.460246749709211,aisle,energy granola bars + packaged vegetables fruits,fresh vegetables
+"31,24",123,0.0461735047781032,0.535298423768603,1.4593404284059044,aisle,refrigerated + fresh fruits,packaged vegetables fruits
+"52,83",24,0.0262756798555713,0.8128813102638619,1.459321705261713,aisle,frozen breakfast + fresh vegetables,fresh fruits
+"84,123",24,0.0875993895872746,0.8121964584414836,1.458092227948524,aisle,milk + packaged vegetables fruits,fresh fruits
+"67,120",24,0.0298985279049816,0.8114816378218658,1.4568089492799097,aisle,fresh dips tapenades + yogurt,fresh fruits
+"116,120",24,0.0365345578084864,0.8113817543762694,1.4566296339502118,aisle,frozen produce + yogurt,fresh fruits
+"121,123",83,0.0257356897968629,0.6468123363170856,1.4565529628489815,aisle,cereal + packaged vegetables fruits,fresh vegetables
+"21,120",83,0.0565194779017778,0.6466828245728298,1.456261316100415,aisle,packaged cheese + yogurt,fresh vegetables
+"116,123",24,0.0546046283617958,0.8110954017890145,1.4561155606892542,aisle,frozen produce + packaged vegetables fruits,fresh fruits
+"92,24",83,0.0220717825955231,0.6462536088671117,1.4552947677327313,aisle,baby food formula + fresh fruits,fresh vegetables
+"84,120",123,0.051047101690455,0.5337900033502145,1.4552281448611677,aisle,milk + yogurt,packaged vegetables fruits
+"115,21,83",24,0.0227032225835289,0.8105994980120388,1.455225291548699,aisle,water seltzer sparkling water + packaged cheese + fresh vegetables,fresh fruits
+"69,123,83",24,0.0262308880534664,0.8101702405656752,1.4544546689489246,aisle,soup broth bouillon + packaged vegetables fruits + fresh vegetables,fresh fruits
+108,84,0.0307660580165816,0.3555575526637429,1.4543150606336972,aisle,other creams cheeses,milk
+"81,123,83",24,0.0263130063573253,0.8100760347040009,1.4542855462775477,aisle,canned jarred vegetables + packaged vegetables fruits + fresh vegetables,fresh fruits
+96,120,0.0398248889381045,0.3831561180424419,1.4541686590014145,aisle,lunch meat,yogurt
+"59,123",24,0.0302409985585749,0.8097296486932187,1.453663698269049,aisle,canned meals beans + packaged vegetables fruits,fresh fruits
+"59,120",24,0.0201948816656578,0.8095766568988092,1.4533890404026548,aisle,canned meals beans + yogurt,fresh fruits
+"98,24",123,0.0299203016976715,0.5331064716542983,1.4533646881542994,aisle,juice nectars + fresh fruits,packaged vegetables fruits
+"67,120",83,0.0237772926715012,0.6453440270156184,1.4532464856169482,aisle,fresh dips tapenades + yogurt,fresh vegetables
+"84,24",123,0.0875993895872746,0.532774743517224,1.4524603247932717,aisle,milk + fresh fruits,packaged vegetables fruits
+"67,123",24,0.0433220710982763,0.8089670314351433,1.452294612889099,aisle,fresh dips tapenades + packaged vegetables fruits,fresh fruits
+"67,83",24,0.0463987080053526,0.8086981979051461,1.4518119906409634,aisle,fresh dips tapenades + fresh vegetables,fresh fruits
+"121,24",123,0.0320031204955466,0.5324921331566744,1.451689867219844,aisle,cereal + fresh fruits,packaged vegetables fruits
+107,21,0.0557645494038024,0.3331945611204865,1.4516600937088449,aisle,chips pretzels,packaged cheese
+"91,24",83,0.0758216340671516,0.6445903564118701,1.4515492991391017,aisle,soy lactosefree + fresh fruits,fresh vegetables
+"130,24",83,0.0203802699577028,0.6445837063563116,1.4515343239174134,aisle,hot cereal pancake mixes + fresh fruits,fresh vegetables
+"88,83",24,0.0328992675918247,0.8084307880455553,1.451331924231053,aisle,spreads + fresh vegetables,fresh fruits
+128,83,0.036205151430507,0.6438631234234633,1.4499116473744849,aisle,tortillas flat bread,fresh vegetables
+"112,123",24,0.0620649518457021,0.8070728234665976,1.4488940441124825,aisle,bread + packaged vegetables fruits,fresh fruits
+93,84,0.0243172827302096,0.3539486849790149,1.4477344086775297,aisle,breakfast bakery,milk
+"96,123",24,0.0429002816284557,0.8062798147974932,1.4474703986815045,aisle,lunch meat + packaged vegetables fruits,fresh fruits
+"86,84",83,0.0308466210495341,0.6426419031449068,1.4471615884854554,aisle,eggs + milk,fresh vegetables
+"123,24",21,0.0897683703933653,0.332143683326754,1.447081635550956,aisle,packaged vegetables fruits + fresh fruits,packaged cheese
+"112,21,84",24,0.0204241285972638,0.8060520500859317,1.4470615050545044,aisle,bread + packaged cheese + milk,fresh fruits
+21,120,0.087399070694528,0.380779754410834,1.4451497934456985,aisle,packaged cheese,yogurt
+120,21,0.087399070694528,0.3317002742358759,1.4451497934456985,aisle,yogurt,packaged cheese
+"115,123",83,0.0469561170982128,0.6412665777422836,1.4440645011579647,aisle,water seltzer sparkling water + packaged vegetables fruits,fresh vegetables
+"121,123",24,0.0320031204955466,0.8043310010553884,1.4439717991228027,aisle,cereal + packaged vegetables fruits,fresh fruits
+"112,24",83,0.0720277062180353,0.6409983141821846,1.4434603999970137,aisle,bread + fresh fruits,fresh vegetables
+"78,123",24,0.0419888928772947,0.8040084576669942,1.443392754480456,aisle,crackers + packaged vegetables fruits,fresh fruits
+"96,120",24,0.0320171179337044,0.8039474506373406,1.443283231870669,aisle,lunch meat + yogurt,fresh fruits
+"96,120",83,0.025516396599058,0.6407148212946764,1.4428220040016653,aisle,lunch meat + yogurt,fresh vegetables
+108,120,0.0328812264493103,0.3800021568768423,1.442198625736242,aisle,other creams cheeses,yogurt
+"93,123",24,0.0244790309044771,0.8028585711225146,1.4413284255658163,aisle,breakfast bakery + packaged vegetables fruits,fresh fruits
+"31,120",123,0.0247767097559655,0.5286582775830944,1.4412379394973496,aisle,refrigerated + yogurt,packaged vegetables fruits
+"115,21",123,0.0251412652564299,0.5284817575519811,1.4407567073352716,aisle,water seltzer sparkling water + packaged cheese,packaged vegetables fruits
+"121,83",24,0.0348449114957538,0.8024900962082626,1.4406669225475743,aisle,cereal + fresh vegetables,fresh fruits
+"86,123",24,0.0554730916359397,0.8023024599161434,1.4403300692944276,aisle,eggs + packaged vegetables fruits,fresh fruits
+"78,83",24,0.0454524811858878,0.8021739130434783,1.4400992960695362,aisle,crackers + fresh vegetables,fresh fruits
+"116,91",24,0.0264536028472655,0.8019481744115872,1.439694039753423,aisle,frozen produce + soy lactosefree,fresh fruits
+"128,123",24,0.0230494258872976,0.8019415164173935,1.4396820870177436,aisle,tortillas flat bread + packaged vegetables fruits,fresh fruits
+123,83,0.2344539786007165,0.6391727574384584,1.439349439313945,aisle,packaged vegetables fruits,fresh vegetables
+83,123,0.2344539786007165,0.5279655597279689,1.4393494393139448,aisle,fresh vegetables,packaged vegetables fruits
+"91,83",24,0.0758216340671516,0.801747842332386,1.439334394442666,aisle,soy lactosefree + fresh vegetables,fresh fruits
+"67,84",24,0.0226602971065117,0.8015359563418714,1.4389540070219011,aisle,fresh dips tapenades + milk,fresh fruits
+"91,123",21,0.0270974850025226,0.3300735812311026,1.438062626981145,aisle,soy lactosefree + packaged vegetables fruits,packaged cheese
+"116,112",24,0.0210107767831647,0.8002914588344017,1.436719828179476,aisle,frozen produce + bread,fresh fruits
+86,21,0.0451432933296919,0.3295338434640448,1.4357111006690992,aisle,eggs,packaged cheese
+"116,83",24,0.0622780239598814,0.7994058836681892,1.4351300031393663,aisle,frozen produce + fresh vegetables,fresh fruits
+19,83,0.0431167753386291,0.636891606897534,1.434212529591402,aisle,oils vinegars,fresh vegetables
+81,123,0.0387106928607466,0.526062163681632,1.4341603659329103,aisle,canned jarred vegetables,packaged vegetables fruits
+"112,91",83,0.0224904615235309,0.636590949110759,1.433535480058574,aisle,bread + soy lactosefree,fresh vegetables
+86,84,0.0479997038764194,0.3503848686451261,1.4331575512071209,aisle,eggs,milk
+"38,123",83,0.020270778885891,0.6364000351559067,1.4331055620267497,aisle,frozen meals + packaged vegetables fruits,fresh vegetables
+"131,120",24,0.0210011341035449,0.7982690534181466,1.4330891134816293,aisle,dry pasta + yogurt,fresh fruits
+"16,21",24,0.0241278507338079,0.797950807024041,1.4325177829999518,aisle,fresh herbs + packaged cheese,fresh fruits
+"116,84",24,0.0287697122811033,0.7979002398247037,1.432427002451014,aisle,frozen produce + milk,fresh fruits
+9,123,0.0325372005248106,0.5249072907832737,1.431011930153146,aisle,pasta sauce,packaged vegetables fruits
+"83,24",21,0.1043275724025265,0.3283201052503808,1.430423093196647,aisle,fresh vegetables + fresh fruits,packaged cheese
+"86,120",24,0.0396161715824632,0.7965190091121159,1.4299473539052758,aisle,eggs + yogurt,fresh fruits
+"107,120,24",83,0.0273027807621698,0.6349143200214109,1.4297598886998906,aisle,chips pretzels + yogurt + fresh fruits,fresh vegetables
+"91,84,24",83,0.0200561515008053,0.6345135704304355,1.4288574430115175,aisle,soy lactosefree + milk + fresh fruits,fresh vegetables
+"123,83",24,0.1865914496182432,0.795855334730809,1.4287558953028472,aisle,packaged vegetables fruits + fresh vegetables,fresh fruits
+"84,83",24,0.0995161863264314,0.7955637891805195,1.4282324993971498,aisle,milk + fresh vegetables,fresh fruits
+"112,21",83,0.0376353785560491,0.6340189168653549,1.4277435355064376,aisle,bread + packaged cheese,fresh vegetables
+"131,123",24,0.0290179335177677,0.7952484059058206,1.427666308918376,aisle,dry pasta + packaged vegetables fruits,fresh fruits
+67,120,0.0368443677730449,0.3761392143787114,1.4275378395767884,aisle,fresh dips tapenades,yogurt
+"96,83",24,0.047651634247563,0.7949416483750279,1.4271156037695605,aisle,lunch meat + fresh vegetables,fresh fruits
+"117,120",24,0.0224733535435603,0.7948184818481848,1.4268944895875584,aisle,nuts seeds dried fruit + yogurt,fresh fruits
+"115,24",120,0.0413251032544354,0.375917830312805,1.4266976343573388,aisle,water seltzer sparkling water + fresh fruits,yogurt
+96,84,0.0362424779322611,0.3486896642535859,1.4262237615604112,aisle,lunch meat,milk
+116,83,0.0779053860275705,0.6328753761911139,1.4251684028695308,aisle,frozen produce,fresh vegetables
+"31,123",24,0.0461735047781032,0.793595295375568,1.4246985692895595,aisle,refrigerated + packaged vegetables fruits,fresh fruits
+"93,83",24,0.0267148883595437,0.793416907627925,1.4243783194464383,aisle,breakfast bakery + fresh vegetables,fresh fruits
+121,21,0.0302260679578733,0.3268439693649998,1.4239918730996173,aisle,cereal,packaged cheese
+38,21,0.0241570898268485,0.32671863628141,1.4234458226621285,aisle,frozen meals,packaged cheese
+"112,84",123,0.031174472156607,0.5221173933202399,1.4234060602717276,aisle,bread + milk,packaged vegetables fruits
+"112,107",123,0.02078184090574,0.5220425066416627,1.4232019028284322,aisle,bread + chips pretzels,packaged vegetables fruits
+"107,84,24",83,0.0225336980547293,0.6318732119182192,1.422911634933938,aisle,chips pretzels + milk + fresh fruits,fresh vegetables
+"96,21",83,0.0282850898666635,0.6318653065762411,1.422893832940015,aisle,lunch meat + packaged cheese,fresh vegetables
+"21,84",83,0.0493776738995058,0.6315917211086266,1.42227774740628,aisle,packaged cheese + milk,fresh vegetables
+"21,123",24,0.0897683703933653,0.7914990250043196,1.4209352488462996,aisle,packaged cheese + packaged vegetables fruits,fresh fruits
+"112,83",24,0.0720277062180353,0.7912685720534164,1.420521529169087,aisle,bread + fresh vegetables,fresh fruits
+"112,120",24,0.0482706320683174,0.7910407438180826,1.4201125215013055,aisle,bread + yogurt,fresh fruits
+"21,120",24,0.0691165501354018,0.7908156183602216,1.4197083659832548,aisle,packaged cheese + yogurt,fresh fruits
+"3,21",24,0.0211958540210285,0.7902812409394028,1.4187490271976828,aisle,energy granola bars + packaged cheese,fresh fruits
+"31,24",21,0.0280642413979521,0.3253542103156429,1.4175012996823309,aisle,refrigerated + fresh fruits,packaged cheese
+78,120,0.042808520644977,0.3733928053025555,1.417114563488318,aisle,crackers,yogurt
+"36,123",24,0.0266862713748657,0.7891696485240955,1.4167534456551134,aisle,butter + packaged vegetables fruits,fresh fruits
+"117,24",83,0.0345444331566338,0.6288989059279226,1.4162138124600296,aisle,nuts seeds dried fruit + fresh fruits,fresh vegetables
+"116,21",24,0.0304910861203269,0.7887685474266954,1.416033370620727,aisle,frozen produce + packaged cheese,fresh fruits
+"128,83",24,0.0285572622752866,0.7887624038833283,1.4160223414506998,aisle,tortillas flat bread + fresh vegetables,fresh fruits
+"88,120",24,0.0227862740499316,0.7887313328380546,1.4159665612891923,aisle,spreads + yogurt,fresh fruits
+"123,83",120,0.0874525720137087,0.3730052803353941,1.4156438140071257,aisle,packaged vegetables fruits + fresh vegetables,yogurt
+"9,123",24,0.0256485946261035,0.7882852308251197,1.4151656985531238,aisle,pasta sauce + packaged vegetables fruits,fresh fruits
+"52,120",24,0.0203945784500419,0.787352595047674,1.413491388151414,aisle,frozen breakfast + yogurt,fresh fruits
+131,120,0.0263083405446061,0.3724049261821208,1.4133653271113618,aisle,dry pasta,yogurt
+"31,120,24",83,0.022414875357479,0.627479493565072,1.4130174459615388,aisle,refrigerated + yogurt + fresh fruits,fresh vegetables
+"91,120",24,0.0454291521222915,0.787024912297719,1.412903117092145,aisle,soy lactosefree + yogurt,fresh fruits
+112,120,0.0610216761216769,0.3721612736161357,1.4124406076342175,aisle,bread,yogurt
+"98,123",24,0.0299203016976715,0.7866822601882673,1.4122879723540842,aisle,juice nectars + packaged vegetables fruits,fresh fruits
+"96,84",83,0.02271317631733,0.6267004248380037,1.4112630655965388,aisle,lunch meat + milk,fresh vegetables
+"35,83",24,0.0226512765352545,0.786038880433492,1.4111329475933787,aisle,poultry counter + fresh vegetables,fresh fruits
+"91,83",120,0.0351587651646689,0.3717733659614777,1.4109684057628962,aisle,soy lactosefree + fresh vegetables,yogurt
+"37,24",123,0.0331686405128163,0.5173370722737836,1.4103738609337582,aisle,ice cream ice + fresh fruits,packaged vegetables fruits
+16,21,0.0302372659083995,0.3236373200516706,1.4100211623322358,aisle,fresh herbs,packaged cheese
+"31,123",84,0.0200527299048112,0.3446511627906977,1.4097053288738637,aisle,refrigerated + packaged vegetables fruits,milk
+"3,120",24,0.0271208140661189,0.7852266791548839,1.4096748467120466,aisle,energy granola bars + yogurt,fresh fruits
+88,120,0.0288897791950788,0.3713327309509911,1.4092960910271115,aisle,spreads,yogurt
+"120,24",83,0.1176948147890088,0.6258004974992722,1.40923652442226,aisle,yogurt + fresh fruits,fresh vegetables
+"112,91",24,0.0277307913156161,0.784918119387216,1.4091209061051675,aisle,bread + soy lactosefree,fresh fruits
+"3,84",24,0.0200937890567406,0.7846540666601886,1.4086468665731726,aisle,energy granola bars + milk,fresh fruits
+"106,120",24,0.0222176670065452,0.7845672231985941,1.408490961219138,aisle,hot dogs bacon sausage + yogurt,fresh fruits
+131,123,0.036489143898019,0.5165182089972833,1.4081414607777465,aisle,dry pasta,packaged vegetables fruits
+"59,83",24,0.0391219064884035,0.784119601743153,1.4076873707103907,aisle,canned meals beans + fresh vegetables,fresh fruits
+"78,120",24,0.0335481266139823,0.7836787188281114,1.4068958775375555,aisle,crackers + yogurt,fresh fruits
+128,120,0.0208440517419967,0.3706852679559233,1.4068388148648487,aisle,tortillas flat bread,yogurt
+"107,123",84,0.0249020645910228,0.343868254779587,1.406503048671632,aisle,chips pretzels + packaged vegetables fruits,milk
+"107,123",24,0.0567135757108987,0.7831478482730775,1.4059428344378269,aisle,chips pretzels + packaged vegetables fruits,fresh fruits
+"91,21",24,0.035825665329341,0.7831145077614518,1.4058829800265302,aisle,soy lactosefree + packaged cheese,fresh fruits
+"83,24",120,0.1176948147890088,0.3703869752653774,1.4057067231106646,aisle,fresh vegetables + fresh fruits,yogurt
+"52,24",83,0.0262756798555713,0.6242139410465022,1.4056637671134438,aisle,frozen breakfast + fresh fruits,fresh vegetables
+"86,91",24,0.0237947117056531,0.7828983727356463,1.4054949645432824,aisle,eggs + soy lactosefree,fresh fruits
+"86,83",24,0.0661901523978855,0.7827646331773638,1.405254869171683,aisle,eggs + fresh vegetables,fresh fruits
+9,120,0.0229427343031173,0.3701242980946311,1.4047098007306025,aisle,pasta sauce,yogurt
+"91,84",123,0.0215999134025159,0.5152556206870965,1.4046993692570646,aisle,soy lactosefree + milk,packaged vegetables fruits
+"108,123",24,0.0320811950950488,0.7824256355401807,1.4046462851093764,aisle,other creams cheeses + packaged vegetables fruits,fresh fruits
+"91,83",21,0.0304718007610873,0.3222127933901694,1.40381479299664,aisle,soy lactosefree + fresh vegetables,packaged cheese
+"31,83",24,0.0515681174441051,0.7812639902733729,1.4025608463986292,aisle,refrigerated + fresh vegetables,fresh fruits
+"107,84",123,0.0249020645910228,0.5143828267057319,1.4023199422195112,aisle,chips pretzels + milk,packaged vegetables fruits
+"106,123",24,0.0313216007843542,0.7810173119880863,1.4021179982590666,aisle,hot dogs bacon sausage + packaged vegetables fruits,fresh fruits
+"16,83",24,0.0615629103971104,0.7805991046954189,1.4013672134005857,aisle,fresh herbs + fresh vegetables,fresh fruits
+"53,123",24,0.0294201265741674,0.7804825719566939,1.401158008498409,aisle,cream + packaged vegetables fruits,fresh fruits
+"53,24",123,0.0294201265741674,0.5135581256447848,1.4000716269879503,aisle,cream + fresh fruits,packaged vegetables fruits
+88,21,0.0249919592494138,0.3212323783174342,1.3995433264049455,aisle,spreads,packaged cheese
+"19,123",24,0.0252003655508738,0.7795246800731261,1.3994383571799025,aisle,oils vinegars + packaged vegetables fruits,fresh fruits
+"84,120",24,0.074542268219532,0.7794745692697508,1.3993483959738686,aisle,milk + yogurt,fresh fruits
+"31,24",84,0.0295022448780263,0.3420252644181358,1.3989647792151654,aisle,refrigerated + fresh fruits,milk
+"81,123",24,0.0301619907965288,0.7791643230212937,1.3987914277195457,aisle,canned jarred vegetables + packaged vegetables fruits,fresh fruits
+"96,84",24,0.0282365654143832,0.7791014032528001,1.3986784712735143,aisle,lunch meat + milk,fresh fruits
+"115,120",123,0.0285684602258128,0.5126825347206716,1.3976845748735285,aisle,water seltzer sparkling water + yogurt,packaged vegetables fruits
+"112,120",83,0.0378537385913102,0.620332658772435,1.3969235299866516,aisle,bread + yogurt,fresh vegetables
+"115,24",123,0.0563272464177445,0.512386288074926,1.3968769418080835,aisle,water seltzer sparkling water + fresh fruits,packaged vegetables fruits
+131,84,0.0241110538080186,0.3413014666707762,1.3960042740678218,aisle,dry pasta,milk
+96,123,0.053207684033651,0.5119122791791735,1.3955846900205184,aisle,lunch meat,packaged vegetables fruits
+"45,123",24,0.0204070206172932,0.7773314849702011,1.3955010330254902,aisle,candy chocolate + packaged vegetables fruits,fresh fruits
+"67,21",24,0.026446448601096,0.7772587236143235,1.3953704085116827,aisle,fresh dips tapenades + packaged cheese,fresh fruits
+"63,83",24,0.0231396315998698,0.7770674688978723,1.395027059297687,aisle,grains rice dried goods + fresh vegetables,fresh fruits
+"98,83",24,0.0335820315197422,0.7766379880873594,1.3942560357043765,aisle,juice nectars + fresh vegetables,fresh fruits
+"107,83",24,0.0626257825345565,0.7763891084794521,1.3938092356497676,aisle,chips pretzels + fresh vegetables,fresh fruits
+"108,120",24,0.02552417295359,0.7762536775487423,1.3935661038490323,aisle,other creams cheeses + yogurt,fresh fruits
+128,123,0.0287420284589691,0.5111408594061159,1.393481631217974,aisle,tortillas flat bread,packaged vegetables fruits
+21,84,0.0781797358154627,0.3406130107236898,1.39318832529967,aisle,packaged cheese,milk
+84,21,0.0781797358154627,0.3197737367157472,1.39318832529967,aisle,milk,packaged cheese
+"129,83",24,0.0215538773836859,0.7756708047418087,1.3925197039283737,aisle,frozen appetizers sides + fresh vegetables,fresh fruits
+"4,83",24,0.0218798621656711,0.7752014018228105,1.3916770103400748,aisle,instant foods + fresh vegetables,fresh fruits
+"88,24",83,0.0328992675918247,0.6174913156435181,1.39052512581202,aisle,spreads + fresh fruits,fresh vegetables
+86,83,0.0845594570735898,0.6172611884380463,1.3900069036877007,aisle,eggs,fresh vegetables
+"3,24",84,0.0200937890567406,0.3397640549311257,1.3897158939430905,aisle,energy granola bars + fresh fruits,milk
+"69,120",24,0.021100982495737,0.7737854885991627,1.3891350981642794,aisle,soup broth bouillon + yogurt,fresh fruits
+"21,83",24,0.1043275724025265,0.7735275531713707,1.3886720406876465,aisle,packaged cheese + fresh vegetables,fresh fruits
+"45,83",24,0.0221439471655809,0.7735268870948464,1.388670844916607,aisle,candy chocolate + fresh vegetables,fresh fruits
+116,120,0.0450275811742544,0.3657878977012859,1.3882521291759866,aisle,frozen produce,yogurt
+"93,120",24,0.0205469949988708,0.7731635376188024,1.3880185433194472,aisle,breakfast bakery + yogurt,fresh fruits
+"107,24",84,0.0356617397758045,0.3386492194538392,1.3851559513610812,aisle,chips pretzels + fresh fruits,milk
+"31,21",83,0.0230267189320639,0.6143249545654466,1.3833948155956517,aisle,refrigerated + packaged cheese,fresh vegetables
+"17,123",24,0.025276262771107,0.770572951239403,1.3833678041708428,aisle,baking ingredients + packaged vegetables fruits,fresh fruits
+"115,120,24",83,0.0253841985720124,0.6142561439162997,1.383239861292428,aisle,water seltzer sparkling water + yogurt + fresh fruits,fresh vegetables
+53,21,0.0291327125106613,0.3174503104747959,1.3830656355915227,aisle,cream,packaged cheese
+"69,123",24,0.0317608092883267,0.7693182845604413,1.3811153691666684,aisle,soup broth bouillon + packaged vegetables fruits,fresh fruits
+"115,123",24,0.0563272464177445,0.769245473777219,1.3809846559186312,aisle,water seltzer sparkling water + packaged vegetables fruits,fresh fruits
+"115,83",120,0.030010818464425,0.3638293700175728,1.3808190504873494,aisle,water seltzer sparkling water + fresh vegetables,yogurt
+"131,83",24,0.0364745243514986,0.7679476600259342,1.3786547613168938,aisle,dry pasta + fresh vegetables,fresh fruits
+"86,112",24,0.0279973647489761,0.7676850382955496,1.378183290775519,aisle,eggs + bread,fresh fruits
+86,120,0.0497366304247071,0.3630639631252696,1.3779141491644695,aisle,eggs,yogurt
+"9,83",24,0.0310802227396781,0.7666086129247578,1.3762508427196265,aisle,pasta sauce + fresh vegetables,fresh fruits
+"45,24",123,0.0204070206172932,0.5047896773796425,1.376166921725379,aisle,candy chocolate + fresh fruits,packaged vegetables fruits
+86,123,0.0691423676324484,0.5047206012579187,1.3759786051292653,aisle,eggs,packaged vegetables fruits
+"21,84",24,0.0598477576415125,0.7655149639131369,1.3742874739959952,aisle,packaged cheese + milk,fresh fruits
+"107,120",24,0.0430023073999167,0.7653347062601031,1.3739638672131964,aisle,chips pretzels + yogurt,fresh fruits
+"16,83,24",120,0.0222739678133575,0.361808232744029,1.373148353504243,aisle,fresh herbs + fresh vegetables + fresh fruits,yogurt
+"37,24",84,0.0215097076899436,0.3354906631606014,1.3722367039630112,aisle,ice cream ice + fresh fruits,milk
+72,83,0.0363678327673184,0.6091890540005419,1.3718293107889492,aisle,condiments,fresh vegetables
+"91,120",83,0.0351587651646689,0.6090984043843057,1.3716251774419237,aisle,soy lactosefree + yogurt,fresh vegetables
+"96,112",83,0.0206104500518527,0.6089289981068613,1.3712436924245814,aisle,lunch meat + bread,fresh vegetables
+"121,120",24,0.0279843004733622,0.7628310029931235,1.3694691046016017,aisle,cereal + yogurt,fresh fruits
+"31,120",24,0.0357220842869736,0.762198683232452,1.3683339352481394,aisle,refrigerated + yogurt,fresh fruits
+116,21,0.0386565694332032,0.3140320864803673,1.3681731375045694,aisle,frozen produce,packaged cheese
+"38,83",24,0.0262339985952793,0.7610312031907022,1.3662380216825634,aisle,frozen meals + fresh vegetables,fresh fruits
+"59,21",24,0.0202374960884936,0.7606182120018238,1.3654966010121623,aisle,canned meals beans + packaged cheese,fresh fruits
+"86,84",24,0.0365031413361767,0.7604868027969127,1.3652606891975143,aisle,eggs + milk,fresh fruits
+"86,21",24,0.0343210962544721,0.7602701026665748,1.3648716592127648,aisle,eggs + packaged cheese,fresh fruits
+"123,83,24",84,0.0622537617337413,0.3336367334146846,1.3646536898190438,aisle,packaged vegetables fruits + fresh vegetables + fresh fruits,milk
+92,123,0.0231007498272094,0.5004852144378251,1.364432015522321,aisle,baby food formula,packaged vegetables fruits
+"78,84",24,0.0274984338421972,0.7597978547854786,1.3640238582183934,aisle,crackers + milk,fresh fruits
+"116,83,24",84,0.0207582007879624,0.3333150197786391,1.363337804436756,aisle,frozen produce + fresh vegetables + fresh fruits,milk
+"115,83",24,0.0626407131352581,0.7594105180592952,1.363328493612728,aisle,water seltzer sparkling water + fresh vegetables,fresh fruits
+"53,120",24,0.0236734005749525,0.7592099356576388,1.362968398911651,aisle,cream + yogurt,fresh fruits
+"84,24",83,0.0995161863264314,0.6052520559296094,1.3629636075811236,aisle,milk + fresh fruits,fresh vegetables
+"36,83",24,0.0340333711367848,0.7591113762982801,1.362791460642124,aisle,butter + fresh vegetables,fresh fruits
+"108,83",24,0.0392942305048347,0.7589152688998895,1.3624393996715736,aisle,other creams cheeses + fresh vegetables,fresh fruits
+"106,83",24,0.0373233912122216,0.7584942634090838,1.361683591359819,aisle,hot dogs bacon sausage + fresh vegetables,fresh fruits
+"107,91",24,0.026210669531683,0.7583699330405357,1.36146038779596,aisle,chips pretzels + soy lactosefree,fresh fruits
+"98,120",24,0.0229893924303098,0.7580618692048905,1.3609073375089296,aisle,juice nectars + yogurt,fresh fruits
+"72,123",24,0.0211467074603856,0.7579379236532287,1.360684824785944,aisle,condiments + packaged vegetables fruits,fresh fruits
+"31,84",123,0.0200527299048112,0.4987042523729587,1.3595767239180248,aisle,refrigerated + milk,packaged vegetables fruits
+59,120,0.0249449900680399,0.3582020886002448,1.359462178217459,aisle,canned meals beans,yogurt
+"86,107",24,0.0207777972013833,0.7570722640311905,1.3591307530415724,aisle,eggs + chips pretzels,fresh fruits
+"78,24",83,0.0454524811858878,0.6033544465823788,1.3586903920565458,aisle,crackers + fresh fruits,fresh vegetables
+"107,83",84,0.0267895413630518,0.3321173371998411,1.3584389974808768,aisle,chips pretzels + fresh vegetables,milk
+"37,123",24,0.0331686405128163,0.7565092157725215,1.3581199430566329,aisle,ice cream ice + packaged vegetables fruits,fresh fruits
+"53,83",24,0.0339465870202067,0.7560164595369716,1.357235324526398,aisle,cream + fresh vegetables,fresh fruits
+"112,84",24,0.0451383164627913,0.75598714268597,1.3571826935746756,aisle,bread + milk,fresh fruits
+"31,83",84,0.0218923043329225,0.3316713870339913,1.356614955106784,aisle,refrigerated + fresh vegetables,milk
+"38,123",24,0.0240531977302998,0.7551488754992627,1.355677797983001,aisle,frozen meals + packaged vegetables fruits,fresh fruits
+"91,84",24,0.031608703793679,0.7540105364695407,1.3536341996949797,aisle,soy lactosefree + milk,fresh fruits
+"115,24",21,0.0341248210660822,0.3104197614702262,1.3524349812600802,aisle,water seltzer sparkling water + fresh fruits,packaged cheese
+"78,112",24,0.0218832837616653,0.7533301923159292,1.3524128147549188,aisle,crackers + bread,fresh fruits
+69,123,0.0412843551566873,0.4956752961563168,1.351319127656677,aisle,soup broth bouillon,packaged vegetables fruits
+36,83,0.0448331723109521,0.6000466272278031,1.3512415327646683,aisle,butter,fresh vegetables
+3,21,0.0268206467811802,0.3099934927431503,1.350577816190485,aisle,energy granola bars,packaged cheese
+"115,84,24",83,0.0200396656291972,0.5996202637677652,1.3502814073525515,aisle,water seltzer sparkling water + milk + fresh fruits,fresh vegetables
+"31,91",24,0.0226170605753133,0.7511078973193533,1.3484232491405428,aisle,refrigerated + soy lactosefree,fresh fruits
+"37,24",83,0.0383884407289368,0.5987512068271241,1.348324383049362,aisle,ice cream ice + fresh fruits,fresh vegetables
+108,83,0.0517768347997464,0.5983751527787763,1.3474775491107407,aisle,other creams cheeses,fresh vegetables
+"98,24",83,0.0335820315197422,0.5983495258627857,1.3474198400066946,aisle,juice nectars + fresh fruits,fresh vegetables
+21,123,0.11341564241709,0.4941286002555905,1.3471024967865752,aisle,packaged cheese,packaged vegetables fruits
+123,21,0.11341564241709,0.3091958146030971,1.3471024967865752,aisle,packaged vegetables fruits,packaged cheese
+"121,21",24,0.0226783382490262,0.7502907186152532,1.3469562125573251,aisle,cereal + packaged cheese,fresh fruits
+"31,24",83,0.0515681174441051,0.597839217906508,1.3462706804685294,aisle,refrigerated + fresh fruits,fresh vegetables
+66,123,0.0212630417241857,0.4936451081775903,1.345784391772792,aisle,asian foods,packaged vegetables fruits
+"16,24",120,0.0247751544850591,0.3543041938755538,1.3446687400395916,aisle,fresh herbs + fresh fruits,yogurt
+"31,21",24,0.0280642413979521,0.7487199488809407,1.3441362948912314,aisle,refrigerated + packaged cheese,fresh fruits
+16,24,0.0699262241692831,0.7484385612123956,1.343631134879412,aisle,fresh herbs,fresh fruits
+"108,84",24,0.0230211199568007,0.7482635553892972,1.3433169564219052,aisle,other creams cheeses + milk,fresh fruits
+"19,83",24,0.0322507196238484,0.7479854272625618,1.3428176480886171,aisle,oils vinegars + fresh vegetables,fresh fruits
+"78,21",83,0.0254980444023622,0.5959592287783174,1.3420371438133976,aisle,crackers + packaged cheese,fresh vegetables
+"66,83",24,0.0210956945746551,0.7470479379626366,1.3411346244213769,aisle,asian foods + fresh vegetables,fresh fruits
+"112,21",24,0.0443127786656646,0.7465087641155972,1.3401666748720895,aisle,bread + packaged cheese,fresh fruits
+"107,24",83,0.0626257825345565,0.5947038059932949,1.3392100644976803,aisle,chips pretzels + fresh fruits,fresh vegetables
+"107,21",83,0.0331614862666468,0.5946696713447421,1.3391331968798357,aisle,chips pretzels + packaged cheese,fresh vegetables
+"37,83",24,0.0383884407289368,0.7457264569926584,1.338762241346222,aisle,ice cream ice + fresh vegetables,fresh fruits
+9,84,0.0202766889153354,0.32711424685993,1.3379751665861788,aisle,pasta sauce,milk
+"67,24",84,0.0226602971065117,0.3266127766793545,1.3359240341306706,aisle,fresh dips tapenades + fresh fruits,milk
+"112,84",83,0.0353970326675322,0.5928378300938251,1.335008084151336,aisle,bread + milk,fresh vegetables
+"38,24",83,0.0262339985952793,0.592588689108577,1.3344470450062007,aisle,frozen meals + fresh fruits,fresh vegetables
+"53,24",83,0.0339465870202067,0.5925720801433458,1.334409643373364,aisle,cream + fresh fruits,fresh vegetables
+"96,112",24,0.0251549516404064,0.7431948094914257,1.334217311967269,aisle,lunch meat + bread,fresh fruits
+"31,112",24,0.0215355251869902,0.743133150861375,1.334106619574648,aisle,refrigerated + bread,fresh fruits
+"106,84",24,0.0203435655643113,0.7431116564974832,1.334068031909546,aisle,hot dogs bacon sausage + milk,fresh fruits
+106,84,0.0273761895489527,0.3256494599704732,1.3319838393931644,aisle,hot dogs bacon sausage,milk
+"115,120",24,0.0413251032544354,0.7416101013709642,1.3313723714728891,aisle,water seltzer sparkling water + yogurt,fresh fruits
+31,120,0.0468671556023657,0.350799748550674,1.3313685359748355,aisle,refrigerated,yogurt
+117,120,0.0282748250786811,0.3505605497900108,1.3304607197488918,aisle,nuts seeds dried fruit,yogurt
+"17,83",24,0.0323583443705725,0.7410932457558898,1.3304444886343485,aisle,baking ingredients + fresh vegetables,fresh fruits
+"96,107",24,0.0206350233321741,0.740588997052782,1.3295392383007465,aisle,lunch meat + chips pretzels,fresh fruits
+"78,21",24,0.0316821125804619,0.7404978625643411,1.329375629499067,aisle,crackers + packaged cheese,fresh fruits
+92,24,0.0341534380507603,0.7399452785939564,1.328383605483039,aisle,baby food formula,fresh fruits
+"69,83",24,0.0411387817998465,0.7392485439280964,1.3271327955457703,aisle,soup broth bouillon + fresh vegetables,fresh fruits
+"91,24",21,0.035825665329341,0.3045684608020986,1.3269420691079483,aisle,soy lactosefree + fresh fruits,packaged cheese
+"115,21",83,0.0280079405911398,0.5887406826206355,1.3257817414299164,aisle,water seltzer sparkling water + packaged cheese,fresh vegetables
+"96,21",24,0.0330575941700981,0.7384790705431097,1.325751401733225,aisle,lunch meat + packaged cheese,fresh fruits
+"123,24",84,0.0875993895872746,0.3241184371198424,1.3257215913459337,aisle,packaged vegetables fruits + fresh fruits,milk
+"84,120",83,0.0562952078370723,0.5886684686267047,1.325619123154239,aisle,milk + yogurt,fresh vegetables
+"81,83",24,0.0413316353922424,0.7377081945369753,1.324367489871047,aisle,canned jarred vegetables + fresh vegetables,fresh fruits
+117,21,0.0245042262931611,0.3038114300479369,1.3236438419945429,aisle,nuts seeds dried fruit,packaged cheese
+21,83,0.1348724708962155,0.5876115836991241,1.3232391300925366,aisle,packaged cheese,fresh vegetables
+83,21,0.1348724708962155,0.3037185379135084,1.3232391300925364,aisle,fresh vegetables,packaged cheese
+24,123,0.2702696901962565,0.4852005086077449,1.3227625687918567,aisle,fresh fruits,packaged vegetables fruits
+123,24,0.2702696901962565,0.7368142104723114,1.3227625687918565,aisle,packaged vegetables fruits,fresh fruits
+"107,84",24,0.0356617397758045,0.736637174964822,1.3224447465521036,aisle,chips pretzels + milk,fresh fruits
+120,123,0.1277331553273938,0.4847777249165074,1.3216099681009188,aisle,yogurt,packaged vegetables fruits
+123,120,0.1277331553273938,0.3482284821703414,1.3216099681009188,aisle,packaged vegetables fruits,yogurt
+"131,21",24,0.0221483019241189,0.7359586563307493,1.321226638868209,aisle,dry pasta + packaged cheese,fresh fruits
+"107,91",83,0.0202698457233471,0.5864803081575347,1.3206916172369796,aisle,chips pretzels + soy lactosefree,fresh vegetables
+67,83,0.0573745658461264,0.5857292559778985,1.3190003271732615,aisle,fresh dips tapenades,fresh vegetables
+"78,120",83,0.025067856469647,0.5855810033133756,1.318666477854631,aisle,crackers + yogurt,fresh vegetables
+91,123,0.0820952858494609,0.4836342846252799,1.318492700105417,aisle,soy lactosefree,packaged vegetables fruits
+106,83,0.0492072162081624,0.5853372455719059,1.3181175612050562,aisle,hot dogs bacon sausage,fresh vegetables
+130,123,0.0218481346391802,0.483426707228103,1.3179267987795902,aisle,hot cereal pancake mixes,packaged vegetables fruits
+"86,115",24,0.0211168462589824,0.7339560629648849,1.3176314916693266,aisle,eggs + water seltzer sparkling water,fresh fruits
+"31,84",24,0.0295022448780263,0.7337103249812407,1.317190331602277,aisle,refrigerated + milk,fresh fruits
+"36,84",24,0.0203852468246033,0.7336311023049109,1.3170481074304856,aisle,butter + milk,fresh fruits
+"93,24",83,0.0267148883595437,0.5848365372174896,1.3169900189548558,aisle,breakfast bakery + fresh fruits,fresh vegetables
+"116,24",84,0.0287697122811033,0.3218085661598413,1.3162736690613888,aisle,frozen produce + fresh fruits,milk
+38,120,0.0256230881832382,0.3465458997151908,1.3152241672295495,aisle,frozen meals,yogurt
+"116,123",84,0.0216347514708196,0.3213619058179936,1.3144467218983475,aisle,frozen produce + packaged vegetables fruits,milk
+52,123,0.0296633709439312,0.4820307524338095,1.314121121091998,aisle,frozen breakfast,packaged vegetables fruits
+"72,83",24,0.0265627828648961,0.7303922407157153,1.311233554976429,aisle,condiments + fresh vegetables,fresh fruits
+"37,120",24,0.0257534198851961,0.7297904785410184,1.3101532439988577,aisle,ice cream ice + yogurt,fresh fruits
+"112,107",24,0.0290496610442586,0.7297312080012502,1.3100468388151312,aisle,bread + chips pretzels,fresh fruits
+104,123,0.02500315719994,0.4801992914876966,1.3091281585069552,aisle,spices seasonings,packaged vegetables fruits
+"115,83,24",84,0.0200396656291972,0.3199143915543593,1.308526043858142,aisle,water seltzer sparkling water + fresh vegetables + fresh fruits,milk
+"98,84",24,0.0200807247811267,0.728716559431087,1.3082252952970852,aisle,juice nectars + milk,fresh fruits
+"115,84",123,0.0224294949039993,0.4795307637060091,1.307305605747579,aisle,water seltzer sparkling water + milk,packaged vegetables fruits
+"112,107",83,0.0230988835021217,0.5802469135802469,1.306654672005149,aisle,bread + chips pretzels,fresh vegetables
+"112,115",24,0.0240068506572885,0.7276712897051753,1.3063487792797823,aisle,bread + water seltzer sparkling water,fresh fruits
+35,24,0.0281102774167821,0.7272617533920265,1.3056135609603,aisle,poultry counter,fresh fruits
+"121,24",83,0.0348449114957538,0.5797760019874131,1.3055942289101894,aisle,cereal + fresh fruits,fresh vegetables
+57,24,0.0203864910413285,0.7265994833760158,1.3044246235386798,aisle,granola,fresh fruits
+"53,21",24,0.0211594606818183,0.726312754916825,1.3039098754952323,aisle,cream + packaged cheese,fresh fruits
+116,24,0.0894000822427255,0.7262541598967006,1.3038046830352656,aisle,frozen produce,fresh fruits
+"69,21",24,0.0203874242038723,0.7251936269086081,1.301900765711632,aisle,soup broth bouillon + packaged cheese,fresh fruits
+19,123,0.0323278610608067,0.4775251214144264,1.3018377867683613,aisle,oils vinegars,packaged vegetables fruits
+"81,21",24,0.0200340666539341,0.7250999155643119,1.3017325308204688,aisle,canned jarred vegetables + packaged cheese,fresh fruits
+117,123,0.0385047749927368,0.4773948221936837,1.3014825626313633,aisle,nuts seeds dried fruit,packaged vegetables fruits
+106,123,0.0401035934845347,0.4770464325490355,1.3005327763613166,aisle,hot dogs bacon sausage,packaged vegetables fruits
+96,83,0.0599435623293479,0.5767183099856054,1.298708629958766,aisle,lunch meat,fresh vegetables
+36,120,0.0255608773469815,0.3421064682789141,1.298375468345655,aisle,butter,yogurt
+"91,115",24,0.0265584281063581,0.7218572720893466,1.295911188952114,aisle,soy lactosefree + water seltzer sparkling water,fresh fruits
+"106,21",24,0.022475219868648,0.7197860216767612,1.2921927854829325,aisle,hot dogs bacon sausage + packaged cheese,fresh fruits
+108,123,0.041002229014263,0.4738550578761952,1.2918323919113155,aisle,other creams cheeses,packaged vegetables fruits
+129,123,0.0244983162637167,0.4737782429798599,1.2916229777252306,aisle,frozen appetizers sides,packaged vegetables fruits
+78,84,0.0361917761007118,0.3156789490391424,1.291202075369267,aisle,crackers,milk
+91,120,0.0577226354749828,0.340051748718193,1.2905773185901372,aisle,soy lactosefree,yogurt
+"107,21",24,0.0400836860169325,0.7188022936700953,1.2904267519746266,aisle,chips pretzels + packaged cheese,fresh fruits
+53,120,0.0311816264027765,0.3397767021882372,1.289533451547971,aisle,cream,yogurt
+50,123,0.0218092528665198,0.4726255476912706,1.288480478585352,aisle,fruit vegetable snacks,packaged vegetables fruits
+"104,83",24,0.0258797078827972,0.7175073518631907,1.2881020132187886,aisle,spices seasonings + fresh vegetables,fresh fruits
+"115,21",24,0.0341248210660822,0.7173205178501373,1.2877666002537131,aisle,water seltzer sparkling water + packaged cheese,fresh fruits
+"121,84",24,0.0259176564929138,0.7172604956657226,1.287658845683141,aisle,cereal + milk,fresh fruits
+"108,21",24,0.0261192196023856,0.7166204395135481,1.2865097876058291,aisle,other creams cheeses + packaged cheese,fresh fruits
+98,120,0.0303265384584279,0.3385595177325652,1.2849139468491948,aisle,juice nectars,yogurt
+24,83,0.3177617536488211,0.5704604329643489,1.2846165528528228,aisle,fresh fruits,fresh vegetables
+83,24,0.3177617536488211,0.7155658570036655,1.2846165528528226,aisle,fresh vegetables,fresh fruits
+4,123,0.0242472955394208,0.4708924073190327,1.2837555593608512,aisle,instant foods,packaged vegetables fruits
+14,24,0.0235869275125557,0.715030645921735,1.2836557174406955,aisle,tofu meat alternatives,fresh fruits
+"115,24",83,0.0626407131352581,0.569817353536211,1.2831684060043336,aisle,water seltzer sparkling water + fresh fruits,fresh vegetables
+"115,84",24,0.0334205943996561,0.7145146702843614,1.282729414378369,aisle,water seltzer sparkling water + milk,fresh fruits
+120,24,0.1880708233044281,0.7137735352345289,1.2813988948411443,aisle,yogurt,fresh fruits
+24,120,0.1880708233044281,0.3376333434034838,1.2813988948411443,aisle,fresh fruits,yogurt
+17,83,0.0436629864809631,0.5688725162409373,1.2810407323584083,aisle,baking ingredients,fresh vegetables
+"83,24",84,0.0995161863264314,0.3131786163177246,1.2809751191251617,aisle,fresh vegetables + fresh fruits,milk
+"116,83",84,0.0243829151624604,0.3129811224326828,1.2801673221053893,aisle,frozen produce + fresh vegetables,milk
+"3,24",83,0.0336016279331631,0.5681668761735453,1.2794517055678607,aisle,energy granola bars + fresh fruits,fresh vegetables
+112,123,0.076901303130387,0.4690085349127064,1.2786197116870333,aisle,bread,packaged vegetables fruits
+106,120,0.0283183726640608,0.3368570614549531,1.2784527200916218,aisle,hot dogs bacon sausage,yogurt
+"107,120",83,0.031896117857185,0.567672003365885,1.278337304351682,aisle,chips pretzels + yogurt,fresh vegetables
+"78,84",83,0.0205102906054794,0.5667113586358636,1.2761740340347845,aisle,crackers + milk,fresh vegetables
+"31,107",24,0.0225632482019513,0.7106552237636179,1.2758007594727845,aisle,refrigerated + chips pretzels,fresh fruits
+107,120,0.0561875830903481,0.3357221978544825,1.274145642630671,aisle,chips pretzels,yogurt
+72,123,0.0279003158444156,0.467351660032096,1.2741027088513772,aisle,condiments,packaged vegetables fruits
+88,84,0.0242199227714678,0.3113090621226781,1.273328197263546,aisle,spreads,milk
+59,24,0.0493247946886876,0.7082882947266864,1.271551540214333,aisle,canned meals beans,fresh fruits
+67,24,0.0693797019727678,0.7082880823092312,1.2715511588728026,aisle,fresh dips tapenades,fresh fruits
+63,24,0.0288337894424478,0.7077187356848373,1.2705290417736583,aisle,grains rice dried goods,fresh fruits
+88,123,0.0362334573610038,0.4657241781878953,1.2696658378532937,aisle,spreads,packaged vegetables fruits
+"123,83",84,0.072679986836187,0.3099968158781542,1.267960797633377,aisle,packaged vegetables fruits + fresh vegetables,milk
+"67,107",24,0.0247113883778959,0.7058614470141894,1.2671947522091296,aisle,fresh dips tapenades + chips pretzels,fresh fruits
+"31,120",83,0.0262305769992851,0.5596793033874907,1.2603385894524255,aisle,refrigerated + yogurt,fresh vegetables
+92,83,0.0258286949970667,0.5595870286006954,1.2601307963932082,aisle,baby food formula,fresh vegetables
+98,84,0.0275562899199159,0.3076330072610974,1.2582922574870998,aisle,juice nectars,milk
+81,120,0.0243950462755305,0.3315184998879819,1.258191608369065,aisle,canned jarred vegetables,yogurt
+130,24,0.0316177243649362,0.699595303316035,1.2559454844605116,aisle,hot cereal pancake mixes,fresh fruits
+91,83,0.0945704248440218,0.5571269932602059,1.2545910570241268,aisle,soy lactosefree,fresh vegetables
+"115,123",84,0.0224294949039993,0.3063133480030245,1.2528945368662276,aisle,water seltzer sparkling water + packaged vegetables fruits,milk
+86,24,0.0955657982241294,0.6976045048931677,1.2523715120827386,aisle,eggs,fresh fruits
+128,24,0.039162965640333,0.6964641324069567,1.250324263240628,aisle,tortillas flat bread,fresh fruits
+112,83,0.091028139827564,0.5551658133018673,1.250174687207708,aisle,bread,fresh vegetables
+"91,84",83,0.0232606316763891,0.5548712621503302,1.2495113891714882,aisle,soy lactosefree + milk,fresh vegetables
+130,83,0.0250495042729512,0.5542623921152973,1.248140278257669,aisle,hot cereal pancake mixes,fresh vegetables
+"121,120",83,0.0203298791803349,0.5541772302161323,1.2479485026690078,aisle,cereal + yogurt,fresh vegetables
+"37,84",24,0.0215097076899436,0.6943708077278387,1.2465662310386016,aisle,ice cream ice + milk,fresh fruits
+96,24,0.0721620816243498,0.6942729484574339,1.2463905496007834,aisle,lunch meat,fresh fruits
+"107,84",83,0.0267895413630518,0.5533709850485424,1.246132923834624,aisle,chips pretzels + milk,fresh vegetables
+"91,115",83,0.0203323676137851,0.552633136344806,1.2444713666019944,aisle,soy lactosefree + water seltzer sparkling water,fresh vegetables
+"37,21",24,0.0222823662762521,0.693049670091523,1.2441944643317402,aisle,ice cream ice + packaged cheese,fresh fruits
+91,24,0.1176276270858515,0.6929600486701826,1.24403357185732,aisle,soy lactosefree,fresh fruits
+"115,24",84,0.0334205943996561,0.3040136949478658,1.2434884082457156,aisle,water seltzer sparkling water + fresh fruits,milk
+"16,83",120,0.025829006051248,0.3275039933739573,1.2429556006971088,aisle,fresh herbs + fresh vegetables,yogurt
+69,120,0.0272698090189537,0.3274114518755321,1.242604383685739,aisle,soup broth bouillon,yogurt
+"78,107",24,0.0244569460576059,0.691917103005236,1.242161228100553,aisle,crackers + chips pretzels,fresh fruits
+78,123,0.0522244417666135,0.4555221839669865,1.2418529731859185,aisle,crackers,packaged vegetables fruits
+50,24,0.031777606214116,0.6886484664644422,1.2362932222916314,aisle,fruit vegetable snacks,fresh fruits
+"53,84",24,0.0235237835137551,0.6878780436779728,1.2349101240701237,aisle,cream + milk,fresh fruits
+4,83,0.0282247453554944,0.5481361112956911,1.2343445418778547,aisle,instant foods,fresh vegetables
+17,84,0.023157361688203,0.3017106175000912,1.2340682730439412,aisle,baking ingredients,milk
+36,123,0.0338156332098863,0.4525880193003418,1.2338537993951773,aisle,butter,packaged vegetables fruits
+"45,24",83,0.0221439471655809,0.5477544299706849,1.233485035907441,aisle,candy chocolate + fresh fruits,fresh vegetables
+120,83,0.1440420371062754,0.5466738127758739,1.2310516002902885,aisle,yogurt,fresh vegetables
+83,120,0.1440420371062754,0.3243674310798798,1.2310516002902885,aisle,fresh vegetables,yogurt
+31,84,0.0402096629603524,0.300968545551908,1.2310330220635262,aisle,refrigerated,milk
+131,24,0.0484267812673218,0.6855001695191381,1.230641255628257,aisle,dry pasta,fresh fruits
+112,24,0.1123680119345268,0.6853142209971373,1.2303074323372174,aisle,bread,fresh fruits
+"31,115",24,0.0218468904224551,0.685179404132441,1.2300654029358735,aisle,refrigerated + water seltzer sparkling water,fresh fruits
+88,24,0.053278915441165,0.6848167664862185,1.2294143792481649,aisle,spreads,fresh fruits
+52,24,0.0420940291905685,0.6840293573529858,1.2280007863600777,aisle,frozen breakfast,fresh fruits
+3,24,0.0591404204332735,0.6835459876110458,1.227133018892462,aisle,energy granola bars,fresh fruits
+"31,84",83,0.0218923043329225,0.5444538133659269,1.2260523964462602,aisle,refrigerated + milk,fresh vegetables
+9,24,0.0422368030597777,0.6813863979646626,1.2232560247905773,aisle,pasta sauce,fresh fruits
+117,24,0.054928435764512,0.6810207521047131,1.2225996006200053,aisle,nuts seeds dried fruit,fresh fruits
+37,120,0.0352887858124455,0.3215966300798258,1.2205357510453545,aisle,ice cream ice,yogurt
+3,123,0.0386867416887878,0.4471420199819522,1.21900681568384,aisle,energy granola bars,packaged vegetables fruits
+"115,120",83,0.030010818464425,0.5385667396061269,1.212795329062277,aisle,water seltzer sparkling water + yogurt,fresh vegetables
+21,24,0.1549768357951198,0.6752021618134731,1.2121538012163071,aisle,packaged cheese,fresh fruits
+81,24,0.0496691316673686,0.6749827745816231,1.2117599472240288,aisle,canned jarred vegetables,fresh fruits
+129,83,0.0277874031766097,0.5373866069924685,1.2101377952484258,aisle,frozen appetizers sides,fresh vegetables
+93,123,0.0304898419036018,0.4437929832345577,1.2098766099804836,aisle,breakfast bakery,packaged vegetables fruits
+"107,115",24,0.0270218988364707,0.6728943006305093,1.2080106232707633,aisle,chips pretzels + water seltzer sparkling water,fresh fruits
+84,24,0.1644210628472531,0.6725213012428959,1.207340997711016,aisle,milk,fresh fruits
+49,24,0.0239726346973473,0.6719942103289823,1.2063947399958883,aisle,packaged poultry,fresh fruits
+84,123,0.1078549268182827,0.4411523345805974,1.202677624953011,aisle,milk,packaged vegetables fruits
+16,120,0.029397730673115,0.3146515561119175,1.1941775424118175,aisle,fresh herbs,yogurt
+93,24,0.0456792396840436,0.6648813108103825,1.193625337472082,aisle,breakfast bakery,fresh fruits
+31,123,0.0581826846091013,0.4354962631836278,1.187257938869429,aisle,refrigerated,packaged vegetables fruits
+108,24,0.0570700438026498,0.6595477748220576,1.1840503297369054,aisle,other creams cheeses,fresh fruits
+52,83,0.0323241284106313,0.5252681486873099,1.1828483090118993,aisle,frozen breakfast,fresh vegetables
+117,83,0.0423447388606831,0.5250039529654954,1.182253368192477,aisle,nuts seeds dried fruit,fresh vegetables
+78,24,0.075332967948355,0.6570838657865249,1.179627007549591,aisle,crackers,fresh fruits
+107,123,0.0724174571071836,0.4326960962880911,1.1796240722718565,aisle,chips pretzels,packaged vegetables fruits
+45,120,0.0216048902694164,0.3106820001520824,1.1791121327912275,aisle,candy chocolate,yogurt
+88,83,0.0406952185373361,0.5230731094923197,1.1779053129317112,aisle,spreads,fresh vegetables
+38,123,0.031852259217624,0.4307938898541457,1.174438242034048,aisle,frozen meals,packaged vegetables fruits
+110,24,0.0208396969834587,0.6541717521847386,1.1743990480263302,aisle,pickled goods olives,fresh fruits
+121,123,0.0397884955988943,0.4302455038058303,1.1729432218823983,aisle,cereal,packaged vegetables fruits
+36,24,0.0487617866205642,0.6526271528665337,1.171626112688135,aisle,butter,fresh fruits
+51,24,0.020671105617203,0.6507285261055188,1.1682176110931848,aisle,preserved dips spreads,fresh fruits
+66,24,0.0280172722165783,0.6504520638955487,1.1677212934898644,aisle,asian foods,fresh fruits
+121,24,0.0601006446908961,0.6498871536828934,1.1667071408399723,aisle,cereal,fresh fruits
+106,24,0.054592808302907,0.6494007688806829,1.1658339605982655,aisle,hot dogs bacon sausage,fresh fruits
+69,24,0.0540879673666837,0.6494002181025081,1.1658329718160965,aisle,soup broth bouillon,fresh fruits
+17,123,0.0328019076330829,0.4273666378929537,1.1650948045733336,aisle,baking ingredients,packaged vegetables fruits
+4,24,0.0333838900062646,0.6483288128016624,1.1639095360193636,aisle,instant foods,fresh fruits
+31,24,0.0862575018492171,0.6456357244301646,1.159074780606622,aisle,refrigerated,fresh fruits
+"115,84",83,0.0240553751095688,0.51429122443008,1.1581294367020811,aisle,water seltzer sparkling water + milk,fresh vegetables
+98,123,0.0380335279080921,0.4245988339184576,1.157549166367549,aisle,juice nectars,packaged vegetables fruits
+32,24,0.0399536653691559,0.6443046610084472,1.1566851946758523,aisle,packaged produce,fresh fruits
+19,24,0.0435236342077481,0.6429014487026921,1.1541660837687333,aisle,oils vinegars,fresh fruits
+84,83,0.1250888837323018,0.5116433223450261,1.1521666412964158,aisle,milk,fresh vegetables
+129,24,0.0331608641582842,0.6413051324622825,1.1513003038465264,aisle,frozen appetizers sides,fresh fruits
+17,120,0.0231710480721795,0.3018889334678808,1.1457403519776974,aisle,baking ingredients,yogurt
+104,24,0.0329916506836659,0.6336226723937082,1.1375084001745897,aisle,spices seasonings,fresh fruits
+107,24,0.1053058378026634,0.6292049839049014,1.1295775637567764,aisle,chips pretzels,fresh fruits
+98,24,0.0561244390915476,0.6265622124296375,1.1248331395373938,aisle,juice nectars,fresh fruits
+53,24,0.0572868485670044,0.6242373708614659,1.120659477627728,aisle,cream,fresh fruits
+53,123,0.0376947899046743,0.4107486645516418,1.1197905793816838,aisle,cream,packaged vegetables fruits
+72,24,0.0370328666069027,0.6203288801817386,1.1136427764049042,aisle,condiments,fresh fruits
+78,83,0.0566616296626244,0.494225087295192,1.1129426184308433,aisle,crackers,fresh vegetables
+31,83,0.0660060083225656,0.4940536890875649,1.1125566477974325,aisle,refrigerated,fresh vegetables
+79,24,0.0266679191781699,0.6192729137623426,1.1117470571942465,aisle,frozen pizza,fresh fruits
+79,83,0.0212593090740103,0.4936760977441979,1.11170635203304,aisle,frozen pizza,fresh vegetables
+43,24,0.0200253571368582,0.6162969912216042,1.106404544945481,aisle,buns rolls,fresh fruits
+93,83,0.0336706819614081,0.4900915013741052,1.1036342201791467,aisle,breakfast bakery,fresh vegetables
+23,24,0.0278990716276905,0.613778048463365,1.1018824237022,aisle,popcorn jerky,fresh fruits
+53,83,0.0449019152850158,0.4892825185064671,1.1018124763338426,aisle,cream,fresh vegetables
+17,24,0.0470472559733289,0.6129651919125604,1.1004231464462515,aisle,baking ingredients,fresh fruits
+50,83,0.0224282506872742,0.4860397708122683,1.0945101515379816,aisle,fruit vegetable snacks,fresh vegetables
+37,123,0.0438443310686515,0.3995657202467344,1.0893034305164415,aisle,ice cream ice,packaged vegetables fruits
+98,83,0.0432402638485987,0.4827258111003462,1.0870474648108752,aisle,juice nectars,fresh vegetables
+107,83,0.0806628813446499,0.4819627099239478,1.085329041680968,aisle,chips pretzels,fresh vegetables
+38,24,0.0442701642428288,0.5987429691674064,1.0748907617216812,aisle,frozen meals,fresh fruits
+94,123,0.0222699241090008,0.393619185327315,1.0730918774247262,aisle,tea,packaged vegetables fruits
+94,24,0.0336647719319637,0.5950222388379726,1.0682111364669118,aisle,tea,fresh fruits
+32,123,0.0241399818468779,0.3892885089989767,1.0612855078042238,aisle,packaged produce,packaged vegetables fruits
+121,83,0.0434209863279245,0.4695247673280481,1.0573201106161123,aisle,cereal,fresh vegetables
+37,83,0.0514779117315328,0.4691326877721335,1.0564371889295974,aisle,ice cream ice,fresh vegetables
+3,83,0.0404672158224552,0.4677207703729269,1.0532577002964305,aisle,energy granola bars,fresh vegetables
+38,83,0.0344716464782134,0.4662204515719196,1.0498791410573345,aisle,frozen meals,fresh vegetables
+37,24,0.0641141767919987,0.5842905252177069,1.0489450733615575,aisle,ice cream ice,fresh fruits
+115,123,0.0732240205992521,0.3833468223247421,1.0450871720878845,aisle,water seltzer sparkling water,packaged vegetables fruits
+61,24,0.0343266952297352,0.5815372616801745,1.0440022887386435,aisle,cookies cakes,fresh fruits
+45,24,0.0404267787788883,0.5813439612100392,1.0436552668940715,aisle,candy chocolate,fresh fruits
+61,123,0.022403988461134,0.3795516583581885,1.03474072613755,aisle,cookies cakes,packaged vegetables fruits
+115,24,0.1099312134783509,0.5755185390852346,1.033197202670305,aisle,water seltzer sparkling water,fresh fruits
+26,24,0.0320656423859846,0.5747587214326734,1.031833143270214,aisle,coffee,fresh fruits
+26,123,0.0210910287619359,0.3780449048545638,1.0306329869665634,aisle,coffee,packaged vegetables fruits
+45,123,0.0262526618461563,0.3775177466754337,1.0291958386231153,aisle,candy chocolate,packaged vegetables fruits

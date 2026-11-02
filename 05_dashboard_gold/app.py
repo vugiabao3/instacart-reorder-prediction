@@ -9,28 +9,41 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from config import (
+    AISLES_FILE,
+    DEFAULT_TOP_N_COMBINED,
+    EXPECTED_AISLES_COLUMNS,
+    EXPECTED_ORDER_PRODUCTS_COLUMNS,
+    EXPECTED_ORDERS_COLUMNS,
+    EXPECTED_PREDICTIONS_COLUMNS,
+    EXPECTED_PRODUCTS_COLUMNS,
+    EXPECTED_RULES_COLUMNS,
+    ISSUES_FILE,
+    LAYER_COUNTS_FILE,
+    MODEL_METRICS_FILE,
+    ORDER_PRODUCTS_FILE,
+    ORDERS_FILE,
+    PREDICTIONS_FILE,
+    PRODUCTS_FILE,
+    PROJECT_ROOT,
+    RECONCILIATION_FILE,
+    RULES_FILE,
+    SUMMARY_METRICS_FILE,
+    WEEK1_DIR,
+    WEEK2_DIR,
+)
+from data_loader import load_all_data
+from recommendation_engine import RecommendationEngine
+
 
 # ============================================================
 # PATHS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
-WEEK1_DIR = PROJECT_ROOT / "reports" / "week1"
 INPUT_DIR = WEEK1_DIR / "input"
 OUTPUT_DIR = WEEK1_DIR / "output"
 
-RECONCILIATION_SCRIPT = (
-    PROJECT_ROOT / "05_dashboard_gold" / "reconciliation.py"
-)
-
-LAYER_COUNTS_FILE = INPUT_DIR / "layer_counts.csv"
-RECONCILIATION_FILE = OUTPUT_DIR / "reconciliation_report.csv"
-ISSUES_FILE = OUTPUT_DIR / "validation_issues.csv"
-
-RULES_FILE = INPUT_DIR / "association_rules.csv"
-MODEL_METRICS_FILE = INPUT_DIR / "model_metrics.csv"
-SUMMARY_METRICS_FILE = INPUT_DIR / "summary_metrics.csv"
+RECONCILIATION_SCRIPT = PROJECT_ROOT / "05_dashboard_gold" / "reconciliation.py"
 
 EXPECTED_TABLES = [
     "orders",
@@ -181,12 +194,31 @@ rules = load_csv(RULES_FILE)
 model_metrics = load_csv(MODEL_METRICS_FILE)
 summary_metrics = load_csv(SUMMARY_METRICS_FILE)
 
+# Initialize recommendation engine with real team data
+data = load_all_data()
+engine = RecommendationEngine(
+    rules=data["rules"],
+    predictions=data["predictions"],
+    orders=data["orders"],
+    order_products=data["order_products"],
+    products=data["products"],
+    aisles=data["aisles"],
+)
+
+# Get list of users with ML predictions for the lookup dropdown
+if not engine.predictions.empty:
+    available_user_ids = sorted(
+        engine.predictions["user_id"].dropna().unique().tolist()
+    )
+else:
+    available_user_ids = []
+
 
 # ============================================================
 # TABS
 # ============================================================
 
-overview_tab, reconciliation_tab, quality_tab, rules_tab, ml_tab = (
+overview_tab, reconciliation_tab, quality_tab, rules_tab, ml_tab, user_lookup_tab, report_tab = (
     st.tabs(
         [
             "Tổng quan",
@@ -194,6 +226,8 @@ overview_tab, reconciliation_tab, quality_tab, rules_tab, ml_tab = (
             "Chất lượng dữ liệu",
             "FP-Growth",
             "Dự đoán mua lại",
+            "Tra cứu người dùng",
+            "Báo cáo kiểm thử",
         ]
     )
 )
@@ -637,6 +671,194 @@ with ml_tab:
     )
 
 
+# ============================================================
+# TAB 6: USER LOOKUP
+# ============================================================
+
+with user_lookup_tab:
+    st.subheader("Tra cứu người dùng — gợi ý mua lại")
+
+    if engine.predictions.empty and engine.rules.empty:
+        show_missing_data(
+            "gold_reorder_predictions.csv hoặc gold_rules_aisle.csv"
+        )
+        st.caption(
+            "Thành viên 3 và thành viên 4 cần bàn giao file kết quả để "
+            "chức năng tra cứu hoạt động."
+        )
+    elif not available_user_ids:
+        st.info(
+            "Không có người dùng nào trong dữ liệu dự đoán ML. "
+            "Không thể tra cứu gợi ý."
+        )
+    else:
+        selected_user = st.selectbox(
+            "Chọn user_id",
+            options=available_user_ids,
+            index=0,
+            help="Chọn một người dùng để xem gợi ý mua lại kết hợp ML + FP-Growth.",
+        )
+
+        if selected_user is not None:
+            summary = engine.user_summary(int(selected_user))
+
+            col1, col2, col3, col4 = st.columns(4)
+            col1.metric("Tổng đơn hàng", summary["total_orders"])
+            col2.metric(
+                "Sản phẩm đã mua", summary["total_products_purchased"]
+            )
+            col3.metric("Tất cả gian hàng", summary["unique_aisles"])
+            col4.metric(
+                "Dự đoán ML", summary["ml_prediction_count"]
+            )
+
+            if summary["aisles"]:
+                st.markdown("**Gian hàng người dùng đã mua:**")
+                st.write(", ".join(summary["aisles"]))
+
+            st.markdown("### Gợi ý mua lại kết hợp (ML + FP-Growth)")
+
+            combined = engine.combined_recommendations(
+                int(selected_user), top_n=DEFAULT_TOP_N_COMBINED
+            )
+
+            if combined.empty:
+                st.info(
+                    f"Không có gợi ý nào cho user_id {selected_user}. "
+                    "Người dùng này chưa có lịch sử mua hàng hoặc "
+                    "chưa có dữ liệu dự đoán."
+                )
+            else:
+                display_df = combined.copy()
+                display_df["score"] = display_df["score"].apply(
+                    lambda v: f"{v:.3f}" if pd.notna(v) else "—"
+                )
+                display_df["probability"] = display_df[
+                    "probability"
+                ].apply(lambda v: f"{v:.3f}" if pd.notna(v) else "—")
+                display_df["rule_lift"] = display_df["rule_lift"].apply(
+                    lambda v: f"{v:.3f}" if pd.notna(v) else "—"
+                )
+                display_df["rule_confidence"] = display_df[
+                    "rule_confidence"
+                ].apply(lambda v: f"{v:.3f}" if pd.notna(v) else "—")
+
+                st.dataframe(
+                    display_df,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "rank": st.column_config.NumberColumn("Hạng"),
+                        "product_id": "Mã sản phẩm",
+                        "product_name": "Tên sản phẩm",
+                        "source": "Nguồn",
+                        "score": "Điểm",
+                        "probability": "Xác suất ML",
+                        "rule_lift": "Lift luật",
+                        "rule_confidence": "Confidence luật",
+                        "consequent_aisle": "Gian hàng gợi ý",
+                    },
+                )
+
+                csv_bytes = combined.to_csv(index=False).encode("utf-8-sig")
+                st.download_button(
+                    "Tải gợi ý CSV",
+                    data=csv_bytes,
+                    file_name=f"goi_y_user_{selected_user}.csv",
+                    mime="text/csv",
+                )
+
+    st.caption(
+        "Điểm ML = probability từ Spark MLlib. Điểm FP-Growth = lift "
+        "từ luật kết hợp gian hàng. ML được ưu tiên khi trùng sản phẩm. "
+        "Không tự tạo số liệu."
+    )
+
+
+# ============================================================
+# TAB 7: REPORT
+# ============================================================
+
+with report_tab:
+    st.subheader("Báo cáo kiểm thử — Member 5 Tuần 2")
+
+    st.markdown(
+        """
+        Tab này tổng hợp kết quả kiểm thử tự động cho engines gợi ý
+        và bộ tải dữ liệu. Chạy `pytest` từ thư mục gốc để kiểm tra.
+        """
+    )
+
+    test_report_path = WEEK2_DIR / "output" / "test_report.md"
+    if test_report_path.exists():
+        st.markdown(test_report_path.read_text(encoding="utf-8"))
+    else:
+        st.info(
+            "Chưa có báo cáo kiểm thử. Chạy pytest rồi tạo file "
+            "reports/week2/output/test_report.md."
+        )
+
+    st.markdown("### Cấu hình dữ liệu")
+    config_info = pd.DataFrame(
+        {
+            "Nguồn": [
+                "FP-Growth rules",
+                "ML predictions",
+                "Orders (Silver)",
+                "Order products (Silver)",
+                "Products",
+                "Aisles",
+            ],
+            "File": [
+                RULES_FILE.name,
+                PREDICTIONS_FILE.name,
+                ORDERS_FILE.name,
+                ORDER_PRODUCTS_FILE.name,
+                PRODUCTS_FILE.name,
+                AISLES_FILE.name,
+            ],
+            "Có dữ liệu": [
+                not engine.rules.empty,
+                not engine.predictions.empty,
+                not engine.orders.empty,
+                not engine.order_products.empty,
+                not engine.products.empty,
+                not engine.aisles.empty,
+            ],
+            "Số dòng": [
+                len(engine.rules),
+                len(engine.predictions),
+                len(engine.orders),
+                len(engine.order_products),
+                len(engine.products),
+                len(engine.aisles),
+            ],
+        }
+    )
+    st.dataframe(
+        config_info,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.markdown("### Người dùng có sẵn để tra cứu")
+    if available_user_ids:
+        st.write(
+            f"Có {len(available_user_ids)} người dùng trong dữ liệu ML: "
+            f"{available_user_ids[:10]}"
+            + ("..." if len(available_user_ids) > 10 else "")
+        )
+    else:
+        st.write("Không có người dùng nào.")
+
+    st.caption(
+        "Tất cả số liệu từ file thực của các thành viên nhóm. "
+        "Không tự sinh probabilitas, lift hoặc kết quả."
+    )
+
+
+# ============================================================
+# FOOTER
 # ============================================================
 # FOOTER
 # ============================================================

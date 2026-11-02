@@ -1,0 +1,5 @@
+order_id,user_id,eval_set,order_number,order_dow,order_hour_of_day,days_since_prior_order,is_first_order
+1001,1,prior,1,2,8,,1
+1002,1,prior,2,3,7,15,0
+1003,2,prior,1,1,9,,1
+1004,3,prior,1,4,10,,1

@@ -1,0 +1,7 @@
+product_id,product_name,aisle_id,department_id
+100,Product A,1,1
+101,Product B,2,1
+102,Product C,3,2
+103,Product D,4,2
+104,Product E,5,3
+105,Product F,1,1

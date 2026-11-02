@@ -1,0 +1,4 @@
+user_id,product_id,product_name,probability,predicted,rank_in_user,past_orders_count,trang_thai_goi_y
+1,100,Product A,0.95,1,1,2,Nên gợi ý mua lại
+1,101,Product B,0.90,1,2,2,Nên gợi ý mua lại
+2,104,Product E,0.85,1,1,1,Nên gợi ý mua lại

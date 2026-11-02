@@ -1,0 +1,2 @@
+Model,AUC_ROC,PR_AUC,Best_Threshold,F1_Score,Precision_at_10,Recall_at_10
+Logistic Regression (Baseline),0.8145,0.3748,0.65,0.8564,0.3053,0.5478

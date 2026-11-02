@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import csv
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.window import Window
@@ -15,6 +16,7 @@ def create_spark_session():
         .config("spark.sql.adaptive.enabled", "true")
         .config("spark.sql.shuffle.partitions", "50")
         .config("spark.driver.memory", "2g")
+        .enableHiveSupport()
         .getOrCreate()
     )
 
@@ -56,10 +58,20 @@ def main():
     pred_parquet_dir = os.path.join(base_dir, "04_spark_ml", "storage", "gold", "gold_reorder_predictions")
     github_csv_out = os.path.join(base_dir, "04_spark_ml", "gold_reorder_predictions.csv")
     sample_csv_out = os.path.join(base_dir, "data_sample", "gold_reorder_predictions.csv")
+    
+    github_metrics_out = os.path.join(base_dir, "04_spark_ml", "model_metrics.csv")
+    sample_metrics_out = os.path.join(base_dir, "data_sample", "model_metrics.csv")
     products_csv_path = os.path.join(base_dir, "data_sample", "products.csv")
 
     print("=== [STEP 2] HUẤN LUYỆN BASELINE LOGISTIC REGRESSION ===")
-    df_ml = spark.read.parquet(f"{features_dir}").cache()
+    
+    # Tự động kiểm tra: nếu có thư mục local thì đọc local, nếu không thì đọc từ Hive Metastore
+    if os.path.exists(features_dir):
+        print(f"-> Đang đọc dữ liệu từ thư mục local: file://{features_dir}")
+        df_ml = spark.read.parquet(f"file://{features_dir}").na.fill(0).cache()
+    else:
+        print("-> Đang đọc bảng gold_features trực tiếp từ Hive Metastore...")
+        df_ml = spark.table("gold_features").na.fill(0).cache()
 
     feature_cols = [
         "u_total_orders",
@@ -80,6 +92,8 @@ def main():
         "up_days_since_last_buy",
         "up_buy_rate_since_first",
     ]
+    # Lọc các cột thực tế có trong bảng để tránh lỗi thiếu cột
+    available_cols = [c for c in feature_cols if c in df_ml.columns]
 
     users_split = df_ml.select("user_id").distinct().randomSplit([0.8, 0.2], seed=42)
     train_users, test_users = users_split[0], users_split[1]
@@ -87,7 +101,7 @@ def main():
     train_data = df_ml.join(train_users, on="user_id", how="inner")
     test_data = df_ml.join(test_users, on="user_id", how="inner")
 
-    assembler = VectorAssembler(inputCols=feature_cols, outputCol="raw_features", handleInvalid="keep")
+    assembler = VectorAssembler(inputCols=available_cols, outputCol="raw_features", handleInvalid="keep")
     train_assembled = assembler.transform(train_data)
     test_assembled = assembler.transform(test_data)
 
@@ -158,13 +172,35 @@ def main():
     print("\n============================================================")
     print("   KẾT QUẢ ĐÁNH GIÁ BASELINE LOGISTIC REGRESSION (TUẦN 1)   ")
     print("============================================================")
-    print(f" + AUC-ROC               : {auc_roc:.4f}")
-    print(f" + PR-AUC                : {pr_auc:.4f}")
+    print(f" + AUC-ROC                : {auc_roc:.4f}")
+    print(f" + PR-AUC                 : {pr_auc:.4f}")
     print(f" + Ngưỡng tối ưu (Best T): {best_th:.2f}")
     print(f" + F1-Score (tại Best T) : {best_f1:.4f}")
-    print(f" + Precision@10          : {p_at_10:.4f}")
-    print(f" + Recall@10             : {r_at_10:.4f}")
+    print(f" + Precision@10           : {p_at_10:.4f}")
+    print(f" + Recall@10              : {r_at_10:.4f}")
     print("============================================================\n")
+
+    # Ghi thông số đánh giá mô hình ra file model_metrics.csv
+    metrics_headers = ["Model", "AUC_ROC", "PR_AUC", "Best_Threshold", "F1_Score", "Precision_at_10", "Recall_at_10"]
+    metrics_row = [
+        "Logistic Regression (Baseline)",
+        round(auc_roc, 4),
+        round(pr_auc, 4),
+        round(best_th, 2),
+        round(best_f1, 4),
+        round(p_at_10, 4),
+        round(r_at_10, 4),
+    ]
+
+    for m_path in [github_metrics_out, sample_metrics_out]:
+        os.makedirs(os.path.dirname(m_path), exist_ok=True)
+        with open(m_path, mode="w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(metrics_headers)
+            writer.writerow(metrics_row)
+
+    print(f"-> Đã xuất file thông số đánh giá tại: {github_metrics_out}")
+    print(f"-> Đã xuất file thông số đánh giá tại: {sample_metrics_out}")
 
     gold_reorder_predictions = final_test_preds.select(
         "user_id", "product_id", "probability", "predicted"

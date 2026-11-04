@@ -1,4 +1,4 @@
-order_dow,count
+order_hour_of_day,count
 0,30484
 1,28980
 2,23726

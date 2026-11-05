@@ -2,19 +2,24 @@
 """
 step1_build_features.py
 Nhiệm vụ của Thành viên 4:
-- Đọc dữ liệu tầng Silver dưới dạng file Parquet (đã đồng bộ từ step0).
+- Đọc dữ liệu tầng Silver dưới dạng file Parquet (từ Step 0 / Parquet của TV2).
 - Tính 3 nhóm đặc trưng: User (5 biến), Product (4 biến), User-Product (8 biến).
 - Gán nhãn (label = 1/0) từ đơn hàng cuối (eval_set == 'train'), tránh Data Leakage.
-- Xuất bảng gold_features (Parquet) và kiểm tra Data Lineage.
+- Xuất bảng gold_features (Parquet local + CSV trong 04_spark_ml) và kiểm tra Data Lineage.
 """
 
 import os
+import platform
+from pathlib import Path
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.window import Window
 
-from pathlib import Path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if platform.system() == "Windows" and os.path.exists("C:\\hadoop"):
+    os.environ["HADOOP_HOME"] = "C:\\hadoop"
+    os.environ["PATH"] = os.environ.get("PATH", "") + ";C:\\hadoop\\bin"
+
+
 def create_spark_session():
     return (
         SparkSession.builder.appName("TV4_Step1_Build_Features")
@@ -29,37 +34,29 @@ def main():
     spark = create_spark_session()
     spark.sparkContext.setLogLevel("WARN")
 
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    silver_storage = os.path.join(base_dir, "04_spark_ml", "storage", "silver")
-    gold_out_dir = os.path.join(base_dir, "04_spark_ml", "storage", "gold", "gold_features")
+    base_dir = Path(__file__).resolve().parent.parent
+    silver_storage = base_dir / "04_spark_ml" / "storage" / "silver"
+    tv2_dir = base_dir / "02_hive_cleaning"
+    gold_out_dir = base_dir / "04_spark_ml" / "storage" / "gold" / "gold_features"
+    github_features_csv = base_dir / "04_spark_ml" / "gold_features.csv"
+    gold_out_dir.parent.mkdir(parents=True, exist_ok=True)
 
-    orders_parquet = os.path.join(silver_storage, "silver_orders")
-    op_parquet = os.path.join(silver_storage, "silver_order_products")
+    orders_parquet = silver_storage / "silver_orders"
+    op_parquet = silver_storage / "silver_order_products"
 
     print("=== [STEP 1] XÂY DỰNG 3 NHÓM ĐẶC TRƯNG (GOLD_FEATURES) ===")
-    print(f"-> Đọc silver_orders từ Parquet: {orders_parquet}")
-    print(f"-> Đọc silver_order_products từ Parquet: {op_parquet}")
 
-    # Đọc dữ liệu Silver từ CSV
-    orders_csv = PROJECT_ROOT / "02_hive_cleaning" / "silver_orders.csv"
-    order_products_csv = PROJECT_ROOT / "02_hive_cleaning" / "silver_order_products.csv"
-
-    print(f"-> Đọc silver_orders từ CSV: {orders_csv}")
-    print(f"-> Đọc silver_order_products từ CSV: {order_products_csv}")
-
-    orders = (
-        spark.read
-        .option("header", "true")
-        .option("inferSchema", "true")
-        .csv(str(orders_csv))
-    )
-
-    order_products = (
-        spark.read
-        .option("header", "true")
-        .option("inferSchema", "true")
-        .csv(str(order_products_csv))
-    )
+    if orders_parquet.exists() and op_parquet.exists():
+        print(f"-> Đọc silver_orders từ Parquet: {orders_parquet}")
+        print(f"-> Đọc silver_order_products từ Parquet: {op_parquet}")
+        orders = spark.read.parquet(orders_parquet.as_uri())
+        order_products = spark.read.parquet(op_parquet.as_uri())
+    else:
+        orders_tv2_pq = tv2_dir / "silver_orders_parquet"
+        op_tv2_pq = tv2_dir / "silver_order_products_parquet"
+        print(f"-> Đọc trực tiếp Parquet từ TV2: {orders_tv2_pq} & {op_tv2_pq}")
+        orders = spark.read.parquet(orders_tv2_pq.as_uri())
+        order_products = spark.read.parquet(op_tv2_pq.as_uri())
 
     # 1. Tách dữ liệu theo thời gian: prior dùng tính đặc trưng, train dùng gán nhãn
     prior_orders = orders.filter(F.col("eval_set") == "prior")
@@ -183,18 +180,21 @@ def main():
         .fillna({"label": 0})
     )
 
-    out_path = Path(__file__).resolve().parent / "storage" / "gold" / "gold_features"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
+    gold_features.write.mode("overwrite").parquet(gold_out_dir.as_uri())
 
-    gold_features.write.mode("overwrite").parquet(str(out_path))
-
-    # Kiểm tra Data Lineage
-    df_check = spark.read.parquet(out_path)
+    # Kiểm tra Data Lineage và xuất CSV vào 04_spark_ml/gold_features.csv
+    df_check = spark.read.parquet(gold_out_dir.as_uri())
     total_rows = df_check.count()
+    distinct_pairs = df_check.select("user_id", "product_id").distinct().count()
     label_counts = df_check.groupBy("label").count().collect()
 
+    pdf_gf = df_check.orderBy("user_id", "product_id").limit(2000).toPandas()
+    pdf_gf.to_csv(github_features_csv, index=False, encoding="utf-8")
+
     print("=== HOÀN TẤT STEP 1: KIỂM TRA DATA LINEAGE GOLD_FEATURES ===")
-    print(f"-> Tổng số cặp ứng viên: {total_rows:,}")
+    print(f"-> Đã lưu Parquet tại: {gold_out_dir}")
+    print(f"-> Đã xuất CSV tại   : {github_features_csv} ({len(pdf_gf):,} dòng)")
+    print(f"-> Tổng số dòng: {total_rows:,} | Số cặp (user_id, product_id) duy nhất: {distinct_pairs:,}")
     for row in label_counts:
         pct = (row["count"] / total_rows) * 100 if total_rows > 0 else 0
         print(f"   + Nhãn label = {row['label']}: {row['count']:,} dòng ({pct:.2f}%)")
@@ -205,5 +205,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

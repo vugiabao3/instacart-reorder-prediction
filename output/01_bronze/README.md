@@ -7,3 +7,4 @@
   2. `products_bronze_sample.csv`
   3. `departments_bronze_sample.csv`
   4. `aisles_bronze_sample.csv`
+  5. `order_products__prior_bronze_sample.csv`

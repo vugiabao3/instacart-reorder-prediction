@@ -20,15 +20,22 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # 3. ĐỌC DỮ LIỆU (TV1 sẽ sửa đường dẫn này thành HDFS khi chạy full data)
-print("--- Đang đọc dữ liệu ---")
+
 # TẠM THỜI DÙNG ĐƯỜNG DẪN LOCAL (5% data) ĐỂ TEST
 # TV1 ĐỔI THÀNH: "hdfs://IP_CUA_TV1:9000/duong_dan_tren_HDFS/orders.csv"
-df_orders = spark.read.csv("../data_sample/orders.csv", header=True, inferSchema=True)
-df_prior = spark.read.csv("../data_sample/order_products__prior.csv", header=True, inferSchema=True)
-df_products = spark.read.csv("../data_sample/products.csv", header=True, inferSchema=True)
-df_departments = spark.read.csv("../data_sample/departments.csv", header=True, inferSchema=True)
+# df_orders = spark.read.csv("../data_sample/orders.csv", header=True, inferSchema=True)
+# df_prior = spark.read.csv("../data_sample/order_products__prior.csv", header=True, inferSchema=True)
+# df_products = spark.read.csv("../data_sample/products.csv", header=True, inferSchema=True)
+# df_departments = spark.read.csv("../data_sample/departments.csv", header=True, inferSchema=True)
+print("--- Đang đọc dữ liệu từ HDFS (Parquet) ---")
+# Đọc dữ liệu từ thư mục HDFS dạng Parquet (Bỏ header và inferSchema vì Parquet đã lưu sẵn)
+df_orders = spark.read.parquet("hdfs://192.168.1.36:9000/user/student/instacart/bronze/orders/")
+df_prior = spark.read.parquet("hdfs://192.168.1.36:9000/user/student/instacart/bronze/order_products__prior/")
+df_products = spark.read.parquet("hdfs://192.168.1.36:9000/user/student/instacart/bronze/products/")
+df_departments = spark.read.parquet("hdfs://192.168.1.36:9000/user/student/instacart/bronze/departments/")
 
 # 4. LÀM SẠCH DỮ LIỆU (TẠO TẦNG SILVER)
+
 print("--- Đang làm sạch dữ liệu ---")
 df_orders_clean = df_orders.withColumn(
     "is_first_order", 
@@ -43,6 +50,7 @@ df_prior_clean.write.mode("overwrite").parquet("silver_order_products_parquet")
 print("-> Đã lưu 2 bảng Parquet (Silver) thành công!")
 
 # 5. VẼ 6 BIỂU ĐỒ EDA
+
 print("--- Đang vẽ 6 biểu đồ EDA ---")
 sns.set_theme(style="whitegrid")
 
@@ -107,6 +115,7 @@ plt.close()
 print("-> Đã vẽ và lưu xong 6 biểu đồ!")
 
 # 6. K-MEANS PHÂN KHÚC KHÁCH HÀNG
+
 print("--- Đang chạy phân khúc khách hàng (K-Means) ---")
 df_user_freq = df_orders_clean.groupBy("user_id").count().withColumnRenamed("count", "frequency")
 assembler = VectorAssembler(inputCols=["frequency"], outputCol="features")
@@ -119,6 +128,7 @@ df_segments.select("user_id", "frequency", "prediction").write.mode("overwrite")
 print("-> Đã phân khúc khách hàng thành 4 nhóm!")
 
 # 7. XUẤT DỮ LIỆU CHO WEB APP (TV5)
+
 print("--- Đang xuất dữ liệu cho Web App ---")
 # Dùng .coalesce(1) để gom kết quả về 1 file duy nhất cho TV5 dễ dùng
 df_hourly.to_csv("web_data_hourly.csv", index=False)
